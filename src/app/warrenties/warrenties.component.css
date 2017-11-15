@@ -1,0 +1,11 @@
+.contAppoint{
+    background-color: ghostwhite;
+}
+.contAppoint li{
+    list-style-type: none;
+}
+.btn-default {
+    color: white;
+    background-color:brown;
+    border-color:white;
+}

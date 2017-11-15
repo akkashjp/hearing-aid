@@ -7,9 +7,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppointmentsComponent implements OnInit {
 
+  appointments =[{'#':1,
+  'type':'Hearing Aid Enquiry',
+ 'audiologist':'chandana ongolo',
+'status':'HA ordered'},
+{'#':2,
+'type':'Hearing Aid Enquiry',
+'audiologist':'chandana ongolo',
+'status':'HA ordered'}];
+
+
   constructor() { }
 
   ngOnInit() {
+
   }
+  
 
 }

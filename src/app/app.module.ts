@@ -10,6 +10,7 @@ import { AppointmentsComponent } from './appointments/appointments.component';
 import { WarrentiesComponent } from './warrenties/warrenties.component';
 import { OrdersComponent } from './orders/orders.component';
 import { DiagnosticsComponent } from './diagnostics/diagnostics.component';
+import { AppointmentsService } from './services/customer-dashboard/appointments.service';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,7 @@ import { DiagnosticsComponent } from './diagnostics/diagnostics.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [AppointmentsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
