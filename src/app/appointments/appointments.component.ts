@@ -7,14 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppointmentsComponent implements OnInit {
 
-  appointments =[{'#':1,
+  appointments =[{'#':1,"date":"12-12-1994",
   'type':'Hearing Aid Enquiry',
  'audiologist':'chandana ongolo',
 'status':'HA ordered'},
-{'#':2,
+{'#':2,"date":"12-12-1994",
 'type':'Hearing Aid Enquiry',
 'audiologist':'chandana ongolo',
-'status':'HA ordered'}];
+'status':''}];
 
 
   constructor() { }

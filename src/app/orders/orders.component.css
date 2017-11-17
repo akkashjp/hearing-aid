@@ -1,0 +1,16 @@
+.linebreak{
+    border-bottom: 1px solid black
+}
+
+.balancebtnlist li{
+    list-style-type: none;
+}
+.green{
+    background-color: #00a774;
+    color: white;
+    font-size: 10px;
+}
+.blue{
+    background-color: blue;
+    color: white;
+    }

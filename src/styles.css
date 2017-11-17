@@ -3,3 +3,9 @@
 body{
     background-color: darkgray;
 }
+.btn{
+    font-size: 12px;
+}
+.contAppoint{
+    background-color: whitesmoke;
+}
