@@ -1,7 +1,17 @@
 
-.btn-default{
-background-color: blue;
-}
 .greentext{
     color: green;
+}
+.wrapper{
+    background-color: #eeeeee;
+    padding: 15px;
+    min-height: 370px;
+
+}
+h3{
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-right: 20px;
 }

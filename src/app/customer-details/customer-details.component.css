@@ -2,3 +2,9 @@
     list-style-type: none;
     text-align: center;
 }
+
+.customer-details{
+    background-color: #eeeeee;
+    padding-left: 15px;
+    padding-right: 15px;
+}

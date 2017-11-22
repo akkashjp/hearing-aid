@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~font-awesome/css/font-awesome.css';
 body{
-    background-color: darkgray;
+    background-color:  #d5d5d5;
 }
 .btn{
     font-size: 12px;
@@ -9,3 +9,25 @@ body{
 .contAppoint{
     background-color: whitesmoke;
 }
+
+.btn-blue{
+    background-color: #468ac7;
+    color: white;
+  }
+  .btn-orange{
+    background-color: #ffb849;
+    color: white;
+  }
+  .btn-red{
+    background-color: #be2311;
+    color: white;
+  }
+  .btn-lightgreen{
+    background-color: #34ab47;
+    color: white;
+  }
+  .btn-darkgreen{
+    background-color: #057d71;
+    color: white;
+  }
+ 

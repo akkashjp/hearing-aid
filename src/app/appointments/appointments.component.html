@@ -1,48 +1,41 @@
-
-
-<div class="container ">
-  <div class="row">
+<div class="wrapper">
+    <h3>Appointments</h3>
     
-    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 contAppoint">
-      <h3>Appointments</h3>
-      
-      <button type="button" class="btn btn-default">New Appoinment</button>
-      
-      <button type="button" class="btn btn-default">View Case History</button>
-      
-      
-      <table class="table table-responsive">
-        <thead>
-          <tr>
-                <th>#</th>
-                <th>Data</th>
-                <th>Type</th>
-                <th>Audiologist</th>
-                <th>Status</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr *ngFor="let item of appointments">
-                <td>1</td>
-                <td>{{item.date}}</td>
-                <td>{{item.type}}</td>
-                <td>{{item.audiologist}}</td>
-                <td class="greentext">{{item.status}}</td>
-                
-          </tr>
-          <!-- <tr>
-              <td>2</td>
-              <td>2012-12-24</td>
-              <td>Hearing Aid Enquiry</td>
-              <td>Chandana Ongolo</td>
-              <td>HA ordered</td>
-        </tr> -->
-        </tbody>
-      </table>
-          
-      
-    </div>
+    <button type="button" class="btn btn-default btn-blue">New Appoinment</button>
     
-  </div>
+    <button type="button" class="btn btn-default btn-blue">View Case History</button>
+    
+    
+    <table class="table table-responsive">
+      <thead>
+        <tr>
+              <th>#</th>
+              <th>Data</th>
+              <th>Type</th>
+              <th>Audiologist</th>
+              <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of appointments">
+              <td>1</td>
+              <td>{{item.date}}</td>
+              <td>{{item.type}}</td>
+              <td>{{item.audiologist}}</td>
+              <td class="greentext">{{item.status}}</td>
+              
+        </tr>
+        <!-- <tr>
+            <td>2</td>
+            <td>2012-12-24</td>
+            <td>Hearing Aid Enquiry</td>
+            <td>Chandana Ongolo</td>
+            <td>HA ordered</td>
+      </tr> -->
+      </tbody>
+    </table>
 </div>
 
+      
+          
+      

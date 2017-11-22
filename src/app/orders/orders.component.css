@@ -1,16 +1,15 @@
 .linebreak{
     border-bottom: 1px solid black
 }
-
 .balancebtnlist li{
     list-style-type: none;
 }
-.green{
-    background-color: #00a774;
-    color: white;
-    font-size: 10px;
+.orders{
+    background-color: #eeeeee;
+    padding: 15px;
 }
-.blue{
-    background-color: blue;
-    color: white;
-    }
+h3{
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 20px;
+}
