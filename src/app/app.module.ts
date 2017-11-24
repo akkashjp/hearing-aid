@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { CustomerDashboardComponent } from './customer-dashboard/customer-dashboard.component';
 import { CalendarComponent } from './calendar/calendar.component';
@@ -12,6 +12,13 @@ import { OrdersComponent } from './orders/orders.component';
 import { DiagnosticsComponent } from './diagnostics/diagnostics.component';
 import { AppointmentsService } from './services/customer-dashboard/appointments.service';
 
+
+import { routing } from './app.routing';
+import { LoginComponent } from './login/login.component';
+import { CustomerComponent } from './customer/customer.component';
+import { ReactiveFormsModule } from '@angular/forms';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,10 +29,16 @@ import { AppointmentsService } from './services/customer-dashboard/appointments.
     AppointmentsComponent,
     WarrentiesComponent,
     OrdersComponent,
-    DiagnosticsComponent
+    DiagnosticsComponent,
+    LoginComponent,
+    CustomerComponent
+    
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    routing,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [AppointmentsService],
   bootstrap: [AppComponent]
