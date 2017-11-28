@@ -1,0 +1,39 @@
+.eodtally
+{
+    
+}
+.eodcon
+{
+    background-color: white;
+}
+.dataitem
+{
+    padding: 12px;
+}
+.textrupess
+{
+    height: 34px;
+    width: 69px;
+}
+.eodhead h1{
+    font-size:22px;
+}
+.equal
+{
+    margin-right: 44px;
+}
+.totalcash
+{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;   
+}
+.btnsub
+{
+    text-align: center;
+    background-color: rgb(213, 213, 213);
+    padding: 24px;
+}
+.btn_class
+{
+    padding: 19px;
+}
