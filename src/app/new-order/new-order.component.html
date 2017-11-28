@@ -1,0 +1,234 @@
+
+<div class="container"> 
+  <div class="row">
+    <div class="col-xs-6 col-sm-6 col-md-10 col-md-offset-2 col-lg-8">
+      <div class="new-order">        
+        <div role="tabpanel">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+              <li class="title">New Order</li>
+                <li role="presentation" class="active">
+                    <a href="#orderTypeBiling" aria-controls="orderTypeBiling" role="tab" data-toggle="tab">Order Type & Billing</a>
+                </li>
+                <li role="presentation">
+                    <a href="#orderItems" aria-controls="orderItems" role="tab" data-toggle="tab">Order Items</a>
+                </li>
+            </ul>        
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <!-- Order Type Billing -->
+                <div role="tabpanel" class="tab-pane active" id="orderTypeBiling">
+                  <div class="basic">
+                    <div class="headtitle">
+                      <h2>Basic</h2>
+                      <hr>
+                    </div>
+                    <div class="row">                      
+                      <div class=" control  col-md-6">
+                        <label for="ordertype"  class="col-md-6">Order Type <sup class="supset">*</sup> </label>
+                          <div class="radio col-md-6">
+                            <label class="">
+                              <input type="radio" name="ordertype" id="inlineRadio1" value="option1">Hearing Aids
+                            </label>
+                            <label class="">
+                              <input type="radio" name="ordertype" id="inlineRadio2" value="option2">Diagnostics
+                            </label>
+                            <label class="">
+                              <input type="radio" name="ordertype" id="inlineRadio2" value="option2">Spares
+                            </label>
+                            <label class="">
+                              <input type="radio" name="ordertype" id="inlineRadio2" value="option2">Repair
+                            </label>
+                          </div>                        
+                        </div> 
+                        <div class=" control  col-md-6  ">
+                          <label for="ordertype"  class="col-md-6">Is Trial <sup class="supset">*</sup></label>
+                          <div class="radio col-md-6">                                                                    
+                            <label class="">
+                              <input type="radio" name="istrial" id="inlineRadio2" value="option2">Yes
+                            </label>
+                            <label class="">
+                              <input type="radio" name="istrial" id="inlineRadio2" value="option2">No
+                            </label>
+                          </div>                        
+                        </div>                                                        
+                      </div>
+                    <div class="row">
+                      <div class=" control  col-md-6">
+                        <label for="firstname" class="col-md-6" >Order Notes</label>
+                        <input type="text" class="formcontrol col-md-6" formControlName="ordernotes" id="exampleInputName2" placeholder="">
+                      </div>
+                      <div class=" control  col-md-6">
+                        <label for="firstname" class="col-md-6" >Order Date <sup class="supset">*</sup></label>
+                        <input type="text" class="formcontrol col-md-6" formControlName="orderdate" id="exampleInputName2" placeholder="">
+                      </div>
+                    </div>
+                  </div>  
+                  <!-- billing -->
+                  <div class="billing">
+                      <div class="headtitle">
+                        <h2>Billing</h2>
+                        <hr>
+                      </div>
+                      <div class="row">                                              
+                        <div class=" control form-group  col-md-6">
+                            <label for="firstname" class="col-md-6" >First Name <sup class="supset">*</sup></label>
+                            <input type="text" class="formcontrol col-md-6" formControlName="ordernotes" id="exampleInputName2" placeholder="">
+                        </div> 
+                        <div class=" control form-group  col-md-6">
+                            <label for="firstname" class="col-md-6" >Last Name</label>
+                            <input type="text" class="formcontrol col-md-6" formControlName="ordernotes" id="exampleInputName2" placeholder="">
+                        </div> 
+                        <div class=" control form-group  col-md-6">
+                            <label for="firstname" class="col-md-6" >Address <sup class="supset">*</sup></label>
+                            <input type="text" class="formcontrol col-md-6" formControlName="ordernotes" id="exampleInputName2" placeholder="">
+                        </div> 
+                        <div class=" control form-group col-md-6">
+                            <label for="firstname" class="col-md-6" >City <sup class="supset">*</sup></label>
+                            <input type="text" class="formcontrol col-md-6" formControlName="ordernotes" id="exampleInputName2" placeholder="">
+                        </div>     
+                        <div class=" control form-group col-md-6">
+                            <label for="firstname" class="col-md-6" >State <sup class="supset">*</sup></label>
+                            <input type="text" class="formcontrol col-md-6" formControlName="ordernotes" id="exampleInputName2" placeholder="">
+                        </div>  
+                        <div class=" control form-group col-md-6">
+                            <label for="firstname" class="col-md-6" >Country <sup class="supset">*</sup></label>
+                            <input type="text" class="formcontrol col-md-6" formControlName="ordernotes" id="exampleInputName2" placeholder="">
+                        </div>                                              
+                        <div class=" control form-group col-md-6">
+                            <label for="firstname" class="col-md-6" >Pin <sup class="supset">*</sup></label>
+                            <input type="text" class="formcontrol col-md-6" formControlName="ordernotes" id="exampleInputName2" placeholder="">
+                        </div>      
+                        <div class=" control form-group col-md-6">
+                            <label for="firstname" class="col-md-6" >Email</label>
+                            <input type="text" class="formcontrol col-md-6" formControlName="ordernotes" id="exampleInputName2" placeholder="">
+                        </div>  
+                        <div class=" control form-group col-md-6">
+                            <label for="firstname" class="col-md-6" >Phone <sup class="supset">*</sup></label>
+                            <input type="text" class="formcontrol col-md-6" formControlName="ordernotes" id="exampleInputName2" placeholder="">
+                        </div>  
+                      </div>                      
+                    </div> 
+                    <div class="btn_class">
+                      <div class="btnsub">
+                        <button type="button" class="btn btn-success">Submit</button>
+                        <button type="button" class="btn">Canel</button>
+                      </div>
+                    </div>                     
+                  </div>       
+                <div role="tabpanel" class="tab-pane" id="orderItems">
+                  <div class="selectitem">
+                    <div class="headtitle">
+                      <h2>Select Item</h2>
+                      <hr>
+                    </div>
+                    <div class="row">                      
+                      <div class=" control  col-md-6">
+                        <label for="entreference" class="col-md-6">ENT Reference</label>      
+                        <div class="dropdown col-md-6">
+                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Select From List
+                            <span class="caret"></span>
+                          </button>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>                          
+                            <li><a href="#">Separated link</a></li>
+                          </ul>
+                        </div>                          
+                      </div> 
+                      <div class=" control ear  col-md-6  ">
+                        <label for="ordertype"  class="col-md-6">Ear </label>
+                          <div class="radio col-md-6">                                                                    
+                            <label class="">
+                              <input type="radio" name="ear" id="ear" value="left">Left
+                            </label>
+                            <label class="">
+                              <input type="radio" name="ear" id="ear" value="right">Right
+                            </label>
+                            <label class="">
+                              <input type="radio" name="ear" id="ear" value="both">Both
+                            </label>
+                          </div>                        
+                        </div>                                                        
+                      </div>
+                      <div class="row">
+                        <div class=" control  col-md-6">
+                          <label for="entreference" class="col-md-6">Product</label>      
+                            <div class="dropdown col-md-6">
+                              <button class="btn btn-default dropdown-toggle" type="button" id="product" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Select From List
+                                <span class="caret"></span>
+                              </button>
+                              <ul class="dropdown-menu" aria-labelledby="product">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>                          
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                            </div>                          
+                          </div> 
+                          <div class=" control  col-md-6">
+                            <label for="entreference" class="col-md-6">Model</label>      
+                              <div class="dropdown col-md-6">
+                                <button class="btn btn-default dropdown-toggle" type="button" id="model" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Select From List
+                                  <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="model">
+                                  <li><a href="#">Action</a></li>
+                                  <li><a href="#">Another action</a></li>
+                                  <li><a href="#">Something else here</a></li>                          
+                                  <li><a href="#">Separated link</a></li>
+                                </ul>
+                              </div>                          
+                          </div> 
+                        </div>
+                        <div class="row additem">
+                          <div class="col-md-6">
+                            <label for="unitprice">unitprice</label>
+                          </div>                              
+                          <div class="col-md-6">
+                            <button type="button " class="btn btn-primary pull-right">Add Item</button>
+                          </div>          
+                        </div>
+                      </div>
+                      <div class="orderitems">
+                        <div class="headtitle">
+                          <h2>Order Items</h2>
+                          <hr>
+                        </div>                            
+                          <table class="table">
+                            <thead>
+                              <tr>
+                                <th>#</th>
+                                <th>Company</th>
+                                <th>Product</th>
+                                <th>Model</th>
+                                <th>Ear</th>
+                                <th>Unit Price</th>
+                                <th>Discount</th>
+                                <th>Price</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div class="btn_class">
+                          <div class="btnsub">
+                            <button type="button" class="btn btn-success">Submit</button>
+                            <button type="button" class="btn">Canel</button>
+                          </div>
+                        </div>                   
+                      </div>        
+                    </div>
+                  </div>
+                  <!-- Order Items -->            
+                </div>
+              </div>        
+            </div>      
+          </div>
+  
+

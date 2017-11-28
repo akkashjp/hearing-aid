@@ -9,7 +9,10 @@ import { NewmodelComponent } from './newmodel/newmodel.component';
 import { NewappointmentComponent } from './newappointment/newappointment.component';
 import { NewexpenseComponent } from './newexpense/newexpense.component';
 import { NewcashComponent } from './newcash/newcash.component';
+import { NewcasehistoryComponent } from './newcasehistory/newcasehistory.component';
+import { NewmouldComponent } from './newmould/newmould.component';
 import { ComponentsIndexComponent } from './components-index/components-index.component';
+import { NewOrderComponent } from './new-order/new-order.component';
 
 const appRoutes : Routes = [
     {path:'',component:ComponentsIndexComponent},
@@ -23,6 +26,10 @@ const appRoutes : Routes = [
     {path:'newappointment', component:NewappointmentComponent},
     {path:'newexpense', component: NewexpenseComponent},
     {path:'newcash', component: NewcashComponent},
+    {path:'newcasehistory',component:NewcasehistoryComponent},
+    {path:'newmould',component:NewmouldComponent},
+    {path:'neworder',component:NewOrderComponent}
+    
 ];
 
 export const routing = RouterModule.forRoot(appRoutes); 

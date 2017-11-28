@@ -37,4 +37,8 @@ body{
   .btn-green{
     background-color: #37aa4d;
   }
-  
+  .supset {
+    color: red;
+    top: -.1em;
+    font-size: 18px;
+  }
