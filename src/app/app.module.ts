@@ -19,6 +19,12 @@ import { CustomerComponent } from './customer/customer.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { EodtallyComponent } from './eodtally/eodtally.component';
 import { ComponentsIndexComponent } from './components-index/components-index.component';
+import { NewentComponent } from './newent/newent.component';
+import { NewcompanyComponent } from './newcompany/newcompany.component';
+import { NewmodelComponent } from './newmodel/newmodel.component';
+import { NewappointmentComponent } from './newappointment/newappointment.component';
+import { NewexpenseComponent } from './newexpense/newexpense.component';
+import { NewcashComponent } from './newcash/newcash.component';
 
 
 @NgModule({
@@ -35,7 +41,13 @@ import { ComponentsIndexComponent } from './components-index/components-index.co
     LoginComponent,
     CustomerComponent,
     EodtallyComponent,
-    ComponentsIndexComponent
+    ComponentsIndexComponent,
+    NewentComponent,
+    NewcompanyComponent,
+    NewmodelComponent,
+    NewappointmentComponent,
+    NewexpenseComponent,
+    NewcashComponent
     
   ],
   imports: [
