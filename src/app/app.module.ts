@@ -22,6 +22,7 @@ import { ComponentsIndexComponent } from './components-index/components-index.co
 import { NewcasehistoryComponent } from './newcasehistory/newcasehistory.component';
 import { NewmouldComponent } from './newmould/newmould.component';
 import { NewcasehistorydetailComponent } from './newcasehistorydetail/newcasehistorydetail.component';
+import { NewOrderComponent } from './new-order/new-order.component';
 
 
 @NgModule({
@@ -41,7 +42,8 @@ import { NewcasehistorydetailComponent } from './newcasehistorydetail/newcasehis
     ComponentsIndexComponent,
     NewcasehistoryComponent,
     NewmouldComponent,
-    NewcasehistorydetailComponent
+    NewcasehistorydetailComponent,
+    NewOrderComponent
     
   ],
   imports: [
