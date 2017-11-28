@@ -1,66 +1,305 @@
 
-<!--
-  <div class="newMouldTab container">
-    
-    <div role="tabpanel">
-         Nav tabs 
-        <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active">
-                <a href="#billinginfo" aria-controls="home" role="tab" data-toggle="tab">Billing Info</a>
-            </li>
-            <li role="presentation">
-                <a href="#moulds" aria-controls="tab" role="tab" data-toggle="tab">Mould</a>
-            </li>
-        </ul>
-    
-         Tab panes 
-        <div class="tab-content">
-          <div role="tabpanel" class="tab-pane active" id="billinginfo">
-            <div class="basicheader">
-              <h5>Basic</h5>
-              <hr>
-              <div class="basicinfo">
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                  <div class="outerwrapper">
-                        
-                    <div class="row">
-                          
-                      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            
-                        <div class="fieldname form-group col-md-6">
-                          <label for="">Order Type</label>
+<div class="container"> 
+    <div class="row">
+      <div class="col-xs-6 col-sm-6 col-md-10 col-md-offset-2 col-lg-8">
+        <div class="new-mould">        
+          <div role="tabpanel">
+              <!-- Nav tabs -->
+              <ul class="nav nav-tabs" role="tablist">
+                <li class="title">New Mould</li>
+                  <li role="presentation" class="active">
+                      <a href="#billingInfo" aria-controls="billingInfo" role="tab" data-toggle="tab">Billing Info</a>
+                  </li>
+                  <li role="presentation">
+                      <a href="#moulds" aria-controls="orderItems" role="tab" data-toggle="tab">Moulds</a>
+                  </li>
+              </ul>        
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <!-- Order Type Billing -->
+                  <div role="tabpanel" class="tab-pane active" id="billingInfo">
+                    <div class="basic">
+                      <div class="headtitle">
+                        <h2>Basic</h2>
+                        <hr>
+                      </div>
+                      <div class="row">                      
+                        <div class=" control  col-md-6">
+                          <label for="ordertype"  class="col-md-6">Order Type  </label>
+                            <div class="radio col-md-6">
+                              <label class="">
+                                <input type="radio" name="ordertype" id="inlineRadio1" value="hearingaids">Hearing Aids
+                              </label>
+                              <label class="">
+                                <input type="radio" name="ordertype" id="inlineRadio2" value="diagnostics">Diagnostics
+                              </label>
+                              <label class="">
+                                <input type="radio" name="ordertype" id="inlineRadio2" value="spares">Spares
+                              </label>
+                              <label class="">
+                                <input type="radio" name="ordertype" id="inlineRadio2" value="repair">Repair
+                              </label>
+                            </div>                        
+                          </div> 
+                          <div class=" control ear col-md-6  ">
+                            <label for="ordertype"  class="col-md-6">Is Trial </label>
+                            <div class="radio col-md-6">                                                                    
+                              <label class="">
+                                <input type="radio" name="istrial" id="inlineRadio2" value="yes">Yes
+                              </label>
+                              <label class="">
+                                <input type="radio" name="istrial" id="inlineRadio2" value="no">No
+                              </label>
+                            </div>                        
+                          </div>                                                        
                         </div>
-                        <div class="radio form-group col-md-6">
-                            <label class="refernce"> 
-                              <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> Hearing Aid
-                            </label>
-                            <label class="refernce">
-                              <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> Diagnostics
-                            </label>
-                            <label class="refernce">
-                              <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> Spares
-                            </label>        
-                            <label class="refernce">
-                              <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> Repair
-                            </label>
+                      <div class="row">
+                        <div class=" control  col-md-6">
+                          <label for="firstname" class="col-md-6" >Order Notes</label>
+                          <input type="text" class="formcontrol col-md-6" formControlName="ordernotes" id="ordernotes" placeholder="">
                         </div>
-                        <div class="fieldname form-group col-md-6">
-                          <label for="">Order Notes</label>
-                        </div> 
-                        <div class="fielddisc form-group col-md-6">
-                          <input type="text">
-                        </div> 
+                        <div class=" control  col-md-6">
+                          <label for="firstname" class="col-md-6" >Order Date <sup class="supset">*</sup></label>
+                          <input type="text" class="formcontrol col-md-6" formControlName="orderdate" id="orderdate" placeholder="">
+                        </div>
+                      </div>
+                    </div>  
+                    <!-- billing -->
+                    <div class="billing">
+                        <div class="headtitle">
+                          <h2>Billing</h2>
+                          <hr>
+                        </div>
+                        <div class="row">                                              
+                          <div class=" control form-group  col-md-6">
+                              <label for="firstname" class="col-md-6" >First Name <sup class="supset">*</sup></label>
+                              <input type="text" class="formcontrol col-md-6" formControlName="billing" id="firstname" placeholder="">
+                          </div> 
+                          <div class=" control form-group  col-md-6">
+                              <label for="firstname" class="col-md-6" >Last Name</label>
+                              <input type="text" class="formcontrol col-md-6" formControlName="billing" id="lastname" placeholder="">
+                          </div> 
+                          <div class=" control form-group  col-md-6">
+                              <label for="firstname" class="col-md-6" >Address <sup class="supset">*</sup></label>
+                              <input type="text" class="formcontrol col-md-6" formControlName="billing" id="address" placeholder="">
+                          </div> 
+                          <div class=" control form-group col-md-6">
+                              <label for="firstname" class="col-md-6" >City <sup class="supset">*</sup></label>
+                              <input type="text" class="formcontrol col-md-6" formControlName="billing" id="city" placeholder="">
+                          </div>     
+                          <div class=" control form-group col-md-6">
+                              <label for="firstname" class="col-md-6" >State <sup class="supset">*</sup></label>
+                              <input type="text" class="formcontrol col-md-6" formControlName="billing" id="state" placeholder="">
+                          </div>  
+                          <div class=" control form-group col-md-6">
+                              <label for="firstname" class="col-md-6" >Country <sup class="supset">*</sup></label>
+                              <input type="text" class="formcontrol col-md-6" formControlName="billing" id="country" placeholder="">
+                          </div>                                              
+                          <div class=" control form-group col-md-6">
+                              <label for="firstname" class="col-md-6" >Pin <sup class="supset">*</sup></label>
+                              <input type="text" class="formcontrol col-md-6" formControlName="billing" id="pin" placeholder="">
+                          </div>      
+                          <div class=" control form-group col-md-6">
+                              <label for="firstname" class="col-md-6" >Email</label>
+                              <input type="text" class="formcontrol col-md-6" formControlName="billing" id="email" placeholder="">
+                          </div>  
+                          <div class=" control form-group col-md-6">
+                              <label for="firstname" class="col-md-6" >Phone <sup class="supset">*</sup></label>
+                              <input type="text" class="formcontrol col-md-6" formControlName="billing" id="phone" placeholder="">
+                          </div>  
+                        </div>                      
+                      </div> 
+                      <div class="btn_class">
+                        <div class="btnsub">
+                          <button type="button" class="btn btn-success">Submit</button>
+                          <button type="button" class="btn">Canel</button>
+                        </div>
+                      </div>                     
+                    </div>    
+                    
+                    
+                    <!-- moulds -->
+                  <div role="tabpanel" class="tab-pane" id="moulds">
+                    <div class="selectitem">
+                      <div class="headtitle">
+                        <h2>Mould Summary</h2>
+                        <hr>
+                      </div>
+                      <table class="table">
+                          <thead>
+                            <tr>
+                              <th>#</th>
+                              <th>Ear</th>
+                              <th>Mould Details</th>                              
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td></td>
+                            </tr>
+                          </tbody>
+                        </table>                                         
+                        </div>
+                        <div class="orderitems">
+                          <div class="headtitle">
+                            <h2>Mould Details</h2>
+                            <hr>
+                          </div>                            
+                           <div class="row">
+                              <div class=" control ear col-md-6  ">
+                                  <label for="ear"  class="col-md-4">Ear </label>
+                                  <div class="radio col-md-8">                                                                    
+                                    <label class="">
+                                      <input type="radio" name="ear" id="inlineRadio2" value="left">Left
+                                    </label>
+                                    <label class="">
+                                      <input type="radio" name="ear" id="inlineRadio2" value="right">Right
+                                    </label>
+                                  </div>                        
+                                </div> 
+                                <div class=" control ear col-md-6  ">
+                                    <label for="hatype"  class="col-md-4">HA Type </label>
+                                    <div class="radio col-md-8">                                                                    
+                                      <label class="">
+                                        <input type="radio" name="hatype" id="inlineRadio2" value="bte">BTE
+                                      </label>
+                                      <label class="">
+                                        <input type="radio" name="hatype" id="inlineRadio2" value="ric">RIC
+                                      </label>
+                                    </div>                        
+                                  </div>
+                                  <div class=" control ear col-md-6  ">
+                                      <label for="made"  class="col-md-4">Made </label>
+                                      <div class="radio col-md-8">                                                                    
+                                        <label class="">
+                                          <input type="radio" name="made" id="inlineRadio2" value="company">Company
+                                        </label>
+                                        <label class="">
+                                          <input type="radio" name="made" id="inlineRadio2" value="local">Local
+                                        </label>
+                                      </div>                        
+                                    </div> 
+                                    <div class=" control ear col-md-6  ">
+                                        <label for="urgency"  class="col-md-4">Urgency </label>
+                                        <div class="radio col-md-8">                                                                    
+                                          <label class="">
+                                            <input type="radio" name="urgency" id="inlineRadio2" value="urgent">Urgent
+                                          </label>
+                                          <label class="">
+                                            <input type="radio" name="urgency" id="inlineRadio2" value="normal">Normal
+                                          </label>
+                                        </div>                        
+                                      </div> 
+                           </div>
+                           
+                           <div class="row">
+                              <div class=" control ear col-md-6  ">
+                                  <label for="mould"  class="col-md-4">Mould </label>
+                                  <div class="radio col-md-8">                                                                    
+                                    <label class="">
+                                      <input type="radio" name="mould" id="inlineRadio2" value="fullhardmould">Full Hard Mould
+                                    </label>
+                                    <label class="">
+                                      <input type="radio" name="mould" id="inlineRadio2" value="fullsoftmould">Full Soft Mould
+                                    </label>
+                                    <label class="">
+                                        <input type="radio" name="mould" id="inlineRadio2" value="hardcanalmould">Hard canal Mould
+                                      </label>
+                                      <label class="">
+                                          <input type="radio" name="mould" id="inlineRadio2" value="softcanalmould">Soft Canal Mould
+                                        </label>
+                                  </div>                        
+                                </div> 
+                                <div class=" control  col-md-6">
+                                    <label for="ventsize" class="col-md-4">Vent Size</label>      
+                                      <div class="dropdown col-md-8">
+                                        <button class="btn btn-default dropdown-toggle" type="button" id="model" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Select From List
+                                          <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="ventsize">
+                                          <li><a href="#">Action</a></li>
+                                          <li><a href="#">Another action</a></li>
+                                          <li><a href="#">Something else here</a></li>                          
+                                          <li><a href="#">Separated link</a></li>
+                                        </ul>
+                                      </div>                          
+                                  </div> 
+                             
+                           </div>
+                           <div class="row">
+                              <div class=" control  col-md-6">
+                                  <label for="ventsize" class="col-md-4">Receiver(dB)</label>      
+                                    <div class="dropdown col-md-8">
+                                      <button class="btn btn-default dropdown-toggle" type="button" id="model" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Select From List
+                                        <span class="caret"></span>
+                                      </button>
+                                      <ul class="dropdown-menu" aria-labelledby="ventsize">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>                          
+                                        <li><a href="#">Separated link</a></li>
+                                      </ul>
+                                    </div>                          
+                                </div>
+                                <div class=" control  col-md-6">
+                                    <label for="receiversize" class="col-md-4">Receiver Size</label>      
+                                      <div class="dropdown col-md-8">
+                                        <button class="btn btn-default dropdown-toggle" type="button" id="model" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Select From List
+                                          <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="receiversize">
+                                          <li><a href="#">Action</a></li>
+                                          <li><a href="#">Another action</a></li>
+                                          <li><a href="#">Something else here</a></li>                          
+                                          <li><a href="#">Separated link</a></li>
+                                        </ul>
+                                      </div>                          
+                                  </div>
+
+                           </div>
+                           <div class="row">
+                              <div class=" control ear col-md-6  ">
+                                  <label for="type"  class="col-md-4">Type </label>
+                                  <div class="radio col-md-8">                                                                    
+                                    <label class="">
+                                      <input type="radio" name="mould" id="inlineRadio2" value="fullhardmould">Type A (Open Fit/IROS)
+                                    </label>
+                                    <label class="">
+                                      <input type="radio" name="mould" id="inlineRadio2" value="fullsoftmould">Type B (Occluded)
+                                    </label>
+                                   
+                                  </div>                        
+                                </div>
+
+                           </div>
+                           <div class="row bottom">
+                              <div class=" control  col-md-8">
+                                  <label for="phone2" class="col-md-4">Special Req</label>
+                                  <input type="text" class="formcontrol col-md-6" id="specialreq" placeholder="">
+                                </div>
+                                <div class="addmould col-md-4">
+                                  
+                                  <button type="button" class="btn btn-primary ">Add Mould</button>
+                                  
+                                </div>
+
+                           </div>
+                           
+                          </div>
+                          <div class="btn_class">
+                            <div class="btnsub">
+                              <button type="button" class="btn btn-success">Submit</button>
+                              <button type="button" class="btn">Canel</button>
+                            </div>
+                          </div>                   
+                        </div>        
                       </div>
                     </div>
+                    <!-- Order Items -->            
                   </div>
-                </div>
+                </div>        
               </div>      
-            </div>     
-
-          </div>
-          <div role="tabpanel" class="tab-pane" id="moulds">...</div>
-        </div>
-    </div>
+            </div>
     
-  </div> -->
-
+  
+  
