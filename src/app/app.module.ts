@@ -17,6 +17,7 @@ import { routing } from './app.routing';
 import { LoginComponent } from './login/login.component';
 import { CustomerComponent } from './customer/customer.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ComponentsIndexComponent } from './components-index/components-index.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     OrdersComponent,
     DiagnosticsComponent,
     LoginComponent,
-    CustomerComponent
+    CustomerComponent,   
+    ComponentsIndexComponent
     
   ],
   imports: [
