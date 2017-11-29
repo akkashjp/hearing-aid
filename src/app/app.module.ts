@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpModule} from '@angular/http';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { CustomerDashboardComponent } from './customer-dashboard/customer-dashboard.component';
@@ -10,7 +11,7 @@ import { AppointmentsComponent } from './appointments/appointments.component';
 import { WarrentiesComponent } from './warrenties/warrenties.component';
 import { OrdersComponent } from './orders/orders.component';
 import { DiagnosticsComponent } from './diagnostics/diagnostics.component';
-import { AppointmentsService } from './services/customer-dashboard/appointments.service';
+import { AppointmentsService } from './services//appointments.service';
 
 
 import { routing } from './app.routing';
@@ -29,6 +30,8 @@ import { NewcasehistoryComponent } from './newcasehistory/newcasehistory.compone
 import { NewmouldComponent } from './newmould/newmould.component';
 import { NewcasehistorydetailComponent } from './newcasehistorydetail/newcasehistorydetail.component';
 import { NewOrderComponent } from './new-order/new-order.component';
+import { NewTrailComponent } from './new-trail/new-trail.component';
+import { Appconfig } from './app.config';
 
 
 @NgModule({
@@ -55,16 +58,18 @@ import { NewOrderComponent } from './new-order/new-order.component';
     NewcasehistoryComponent,
     NewmouldComponent,
     NewcasehistorydetailComponent,
-    NewOrderComponent
+    NewOrderComponent,
+    NewTrailComponent
     
   ],
   imports: [
     BrowserModule,
     routing,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpModule
   ],
-  providers: [AppointmentsService],
+  providers: [AppointmentsService, Appconfig],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

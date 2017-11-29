@@ -3,7 +3,7 @@ import { CustomerDashboardComponent } from './customer-dashboard/customer-dashbo
 import { LoginComponent } from './login/login.component';
 import { CustomerComponent } from './customer/customer.component';
 import { EodtallyComponent } from './eodtally/eodtally.component';
-import {NewentComponent} from './newent/newent.component';
+import { NewentComponent } from './newent/newent.component';
 import { NewcompanyComponent } from './newcompany/newcompany.component';
 import { NewmodelComponent } from './newmodel/newmodel.component';
 import { NewappointmentComponent } from './newappointment/newappointment.component';
@@ -13,6 +13,7 @@ import { NewcasehistoryComponent } from './newcasehistory/newcasehistory.compone
 import { NewmouldComponent } from './newmould/newmould.component';
 import { ComponentsIndexComponent } from './components-index/components-index.component';
 import { NewOrderComponent } from './new-order/new-order.component';
+import { NewTrailComponent } from './new-trail/new-trail.component';
 
 const appRoutes : Routes = [
     {path:'',component:ComponentsIndexComponent},
@@ -28,7 +29,8 @@ const appRoutes : Routes = [
     {path:'newcash', component: NewcashComponent},
     {path:'newcasehistory',component:NewcasehistoryComponent},
     {path:'newmould',component:NewmouldComponent},
-    {path:'neworder',component:NewOrderComponent}
+    {path:'neworder',component:NewOrderComponent},
+    {path:'newtrail',component:NewTrailComponent}
     
 ];
 
