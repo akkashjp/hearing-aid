@@ -61,12 +61,9 @@ import { Appconfig } from './app.config';
     NewmouldComponent,
     NewcasehistorydetailComponent,
     NewOrderComponent,
-<<<<<<< HEAD
     NewpaymentComponent,
-    NewproductComponent
-=======
+    NewproductComponent,
     NewTrailComponent
->>>>>>> 700106ceb1452cd482ac0899104a5a3c4f7f4d8d
     
   ],
   imports: [
