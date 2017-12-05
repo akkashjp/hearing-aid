@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpModule} from '@angular/http';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { CustomerDashboardComponent } from './customer-dashboard/customer-dashboard.component';
@@ -10,7 +11,7 @@ import { AppointmentsComponent } from './appointments/appointments.component';
 import { WarrentiesComponent } from './warrenties/warrenties.component';
 import { OrdersComponent } from './orders/orders.component';
 import { DiagnosticsComponent } from './diagnostics/diagnostics.component';
-import { AppointmentsService } from './services/customer-dashboard/appointments.service';
+import { AppointmentsService } from './services//appointments.service';
 
 
 import { routing } from './app.routing';
@@ -31,6 +32,8 @@ import { NewcasehistorydetailComponent } from './newcasehistorydetail/newcasehis
 import { NewOrderComponent } from './new-order/new-order.component';
 import { NewpaymentComponent } from './newpayment/newpayment.component';
 import { NewproductComponent } from './newproduct/newproduct.component';
+import { NewTrailComponent } from './new-trail/new-trail.component';
+import { Appconfig } from './app.config';
 
 
 @NgModule({
@@ -58,17 +61,22 @@ import { NewproductComponent } from './newproduct/newproduct.component';
     NewmouldComponent,
     NewcasehistorydetailComponent,
     NewOrderComponent,
+<<<<<<< HEAD
     NewpaymentComponent,
     NewproductComponent
+=======
+    NewTrailComponent
+>>>>>>> 700106ceb1452cd482ac0899104a5a3c4f7f4d8d
     
   ],
   imports: [
     BrowserModule,
     routing,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpModule
   ],
-  providers: [AppointmentsService],
+  providers: [AppointmentsService, Appconfig],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

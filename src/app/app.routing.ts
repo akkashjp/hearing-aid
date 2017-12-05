@@ -3,7 +3,7 @@ import { CustomerDashboardComponent } from './customer-dashboard/customer-dashbo
 import { LoginComponent } from './login/login.component';
 import { CustomerComponent } from './customer/customer.component';
 import { EodtallyComponent } from './eodtally/eodtally.component';
-import {NewentComponent} from './newent/newent.component';
+import { NewentComponent } from './newent/newent.component';
 import { NewcompanyComponent } from './newcompany/newcompany.component';
 import { NewmodelComponent } from './newmodel/newmodel.component';
 import { NewappointmentComponent } from './newappointment/newappointment.component';
@@ -15,6 +15,7 @@ import { ComponentsIndexComponent } from './components-index/components-index.co
 import { NewOrderComponent } from './new-order/new-order.component';
 import { NewpaymentComponent } from './newpayment/newpayment.component';
 import {NewproductComponent} from './newproduct/newproduct.component';
+import { NewTrailComponent } from './new-trail/new-trail.component';
 
 const appRoutes : Routes = [
     {path:'',component:ComponentsIndexComponent},
@@ -33,6 +34,8 @@ const appRoutes : Routes = [
     {path:'neworder',component:NewOrderComponent},
     {path:'newpayment',component:NewpaymentComponent},
     {path:'newproduct',component:NewproductComponent},
+    {path:'newtrail',component:NewTrailComponent}
+    
 ];
 
 export const routing = RouterModule.forRoot(appRoutes); 
