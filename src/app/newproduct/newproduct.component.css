@@ -1,0 +1,41 @@
+.producthead h1{
+    font-size:22px;
+}
+.productcon
+{
+    background-color: white;
+}
+hr
+{
+    margin-top: 0px;
+}
+.form-control
+{
+    width:190px!important;
+}
+.rowform
+{
+}
+.radio
+{
+    margin-top: 0px!important;
+}
+.btnsub
+{
+    text-align: center;
+    background-color: rgb(213, 213, 213);
+    padding: 24px;
+}
+.btn_class
+{
+    padding: 19px;
+}
+label
+{
+    font-size: 13px!important;
+}
+.totalcash
+{
+    text-align: center;
+    padding: 24px;
+}
