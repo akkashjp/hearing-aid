@@ -1,18 +1,18 @@
-<div class="customer">  
+<div class="customer">
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
     <div class="outer-wrapper">
       <div class="title">
-          <h2>New Customer</h2>
+        <h2>New Customer</h2>
       </div>
       <form class="form-inline" [formGroup]="personalDetials">
         <div class="personal">
           <h2>Personal</h2>
           <hr>
-          <div class="feilds">              
+          <div class="feilds">
             <div class="row feilds1">
-              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">                                                      
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                 <div class=" control  col-md-12">
-                  <label for="firstname" class="col-md-6" >FirstName</label>
+                  <label for="firstname" class="col-md-6">FirstName</label>
                   <input type="text" class="formcontrol col-md-6" formControlName="firstName" id="exampleInputName2" placeholder="Jane Doe">
                 </div>
                 <div class=" control   col-md-12">
@@ -28,7 +28,7 @@
                   <input type="text" class="formcontrol col-md-6" id="exampleInputEmail2" placeholder="jane.doe@example.com">
                 </div>
                 <div class=" control  col-md-12">
-                  <label for="gender"  class="col-md-6">Gender</label>
+                  <label for="gender" class="col-md-6">Gender</label>
                   <div class="radio col-md-6">
                     <label class="">
                       <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Male
@@ -36,19 +36,19 @@
                     <label class="">
                       <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Female
                     </label>
-                  </div>                        
+                  </div>
                 </div>
                 <div class=" control  col-md-12">
-                  <label for="phone1"  class="col-md-6">Phone1</label>
+                  <label for="phone1" class="col-md-6">Phone1</label>
                   <input type="text" class="formcontrol col-md-6" id="exampleInputEmail2" placeholder="jane.doe@example.com">
                 </div>
                 <div class=" control  col-md-12">
-                  <label for="phone3"  class="col-md-6">Phone3</label>
+                  <label for="phone3" class="col-md-6">Phone3</label>
                   <input type="text" class="formcontrol col-md-6" id="exampleInputEmail2" placeholder="jane.doe@example.com">
-                </div>                                                                                                                                        
+                </div>
               </div>
-                
-              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">                    
+
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                 <div class=" control  col-md-12">
                   <label for="lastname" class="col-md-6">LastName</label>
                   <input type="text" class="formcontrol col-md-6" id="exampleInputName2" placeholder="Jane Doe">
@@ -82,9 +82,9 @@
                 <div class=" control  col-md-12">
                   <label for="occupation" class="col-md-6">Occupation</label>
                   <input type="text" class="formcontrol col-md-6" id="exampleInputEmail2" placeholder="jane.doe@example.com">
-                </div>                                                                                
-              </div>                
-            </div> 
+                </div>
+              </div>
+            </div>
 
             <h2>Reference</h2>
             <hr>
@@ -112,38 +112,38 @@
                       <input type="radio" name="RadioOptions" id="inlineRadio2" value="option2"> Other Sources
                     </label>
                   </div>
-                </div>                  
+                </div>
               </div>
-                
+
               <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <label for="entreference">ENT Reference</label>      
+                <label for="entreference">ENT Reference</label>
                 <div class="dropdown">
                   <select class="form-control">
                     <option>test1</option>
                     <option>test2</option>
                     <option>test3</option>
-                  </select> 
-                </div>                             
-              </div>                
-            </div>                           
+                  </select>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </form>
 
       <div class="row">
         <div class="buttons col-md-4 col-md-offset-4">
-          <button type="button" class="btn btn-success" (click)="getDetials()" >Submit</button>
-          <button type="button" class="btn btn-default" (click)="getDetials()" >Cancel</button>
+          <button type="button" class="btn btn-success" (click)="getDetials()">Submit</button>
+          <button type="button" class="btn btn-default" (click)="getDetials()">Cancel</button>
         </div>
-      </div>      
-    </div>      
+      </div>
+    </div>
   </div>
 
-    
+
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
     <div class="similarnames">
       <h2>Customers With Similar Names</h2>
-      
+
       <table class="table table-bordered ">
         <thead>
           <tr>
@@ -162,9 +162,9 @@
           </tr>
         </tbody>
       </table>
-      
+
     </div>
   </div>
 
-    
+
 </div>
