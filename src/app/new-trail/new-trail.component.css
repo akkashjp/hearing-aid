@@ -1,0 +1,56 @@
+.btnsub
+{
+    text-align: center;
+    background-color: rgb(213, 213, 213);
+    padding: 24px;
+}
+.btn_class
+{
+
+}
+
+.new-order{
+    background-color: white;
+    padding: 20px;
+}
+.tab-content{
+    border: 2px #f3f3f3 solid;
+    border-top: none;
+    padding: 20px
+}
+.headtitle h2{
+    margin: 0px;
+    font-size: 20px;
+}
+
+.headtitle hr{
+    margin-top: 10px;
+}
+.nav-tabs>li>a {
+    margin-right: 0px;
+    border-radius: 0px;
+}
+li.active {
+    border-top: 2px #e91919 solid;
+}
+.basic {
+    margin-bottom: 30px;
+}
+li.title {
+    padding-top: 5px;
+    font-size: 22px;
+    padding-right: 10px;
+}
+.billing {
+    margin-bottom: 30px;
+}
+.additem {
+    padding: 0px 15px;
+    margin-top: 20px;
+}
+.orderitems{
+    margin-top: 30px;
+}
+.ear label{
+    display: block;
+}

@@ -11,5 +11,5 @@ export class AppointmentsService {
     console.log('inside getAppoinments service');
     return this.http.get(this.config.apiUrl).map((response:Response) => response.json());
   }
-
+ 
 }
