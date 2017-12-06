@@ -1,0 +1,63 @@
+.audiometryhead h1{
+    font-size:22px;
+}
+.audiometrycon
+{
+    background-color: white;
+}
+hr
+{
+    margin-top: 0px;
+}
+.btnsub
+{
+    text-align: center;
+    background-color: rgb(213, 213, 213);
+    padding: 24px;
+}
+.btn_class
+{
+    padding: 19px;
+}
+.dataitem
+{
+    padding: 12px;
+}
+.hz
+{
+    text-align: center;
+    background-color: #dcdcdc52;
+    margin-top: 25px;
+}
+.hz1
+{
+    text-align: center;
+    background-color:gainsboro;
+    margin-top: 25px;
+}
+.typetext
+{
+    padding-left: 0px;
+}
+.acear
+{
+    width: 100%;
+}
+.archeck
+{
+  width: 100%;  
+}
+.hzitem
+{
+float: right;
+width: 14%;
+}
+.earrow
+{
+    
+}
+.eaitem
+{
+    float: left;
+    width: 14%;
+}

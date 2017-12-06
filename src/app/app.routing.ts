@@ -16,6 +16,22 @@ import { NewOrderComponent } from './new-order/new-order.component';
 import { NewpaymentComponent } from './newpayment/newpayment.component';
 import {NewproductComponent} from './newproduct/newproduct.component';
 import { NewTrailComponent } from './new-trail/new-trail.component';
+import { BeraComponent} from './audiometrylist/bera/bera.component';
+import { BriefhistoryComponent} from './audiometrylist/briefhistory/briefhistory.component';
+import { EftComponent } from './audiometrylist/eft/eft.component';
+import {ImaComponent} from './audiometrylist/ima/ima.component';
+import {OaeComponent} from './audiometrylist/oae/oae.component';
+import {ProvisionalComponent} from './audiometrylist/provisional/provisional.component'
+import {RdtComponent} from './audiometrylist/rdt/rdt.component';
+import {SfaComponent} from './audiometrylist/sfa/sfa.component';
+import {SisiComponent} from './audiometrylist/sisi/sisi.component';
+import {SpaComponent} from './audiometrylist/spa/spa.component'
+import { TdtComponent } from './audiometrylist/tdt/tdt.component';
+import { TteComponent } from './audiometrylist/tte/tte.component';
+import {RecommendationsComponent} from './audiometrylist/recommendations/recommendations.component'
+import {RinneComponent} from './audiometrylist/rinne/rinne.component';
+import {WeberComponent} from './audiometrylist/weber/weber.component';
+import {NewaudiometryComponent} from './audiometrylist/newaudiometry/newaudiometry.component'
 
 const appRoutes : Routes = [
     {path:'',component:ComponentsIndexComponent},
@@ -34,8 +50,23 @@ const appRoutes : Routes = [
     {path:'neworder',component:NewOrderComponent},
     {path:'newpayment',component:NewpaymentComponent},
     {path:'newproduct',component:NewproductComponent},
-    {path:'newtrail',component:NewTrailComponent}
-    
+    {path:'newtrail',component:NewTrailComponent},
+    {path:'bera', component:BeraComponent},
+    {path:'brief', component:BriefhistoryComponent},
+    {path:'eft', component:EftComponent},
+    {path:'ima', component:ImaComponent},
+    {path:'oae', component:OaeComponent},
+    {path:'provisional', component:ProvisionalComponent},
+    {path:'rdt', component:RdtComponent},
+    {path:'sfa', component:SfaComponent},
+    {path:'sisi', component:SisiComponent},
+    {path:'spa', component:SpaComponent},
+    {path:'tdt', component:TdtComponent},
+    {path:'tte', component:TteComponent},
+    {path:'recommendations', component:RecommendationsComponent},
+    {path:'rinne', component:RinneComponent},
+    {path:'weber', component:WeberComponent},
+    {path:'newaudiometry', component:NewaudiometryComponent},
 ];
 
 export const routing = RouterModule.forRoot(appRoutes); 
