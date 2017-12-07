@@ -2,7 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpModule} from '@angular/http';
 import { FormsModule } from '@angular/forms';
-import {AudiometrylistModule} from './audiometrylist/audiometrylist.module'
+import { AudiometrylistModule } from './audiometrylist/audiometrylist.module'
+import { UserdashboardModule } from './userdashboard/userdashboard.module';
 import { AppComponent } from './app.component';
 import { CustomerDashboardComponent } from './customer-dashboard/customer-dashboard.component';
 import { CalendarComponent } from './calendar/calendar.component';
@@ -72,7 +73,8 @@ import { Appconfig } from './app.config';
     FormsModule,
     ReactiveFormsModule,
     HttpModule,
-    AudiometrylistModule
+    AudiometrylistModule,
+    UserdashboardModule
   ],
   providers: [AppointmentsService, Appconfig],
   bootstrap: [AppComponent]

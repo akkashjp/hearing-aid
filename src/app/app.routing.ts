@@ -31,7 +31,8 @@ import { TteComponent } from './audiometrylist/tte/tte.component';
 import {RecommendationsComponent} from './audiometrylist/recommendations/recommendations.component'
 import {RinneComponent} from './audiometrylist/rinne/rinne.component';
 import {WeberComponent} from './audiometrylist/weber/weber.component';
-import {NewaudiometryComponent} from './audiometrylist/newaudiometry/newaudiometry.component'
+import {NewaudiometryComponent} from './audiometrylist/newaudiometry/newaudiometry.component';
+import {UserdashboardComponent} from './userdashboard/userdashboard.component'; 
 
 const appRoutes : Routes = [
     {path:'',component:ComponentsIndexComponent},
@@ -67,6 +68,7 @@ const appRoutes : Routes = [
     {path:'rinne', component:RinneComponent},
     {path:'weber', component:WeberComponent},
     {path:'newaudiometry', component:NewaudiometryComponent},
+    {path:'userdashboard',component:UserdashboardComponent}
 ];
 
 export const routing = RouterModule.forRoot(appRoutes); 
