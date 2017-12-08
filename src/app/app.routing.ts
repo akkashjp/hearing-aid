@@ -7,6 +7,7 @@ import { NewmouldComponent } from './newmould/newmould.component';
 import { ComponentsIndexComponent } from './components-index/components-index.component';
 import { EodtallyComponent } from './eodtally/eodtally.component';
 import { NewOrderComponent } from './new-order/new-order.component';
+import { NewcasehistorydetailComponent } from './newcasehistorydetail/newcasehistorydetail.component';
 
 const appRoutes : Routes = [
     {path:'',component:ComponentsIndexComponent},
@@ -18,7 +19,8 @@ const appRoutes : Routes = [
     {path:'newmould',component:NewmouldComponent},
 
     {path:'eodtally',component:EodtallyComponent},
-    {path:'neworder',component:NewOrderComponent}
+    {path:'neworder',component:NewOrderComponent},
+    {path:'newcasehistorydetail',component:NewcasehistorydetailComponent}
     
 ];
 
