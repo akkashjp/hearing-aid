@@ -61,3 +61,24 @@ width: 14%;
     float: left;
     width: 14%;
 }
+.inptxt
+{
+    padding-right: 0px;
+    margin-top: 10px;
+}
+.fileditem
+{
+    padding-left: 0px;
+}
+.earac
+{
+    margin-top: 13px;
+}
+.radio
+{
+    margin-top: 0px!important;
+}
+.mydata
+{
+    margin-top: 37px;
+}

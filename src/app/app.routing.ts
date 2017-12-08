@@ -13,6 +13,7 @@ import { NewcasehistoryComponent } from './newcasehistory/newcasehistory.compone
 import { NewmouldComponent } from './newmould/newmould.component';
 import { ComponentsIndexComponent } from './components-index/components-index.component';
 import { NewOrderComponent } from './new-order/new-order.component';
+import { NewcasehistorydetailComponent } from './newcasehistorydetail/newcasehistorydetail.component';
 import { NewpaymentComponent } from './newpayment/newpayment.component';
 import {NewproductComponent} from './newproduct/newproduct.component';
 import { NewTrailComponent } from './new-trail/new-trail.component';
@@ -31,8 +32,9 @@ import { TteComponent } from './audiometrylist/tte/tte.component';
 import {RecommendationsComponent} from './audiometrylist/recommendations/recommendations.component'
 import {RinneComponent} from './audiometrylist/rinne/rinne.component';
 import {WeberComponent} from './audiometrylist/weber/weber.component';
-import {NewaudiometryComponent} from './audiometrylist/newaudiometry/newaudiometry.component';
 import {UserdashboardComponent} from './userdashboard/userdashboard.component'; 
+import {NewaudiometryComponent} from './audiometrylist/newaudiometry/newaudiometry.component'
+
 
 const appRoutes : Routes = [
     {path:'',component:ComponentsIndexComponent},
@@ -40,7 +42,7 @@ const appRoutes : Routes = [
     {path:'login',component:LoginComponent},
     {path:'customer',component:CustomerComponent},
     {path:'eodtally', component:EodtallyComponent},
-    {path:'newent', component:NewentComponent},
+    {path:'newent', component:NewentComponent}, 
     {path:'newcompany', component:NewcompanyComponent},
     {path:'newmodel', component:NewmodelComponent},
     {path:'newappointment', component:NewappointmentComponent},
@@ -48,6 +50,8 @@ const appRoutes : Routes = [
     {path:'newcash', component: NewcashComponent},
     {path:'newcasehistory',component:NewcasehistoryComponent},
     {path:'newmould',component:NewmouldComponent},
+    {path:'eodtally',component:EodtallyComponent},    
+    {path:'newcasehistorydetail',component:NewcasehistorydetailComponent},    
     {path:'neworder',component:NewOrderComponent},
     {path:'newpayment',component:NewpaymentComponent},
     {path:'newproduct',component:NewproductComponent},
@@ -69,6 +73,7 @@ const appRoutes : Routes = [
     {path:'weber', component:WeberComponent},
     {path:'newaudiometry', component:NewaudiometryComponent},
     {path:'userdashboard',component:UserdashboardComponent}
+
 ];
 
 export const routing = RouterModule.forRoot(appRoutes); 
