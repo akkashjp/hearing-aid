@@ -6,6 +6,7 @@ import { AwaitingComponent } from './awaiting/awaiting.component';
 import { StockComponent } from './stock/stock.component';
 import { VendorshipmentComponent } from './vendorshipment/vendorshipment.component';
 import { SalesComponent } from './sales/sales.component';
+import { CashflowReceivedComponent } from './cashflow-received/cashflow-received.component';
 
 @NgModule({
   imports: [
@@ -17,7 +18,8 @@ import { SalesComponent } from './sales/sales.component';
     StockComponent, 
     VendorshipmentComponent, 
     SalesComponent,
-    UserdashboardComponent
+    UserdashboardComponent,
+    CashflowReceivedComponent
   ],
   bootstrap:[UserdashboardComponent]
 })

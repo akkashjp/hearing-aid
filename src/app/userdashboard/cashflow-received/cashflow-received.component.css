@@ -1,27 +1,4 @@
 
-.contAppoint li{
-    list-style-type: none;
-}
-.btn-default {
-    color: white;
-    background-color:brown;
-    border-color:white;
-}
-
-.wrapper{
-    background-color: #eeeeee;
-    padding: 15px;
-    min-height: 370px;
-}
-h3{
-    font-size: 18px;
-    margin-top: 0px;
-    margin-bottom: 20px;
-}
-li{
-    list-style: none;
-    margin-bottom: 5px;
-}
 
 .table-fixed thead {
     width: 97%;

@@ -4,7 +4,7 @@ import {Observable} from 'rxjs/Observable';
 import 'rxjs/add/operator/startWith';
 import 'rxjs/add/observable/merge';
 import 'rxjs/add/operator/map';
-import { AppointmentsService } from '../services/appointments.service';
+import { CustomerDashboardService } from '../services/customerdashboard.service';
 
 @Component({
   selector: 'app-appointments',
@@ -13,17 +13,8 @@ import { AppointmentsService } from '../services/appointments.service';
 })
 export class AppointmentsComponent implements OnInit {
 
-  appointments =[{'#':1,"date":"12-12-1994",
-  'type':'Hearing Aid Enquiry',
- 'audiologist':'chandana ongolo',
-'status':'HA ordered'},
-{'#':2,"date":"12-12-1994",
-'type':'Hearing Aid Enquiry',
-'audiologist':'chandana ongolo',
-'status':''}];
-
 appoinmentsData:any = [];
-  constructor( private appointmentService : AppointmentsService) { }
+  constructor( private  customerDashboardService : CustomerDashboardService) { }
 
   ngOnInit() {
 
@@ -32,7 +23,7 @@ appoinmentsData:any = [];
   }
   private getAppoinments(){
     console.log('inside getAppoinments');
-    this.appointmentService.getAppoinments().subscribe(
+    this.customerDashboardService.getAppoinments().subscribe(
       appoinments=>{ 
         this.appoinmentsData = appoinments;
         console.log('inside getAPpoinments function Data',this.appoinmentsData);

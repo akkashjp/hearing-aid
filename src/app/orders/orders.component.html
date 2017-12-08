@@ -5,10 +5,11 @@
   <button type="button" class="btn btn-primary btn-blue">New Trial</button>
   <button type="button" class="btn btn-primary btn-blue">New Mould</button>
   
-  <table class="table table-responsive">
+  <table *ngIf="orderData" class="table table-responsive">
     <thead>
       <tr>
         <th>#</th>
+        <th>Type</th>
         <th>Items</th>
         <th>Order-Date</th>
         <th>Amount</th>
@@ -18,12 +19,13 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td>1</td>
-        <td><small><p>startKey Mini Series 2</p><p class="hilight">12321312: 2yrs warrenty</p></small></td>
-        <td>2012-02-23</td>
-        <td>20,000</td>
-        <td><div class="linebreak"><small>(2012-04-21)<i class="fa fa-inr" aria-hidden="true">12000</i></small></div><br><div>paidTotal:    <i class="fa fa-inr" aria-hidden="true">12000</i> </div></td>
+      <tr *ngFor="let item of orderData, index as i">
+        <td>{{i+0}}</td>
+        <td>{{item.OrderType}}</td>
+        <td><small><p>{{item.Items}}</p><p class="hilight">12321312: 2yrs warrenty</p></small></td>
+        <td>{{item.OrderDate}}</td>
+        <td>{{item.AmountTotal}}</td>
+        <td><div class="linebreak"><small>{{item.PaidDateTime}}<i class="fa fa-inr" aria-hidden="true">{{item.PaidAmount}}</i></small></div><br><div>paidTotal:    <i class="fa fa-inr" aria-hidden="true">{{item.AmountTotal}}</i> </div></td>
         <td><div class="balancebtnlist"><li><i class="fa fa-inr" aria-hidden="true">0</i><i class="fa fa-check green" aria-hidden="true"></i></li>
         <li> <button type="button" class="btn btn-default btn-lightgreen">print invoice</button></li>
         

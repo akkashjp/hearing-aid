@@ -13,7 +13,7 @@ import { AppointmentsComponent } from './appointments/appointments.component';
 import { WarrentiesComponent } from './warrenties/warrenties.component';
 import { OrdersComponent } from './orders/orders.component';
 import { DiagnosticsComponent } from './diagnostics/diagnostics.component';
-import { AppointmentsService } from './services//appointments.service';
+import { CustomerDashboardService } from './services/customerdashboard.service';
 
 import { routing } from './app.routing';
 import { LoginComponent } from './login/login.component';
@@ -76,7 +76,7 @@ import { Appconfig } from './app.config';
     AudiometrylistModule,
     UserdashboardModule
   ],
-  providers: [AppointmentsService, Appconfig],
+  providers: [CustomerDashboardService, Appconfig],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
