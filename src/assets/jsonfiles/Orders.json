@@ -1,0 +1,35 @@
+[
+    {
+        "OrderType": "H",
+        "Items": "Power One Battery",
+        "Ear": "1.5",
+        "OrderDate": "2017-11-11",
+        "AmountTotal": "10000",
+        "PaidDateTime": "2017-11-10",
+        "PaidAmount": "10000",
+        "Delvcustid": "2",
+        "OrderNumber": "1"
+    },
+    {
+        "OrderType": "M",
+        "Items": "BTE Hard Canal",
+        "Ear": "2.5",
+        "OrderDate": "2017-12-11",
+        "AmountTotal": "4900",
+        "PaidDateTime": "2017-12-11",
+        "PaidAmount": "4500",
+        "Delvcustid": "10",
+        "OrderNumber": "2"
+    },
+    {
+        "OrderType": "s",
+        "Items": "Starkey Wax",
+        "Ear": "1.5",
+        "OrderDate": "2017-10-10",
+        "AmountTotal": "70000",
+        "PaidDateTime": "2017-10-12",
+        "PaidAmount": "2017-08-04 00:00:00",
+        "Delvcustid": "70000",
+        "OrderNumber": "3"
+    }
+]

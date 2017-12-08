@@ -1,0 +1,24 @@
+[
+{
+"OrderNumber": "ASTR-CHEN-000-001-9484",
+"Status": "N",
+"Date": "04/06/2015 12:00:00",
+"Items": "System.Byte[]",
+"DelvCustId": "ASTR-CHEN-000-5527",
+"AmountTotal": "0",
+"InvCustomerName": "app_test app_test",
+"InvCustomerAddress": "Aa, aa",
+"InvCustomerPhone": "234234"
+},
+{
+"OrderNumber": "ASTR-CHEN-000-001-9485",
+"Status": "S",
+"Date": "04/06/2015 12:00:00",
+"Items": "System.Byte[]",
+"DelvCustId": "ASTR-CHEN-000-5527",
+"AmountTotal": "0",
+"InvCustomerName": "app_test app_test",
+"InvCustomerAddress": "Aa, aa",
+"InvCustomerPhone": "234234"
+}
+]

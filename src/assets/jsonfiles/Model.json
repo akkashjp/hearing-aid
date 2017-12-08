@@ -1,0 +1,4942 @@
+[
+{
+"ProductID": "ASTR000001",
+"ID": 1,
+"ModelNumber": "ASTR000001000001",
+"CompModelNumber": "4532255220",
+"ModelName": "Bravo B1",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000001",
+"ID": 4,
+"ModelNumber": "ASTR000001000004",
+"CompModelNumber": "28966666",
+"ModelName": "Bravo B2",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000001",
+"ID": 7,
+"ModelNumber": "ASTR000001000007",
+"CompModelNumber": "24552202",
+"ModelName": "Bravo B2X",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000001",
+"ID": 10,
+"ModelNumber": "ASTR000001000010",
+"CompModelNumber": "24625565",
+"ModelName": "Bravissimo BV-8",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000001",
+"ID": 17,
+"ModelNumber": "ASTR000001000017",
+"CompModelNumber": "1222215",
+"ModelName": "Real RE-9",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000001",
+"ID": 22,
+"ModelNumber": "ASTR000001000022",
+"CompModelNumber": "215322",
+"ModelName": "Flash FL-9",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000001",
+"ID": 30,
+"ModelNumber": "ASTR000001000030",
+"CompModelNumber": "455221",
+"ModelName": "Aikia AK-9",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000001",
+"ID": 39,
+"ModelNumber": "ASTR000001000039",
+"CompModelNumber": "15655",
+"ModelName": "Inteo IN-9",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000001",
+"ID": 49,
+"ModelNumber": "ASTR000001000049",
+"CompModelNumber": "1546656565",
+"ModelName": "Mind M4-9",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000002",
+"ID": 2,
+"ModelNumber": "ASTR000002000002",
+"CompModelNumber": "2563255622",
+"ModelName": "Bravo B11",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000002",
+"ID": 5,
+"ModelNumber": "ASTR000002000005",
+"CompModelNumber": "2253222",
+"ModelName": "Bravo B12",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000002",
+"ID": 12,
+"ModelNumber": "ASTR000002000012",
+"CompModelNumber": "25562555225",
+"ModelName": "Bravissimo BV-18",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000002",
+"ID": 18,
+"ModelNumber": "ASTR000002000018",
+"CompModelNumber": "25230222",
+"ModelName": "Real RE-19",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000002",
+"ID": 24,
+"ModelNumber": "ASTR000002000024",
+"CompModelNumber": "4521555",
+"ModelName": "Flash FL-19",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000002",
+"ID": 32,
+"ModelNumber": "ASTR000002000032",
+"CompModelNumber": "14521455",
+"ModelName": "Aikia AK-19",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000002",
+"ID": 41,
+"ModelNumber": "ASTR000002000041",
+"CompModelNumber": "215265",
+"ModelName": "Inteo IN-19",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000002",
+"ID": 51,
+"ModelNumber": "ASTR000002000051",
+"CompModelNumber": "445445",
+"ModelName": "Mind M4-19",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000003",
+"ID": 3,
+"ModelNumber": "ASTR000003000003",
+"CompModelNumber": "25653265",
+"ModelName": "Bravo B1X",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000003",
+"ID": 14,
+"ModelNumber": "ASTR000003000014",
+"CompModelNumber": "56322152",
+"ModelName": "Bravissimo BV-X",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000003",
+"ID": 20,
+"ModelNumber": "ASTR000003000020",
+"CompModelNumber": "5524445",
+"ModelName": "Real RE-X",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000003",
+"ID": 26,
+"ModelNumber": "ASTR000003000026",
+"CompModelNumber": "5565",
+"ModelName": "Flash FL-X",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000003",
+"ID": 34,
+"ModelNumber": "ASTR000003000034",
+"CompModelNumber": "2556232",
+"ModelName": "Aikia AK-X",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000003",
+"ID": 43,
+"ModelNumber": "ASTR000003000043",
+"CompModelNumber": "53225",
+"ModelName": "Inteo IN-X",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000003",
+"ID": 53,
+"ModelNumber": "ASTR000003000053",
+"CompModelNumber": "154636",
+"ModelName": "Mind M4-X",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000003",
+"ID": 154,
+"ModelNumber": "ASTR000003000154",
+"CompModelNumber": "",
+"ModelName": "Bravo 1",
+"ReorderLimit": 5,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000003",
+"ID": 304,
+"ModelNumber": "ASTR000003000304",
+"CompModelNumber": "",
+"ModelName": "Dream440",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000004",
+"ID": 6,
+"ModelNumber": "ASTR000004000006",
+"CompModelNumber": "1563366",
+"ModelName": "Bravo B32",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000004",
+"ID": 13,
+"ModelNumber": "ASTR000004000013",
+"CompModelNumber": "35545545554",
+"ModelName": "Bravissimo BV-38",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000004",
+"ID": 57,
+"ModelNumber": "ASTR000004000057",
+"CompModelNumber": "215455",
+"ModelName": "Bravo B-32",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000004",
+"ID": 58,
+"ModelNumber": "ASTR000004000058",
+"CompModelNumber": "1562565",
+"ModelName": "Senso Vita SV-38",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000005",
+"ID": 8,
+"ModelNumber": "ASTR000005000008",
+"CompModelNumber": "522152221",
+"ModelName": "Bravo BXP",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000005",
+"ID": 15,
+"ModelNumber": "ASTR000005000015",
+"CompModelNumber": "55666655",
+"ModelName": "Bravissimo BV-XP",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000005",
+"ID": 27,
+"ModelNumber": "ASTR000005000027",
+"CompModelNumber": "545623",
+"ModelName": "Flash FL-XP",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000005",
+"ID": 44,
+"ModelNumber": "ASTR000005000044",
+"CompModelNumber": "15522115",
+"ModelName": "Inteo IN-XP",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000005",
+"ID": 495,
+"ModelNumber": "ASTR000005000495",
+"CompModelNumber": "",
+"ModelName": "Unique U 440",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000006",
+"ID": 9,
+"ModelNumber": "ASTR000006000009",
+"CompModelNumber": "354353",
+"ModelName": "Bravo B2-CIC",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000006",
+"ID": 16,
+"ModelNumber": "ASTR000006000016",
+"CompModelNumber": "4555555",
+"ModelName": "Bravissimo BV-CIC",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000006",
+"ID": 21,
+"ModelNumber": "ASTR000006000021",
+"CompModelNumber": "5556222",
+"ModelName": "Real RE-CIC",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000006",
+"ID": 28,
+"ModelNumber": "ASTR000006000028",
+"CompModelNumber": "555252",
+"ModelName": "Flash FL-CIC",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000006",
+"ID": 35,
+"ModelNumber": "ASTR000006000035",
+"CompModelNumber": "459252",
+"ModelName": "Aikia AK-CIC",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000006",
+"ID": 45,
+"ModelNumber": "ASTR000006000045",
+"CompModelNumber": "15425",
+"ModelName": "Inteo IN-CIC",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000006",
+"ID": 54,
+"ModelNumber": "ASTR000006000054",
+"CompModelNumber": "562255",
+"ModelName": "Mind M4-CIC",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000006",
+"ID": 149,
+"ModelNumber": "ASTR000006000149",
+"CompModelNumber": "123456",
+"ModelName": "B1",
+"ReorderLimit": 5,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000006",
+"ID": 300,
+"ModelNumber": "ASTR000006000300",
+"CompModelNumber": "",
+"ModelName": "Clear 440",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000006",
+"ID": 301,
+"ModelNumber": "ASTR000006000301",
+"CompModelNumber": "",
+"ModelName": "Dream 440",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000007",
+"ID": 11,
+"ModelNumber": "ASTR000007000011",
+"CompModelNumber": "1452212154",
+"ModelName": "Bravissimo BV-8e",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000007",
+"ID": 23,
+"ModelNumber": "ASTR000007000023",
+"CompModelNumber": "565322",
+"ModelName": "Flash FL-9e",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000007",
+"ID": 31,
+"ModelNumber": "ASTR000007000031",
+"CompModelNumber": "15522221",
+"ModelName": "Aikia AK 9e",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000007",
+"ID": 40,
+"ModelNumber": "ASTR000007000040",
+"CompModelNumber": "24665",
+"ModelName": "Inteo elan IN-9e",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000008",
+"ID": 19,
+"ModelNumber": "ASTR000008000019",
+"CompModelNumber": "4545455",
+"ModelName": "Real RE-Micro",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000008",
+"ID": 25,
+"ModelNumber": "ASTR000008000025",
+"CompModelNumber": "54555",
+"ModelName": "Flash FL-Micro",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000008",
+"ID": 33,
+"ModelNumber": "ASTR000008000033",
+"CompModelNumber": "53226522",
+"ModelName": "Aikia AK-Micro",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000008",
+"ID": 42,
+"ModelNumber": "ASTR000008000042",
+"CompModelNumber": "25225522",
+"ModelName": "Inteo IN-Micro",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000008",
+"ID": 52,
+"ModelNumber": "ASTR000008000052",
+"CompModelNumber": "5486525",
+"ModelName": "Mind M4-Micro",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000009",
+"ID": 29,
+"ModelNumber": "ASTR000009000029",
+"CompModelNumber": "22255",
+"ModelName": "Passion PA105",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000009",
+"ID": 36,
+"ModelNumber": "ASTR000009000036",
+"CompModelNumber": "25622",
+"ModelName": "Passion PA 110",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000009",
+"ID": 46,
+"ModelNumber": "ASTR000009000046",
+"CompModelNumber": "1546255",
+"ModelName": "Passion PA 115",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000010",
+"ID": 37,
+"ModelNumber": "ASTR000010000037",
+"CompModelNumber": "15322",
+"ModelName": "Aikia RC3  Remote Control",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000010",
+"ID": 47,
+"ModelNumber": "ASTR000010000047",
+"CompModelNumber": "554653236",
+"ModelName": "Inteo RC3 Remote Control",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000011",
+"ID": 38,
+"ModelNumber": "ASTR000011000038",
+"CompModelNumber": "2625502",
+"ModelName": "Aikia RC3 Remote Control",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000011",
+"ID": 48,
+"ModelNumber": "ASTR000011000048",
+"CompModelNumber": "152325",
+"ModelName": "Inteo RC3 Remote Comtrol",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000012",
+"ID": 55,
+"ModelNumber": "ASTR000012000055",
+"CompModelNumber": "2458666",
+"ModelName": "Mind RC4 Remote Control",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000013",
+"ID": 56,
+"ModelNumber": "ASTR000013000056",
+"CompModelNumber": "1245215",
+"ModelName": "Mind RC4 Remote Control",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000014",
+"ID": 50,
+"ModelNumber": "ASTR000014000050",
+"CompModelNumber": "2154562",
+"ModelName": "Mind M4-9e",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 59,
+"ModelNumber": "ASTR000015000059",
+"CompModelNumber": "1421454",
+"ModelName": "S Series 11",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 60,
+"ModelNumber": "ASTR000015000060",
+"CompModelNumber": "145554",
+"ModelName": "S Series 7",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 61,
+"ModelNumber": "ASTR000015000061",
+"CompModelNumber": "255555",
+"ModelName": "S Series 5",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 62,
+"ModelNumber": "ASTR000015000062",
+"CompModelNumber": "5454554",
+"ModelName": "S Series 9",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 87,
+"ModelNumber": "ASTR000015000087",
+"CompModelNumber": "5555",
+"ModelName": "e Series 3",
+"ReorderLimit": 2,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 98,
+"ModelNumber": "ASTR000015000098",
+"CompModelNumber": "48214555",
+"ModelName": "e Series 2",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 108,
+"ModelNumber": "ASTR000015000108",
+"CompModelNumber": "864654",
+"ModelName": "Destiny",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 116,
+"ModelNumber": "ASTR000015000116",
+"CompModelNumber": "1526565",
+"ModelName": "Destiny 1200",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 117,
+"ModelNumber": "ASTR000015000117",
+"CompModelNumber": "54155123",
+"ModelName": "Destiny 1200 Power Plus",
+"ReorderLimit": 2,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 125,
+"ModelNumber": "ASTR000015000125",
+"CompModelNumber": "42455556",
+"ModelName": "Destiny 800",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 126,
+"ModelNumber": "ASTR000015000126",
+"CompModelNumber": "1562656",
+"ModelName": "Destiny 800 Power Plus",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 134,
+"ModelNumber": "ASTR000015000134",
+"CompModelNumber": "45322256",
+"ModelName": "Destiny 400",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 139,
+"ModelNumber": "ASTR000015000139",
+"CompModelNumber": "1452225",
+"ModelName": "Destiny 200",
+"ReorderLimit": 2,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 143,
+"ModelNumber": "ASTR000015000143",
+"CompModelNumber": "4563566",
+"ModelName": "DP7+",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 144,
+"ModelNumber": "ASTR000015000144",
+"CompModelNumber": "256255",
+"ModelName": "DP7",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 145,
+"ModelNumber": "ASTR000015000145",
+"CompModelNumber": "452222215",
+"ModelName": "DP8",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 146,
+"ModelNumber": "ASTR000015000146",
+"CompModelNumber": "52552",
+"ModelName": "B13 DX",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 197,
+"ModelNumber": "ASTR000015000197",
+"CompModelNumber": "",
+"ModelName": "SM-Vega K-2000PT",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 1
+},
+{
+"ProductID": "ASTR000015",
+"ID": 202,
+"ModelNumber": "ASTR000015000202",
+"CompModelNumber": "",
+"ModelName": "Vega 2000 k",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 239,
+"ModelNumber": "ASTR000015000239",
+"CompModelNumber": "",
+"ModelName": "Ignite 30",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 248,
+"ModelNumber": "ASTR000015000248",
+"CompModelNumber": "",
+"ModelName": "Ignite 20",
+"ReorderLimit": 2,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 259,
+"ModelNumber": "ASTR000015000259",
+"CompModelNumber": "",
+"ModelName": "X Series 90",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 270,
+"ModelNumber": "ASTR000015000270",
+"CompModelNumber": "",
+"ModelName": "X Series 70",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 280,
+"ModelNumber": "ASTR000015000280",
+"CompModelNumber": "",
+"ModelName": "X Series 110",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 285,
+"ModelNumber": "ASTR000015000285",
+"CompModelNumber": "",
+"ModelName": "Aries Pro",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 287,
+"ModelNumber": "ASTR000015000287",
+"CompModelNumber": "",
+"ModelName": "Aries",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 307,
+"ModelNumber": "ASTR000015000307",
+"CompModelNumber": "",
+"ModelName": "3 Series 110",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 334,
+"ModelNumber": "ASTR000015000334",
+"CompModelNumber": "",
+"ModelName": "K2000DHP",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 346,
+"ModelNumber": "ASTR000015000346",
+"CompModelNumber": "",
+"ModelName": "3 Series 30",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 367,
+"ModelNumber": "ASTR000015000367",
+"CompModelNumber": "",
+"ModelName": "3 Series 70",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 372,
+"ModelNumber": "ASTR000015000372",
+"CompModelNumber": "",
+"ModelName": "3 Series 20",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 378,
+"ModelNumber": "ASTR000015000378",
+"CompModelNumber": "",
+"ModelName": "3 Series i30",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 394,
+"ModelNumber": "ASTR000015000394",
+"CompModelNumber": "",
+"ModelName": "DAVINCI PSP",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 403,
+"ModelNumber": "ASTR000015000403",
+"CompModelNumber": "Aries PP+",
+"ModelName": "Aries PP+",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 418,
+"ModelNumber": "ASTR000015000418",
+"CompModelNumber": "",
+"ModelName": "3 Series i90",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000015",
+"ID": 420,
+"ModelNumber": "ASTR000015000420",
+"CompModelNumber": "",
+"ModelName": "Muse 1000",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000015",
+"ID": 426,
+"ModelNumber": "ASTR000015000426",
+"CompModelNumber": "",
+"ModelName": "Muse 1200",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000015",
+"ID": 432,
+"ModelNumber": "ASTR000015000432",
+"CompModelNumber": "",
+"ModelName": "Muse 1600",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000015",
+"ID": 438,
+"ModelNumber": "ASTR000015000438",
+"CompModelNumber": "",
+"ModelName": "Muse 2000",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000015",
+"ID": 444,
+"ModelNumber": "ASTR000015000444",
+"CompModelNumber": "",
+"ModelName": "Muse 2400",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000015",
+"ID": 450,
+"ModelNumber": "ASTR000015000450",
+"CompModelNumber": "",
+"ModelName": "Muse i1000",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000015",
+"ID": 451,
+"ModelNumber": "ASTR000015000451",
+"CompModelNumber": "",
+"ModelName": "Muse  i1200",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000015",
+"ID": 452,
+"ModelNumber": "ASTR000015000452",
+"CompModelNumber": "",
+"ModelName": "muse i16000",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000015",
+"ID": 453,
+"ModelNumber": "ASTR000015000453",
+"CompModelNumber": "",
+"ModelName": "Muse i2000",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000015",
+"ID": 454,
+"ModelNumber": "ASTR000015000454",
+"CompModelNumber": "",
+"ModelName": "Muse i2400",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000015",
+"ID": 499,
+"ModelNumber": "ASTR000015000499",
+"CompModelNumber": "",
+"ModelName": "Axio 6 BTE",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000016",
+"ID": 63,
+"ModelNumber": "ASTR000016000063",
+"CompModelNumber": "5453255",
+"ModelName": "S Series 11",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000016",
+"ID": 69,
+"ModelNumber": "ASTR000016000069",
+"CompModelNumber": "4556556",
+"ModelName": "S Series 9",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000016",
+"ID": 75,
+"ModelNumber": "ASTR000016000075",
+"CompModelNumber": "1556255",
+"ModelName": "S Series 7",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000016",
+"ID": 81,
+"ModelNumber": "ASTR000016000081",
+"CompModelNumber": "5565555",
+"ModelName": "S Series 5",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000016",
+"ID": 88,
+"ModelNumber": "ASTR000016000088",
+"CompModelNumber": "2153222",
+"ModelName": "e Series 3",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000016",
+"ID": 94,
+"ModelNumber": "ASTR000016000094",
+"CompModelNumber": "524555",
+"ModelName": "e Series 2",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000016",
+"ID": 105,
+"ModelNumber": "ASTR000016000105",
+"CompModelNumber": "5562252",
+"ModelName": "Destiny 1600",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000016",
+"ID": 113,
+"ModelNumber": "ASTR000016000113",
+"CompModelNumber": "44554555",
+"ModelName": "Destiny 1200",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000016",
+"ID": 122,
+"ModelNumber": "ASTR000016000122",
+"CompModelNumber": "43255",
+"ModelName": "Destiny 800",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000016",
+"ID": 131,
+"ModelNumber": "ASTR000016000131",
+"CompModelNumber": "452565",
+"ModelName": "Destiny 400",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000016",
+"ID": 137,
+"ModelNumber": "ASTR000016000137",
+"CompModelNumber": "155555",
+"ModelName": "Destiny 200",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000016",
+"ID": 489,
+"ModelNumber": "ASTR000016000489",
+"CompModelNumber": "",
+"ModelName": "Ignite 20",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 64,
+"ModelNumber": "ASTR000017000064",
+"CompModelNumber": "5632565",
+"ModelName": "S Series 11",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 70,
+"ModelNumber": "ASTR000017000070",
+"CompModelNumber": "54655555",
+"ModelName": "S Series 9",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 76,
+"ModelNumber": "ASTR000017000076",
+"CompModelNumber": "4786655",
+"ModelName": "S Series 7",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 82,
+"ModelNumber": "ASTR000017000082",
+"CompModelNumber": "255255",
+"ModelName": "S Series 5",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 89,
+"ModelNumber": "ASTR000017000089",
+"CompModelNumber": "545555",
+"ModelName": "e Series 3",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 95,
+"ModelNumber": "ASTR000017000095",
+"CompModelNumber": "45555",
+"ModelName": "e Series 2",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 107,
+"ModelNumber": "ASTR000017000107",
+"CompModelNumber": "58316325",
+"ModelName": "Destiny 1600",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 115,
+"ModelNumber": "ASTR000017000115",
+"CompModelNumber": "453225",
+"ModelName": "Destiny 1200",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 124,
+"ModelNumber": "ASTR000017000124",
+"CompModelNumber": "15551455",
+"ModelName": "Destiny 800",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 133,
+"ModelNumber": "ASTR000017000133",
+"CompModelNumber": "2153565",
+"ModelName": "Destiny 400",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 136,
+"ModelNumber": "ASTR000017000136",
+"CompModelNumber": "152212",
+"ModelName": "Destiny 200",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 190,
+"ModelNumber": "ASTR000017000190",
+"CompModelNumber": "",
+"ModelName": "Mesa",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 244,
+"ModelNumber": "ASTR000017000244",
+"CompModelNumber": "",
+"ModelName": "X Series 110",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 283,
+"ModelNumber": "ASTR000017000283",
+"CompModelNumber": "",
+"ModelName": "S7 IQ",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 284,
+"ModelNumber": "ASTR000017000284",
+"CompModelNumber": "",
+"ModelName": "S9 IQ ITC",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 291,
+"ModelNumber": "ASTR000017000291",
+"CompModelNumber": "",
+"ModelName": "Ignite 30",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 294,
+"ModelNumber": "ASTR000017000294",
+"CompModelNumber": "",
+"ModelName": "X Series 70",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 295,
+"ModelNumber": "ASTR000017000295",
+"CompModelNumber": "",
+"ModelName": "Ignite 20",
+"ReorderLimit": 2,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 296,
+"ModelNumber": "ASTR000017000296",
+"CompModelNumber": "",
+"ModelName": "WI Series I110",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 337,
+"ModelNumber": "ASTR000017000337",
+"CompModelNumber": "",
+"ModelName": "Aries",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 362,
+"ModelNumber": "ASTR000017000362",
+"CompModelNumber": "",
+"ModelName": "3 Series 70",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 363,
+"ModelNumber": "ASTR000017000363",
+"CompModelNumber": "",
+"ModelName": "3 Series 30",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 368,
+"ModelNumber": "ASTR000017000368",
+"CompModelNumber": "",
+"ModelName": "3 Series 20",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 422,
+"ModelNumber": "ASTR000017000422",
+"CompModelNumber": "",
+"ModelName": "Muse 1000",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 427,
+"ModelNumber": "ASTR000017000427",
+"CompModelNumber": "",
+"ModelName": "Muse 1200",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 433,
+"ModelNumber": "ASTR000017000433",
+"CompModelNumber": "",
+"ModelName": "Muse 1600",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 439,
+"ModelNumber": "ASTR000017000439",
+"CompModelNumber": "",
+"ModelName": "Muse 2000",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 445,
+"ModelNumber": "ASTR000017000445",
+"CompModelNumber": "",
+"ModelName": "Muse 2400",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 455,
+"ModelNumber": "ASTR000017000455",
+"CompModelNumber": "",
+"ModelName": "Muse i1000",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 456,
+"ModelNumber": "ASTR000017000456",
+"CompModelNumber": "",
+"ModelName": "Muse i1200",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 457,
+"ModelNumber": "ASTR000017000457",
+"CompModelNumber": "",
+"ModelName": "Muse i1600",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 458,
+"ModelNumber": "ASTR000017000458",
+"CompModelNumber": "",
+"ModelName": "Muse i2000",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000017",
+"ID": 459,
+"ModelNumber": "ASTR000017000459",
+"CompModelNumber": "",
+"ModelName": "Muse i2400",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000018",
+"ID": 65,
+"ModelNumber": "ASTR000018000065",
+"CompModelNumber": "4555",
+"ModelName": "S Series 11",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000018",
+"ID": 71,
+"ModelNumber": "ASTR000018000071",
+"CompModelNumber": "66555655",
+"ModelName": "S Series 9",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000018",
+"ID": 77,
+"ModelNumber": "ASTR000018000077",
+"CompModelNumber": "2545522",
+"ModelName": "S Series 7",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000018",
+"ID": 83,
+"ModelNumber": "ASTR000018000083",
+"CompModelNumber": "25565",
+"ModelName": "S Series 5",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000018",
+"ID": 90,
+"ModelNumber": "ASTR000018000090",
+"CompModelNumber": "5562155",
+"ModelName": "e Series 3",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000018",
+"ID": 96,
+"ModelNumber": "ASTR000018000096",
+"CompModelNumber": "2555625",
+"ModelName": "e Series 2",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000018",
+"ID": 104,
+"ModelNumber": "ASTR000018000104",
+"CompModelNumber": "54522532",
+"ModelName": "Destiny 1600",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000018",
+"ID": 112,
+"ModelNumber": "ASTR000018000112",
+"CompModelNumber": "2652555",
+"ModelName": "Destiny 1200",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000018",
+"ID": 121,
+"ModelNumber": "ASTR000018000121",
+"CompModelNumber": "215256",
+"ModelName": "Destiny 800",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000018",
+"ID": 130,
+"ModelNumber": "ASTR000018000130",
+"CompModelNumber": "42454",
+"ModelName": "Destiny 400",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000018",
+"ID": 135,
+"ModelNumber": "ASTR000018000135",
+"CompModelNumber": "5203622",
+"ModelName": "Destiny 200",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000018",
+"ID": 218,
+"ModelNumber": "ASTR000018000218",
+"CompModelNumber": "",
+"ModelName": "S Series 7 IQ",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000018",
+"ID": 223,
+"ModelNumber": "ASTR000018000223",
+"CompModelNumber": "",
+"ModelName": "S Series 11 IQ",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000018",
+"ID": 231,
+"ModelNumber": "ASTR000018000231",
+"CompModelNumber": "",
+"ModelName": "X series 70",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000018",
+"ID": 234,
+"ModelNumber": "ASTR000018000234",
+"CompModelNumber": "",
+"ModelName": "Ignite 30",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000018",
+"ID": 241,
+"ModelNumber": "ASTR000018000241",
+"CompModelNumber": "",
+"ModelName": "X series 110",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000018",
+"ID": 256,
+"ModelNumber": "ASTR000018000256",
+"CompModelNumber": "",
+"ModelName": "Ignite 20",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000018",
+"ID": 292,
+"ModelNumber": "ASTR000018000292",
+"CompModelNumber": "",
+"ModelName": "X Series 90",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000018",
+"ID": 313,
+"ModelNumber": "ASTR000018000313",
+"CompModelNumber": "",
+"ModelName": "3 Series 90",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000018",
+"ID": 314,
+"ModelNumber": "ASTR000018000314",
+"CompModelNumber": "",
+"ModelName": "3 Series 70",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000018",
+"ID": 329,
+"ModelNumber": "ASTR000018000329",
+"CompModelNumber": "",
+"ModelName": "3 Series 110",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000018",
+"ID": 336,
+"ModelNumber": "ASTR000018000336",
+"CompModelNumber": "",
+"ModelName": "Aeries",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000018",
+"ID": 340,
+"ModelNumber": "ASTR000018000340",
+"CompModelNumber": "",
+"ModelName": "3 Series 20",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000018",
+"ID": 345,
+"ModelNumber": "ASTR000018000345",
+"CompModelNumber": "",
+"ModelName": "3series 30",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000018",
+"ID": 402,
+"ModelNumber": "ASTR000018000402",
+"CompModelNumber": "Zseriesi110",
+"ModelName": "Z Series i110",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000018",
+"ID": 406,
+"ModelNumber": "ASTR000018000406",
+"CompModelNumber": "Zseriesi30",
+"ModelName": "Z Series i30",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000018",
+"ID": 410,
+"ModelNumber": "ASTR000018000410",
+"CompModelNumber": "",
+"ModelName": "Z Series i90",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000018",
+"ID": 421,
+"ModelNumber": "ASTR000018000421",
+"CompModelNumber": "",
+"ModelName": "Muse 1000",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000018",
+"ID": 428,
+"ModelNumber": "ASTR000018000428",
+"CompModelNumber": "",
+"ModelName": "Muse 1200",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000018",
+"ID": 434,
+"ModelNumber": "ASTR000018000434",
+"CompModelNumber": "",
+"ModelName": "Muse 1600",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000018",
+"ID": 440,
+"ModelNumber": "ASTR000018000440",
+"CompModelNumber": "",
+"ModelName": "Muse 2000",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000018",
+"ID": 446,
+"ModelNumber": "ASTR000018000446",
+"CompModelNumber": "",
+"ModelName": "Muse 2400",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000018",
+"ID": 460,
+"ModelNumber": "ASTR000018000460",
+"CompModelNumber": "",
+"ModelName": "Muse i1000",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000018",
+"ID": 461,
+"ModelNumber": "ASTR000018000461",
+"CompModelNumber": "",
+"ModelName": "Muse i1200",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000018",
+"ID": 462,
+"ModelNumber": "ASTR000018000462",
+"CompModelNumber": "",
+"ModelName": "Muse i1600",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000018",
+"ID": 463,
+"ModelNumber": "ASTR000018000463",
+"CompModelNumber": "",
+"ModelName": "Muse i2000",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000018",
+"ID": 464,
+"ModelNumber": "ASTR000018000464",
+"CompModelNumber": "",
+"ModelName": "Muse i2400",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000019",
+"ID": 66,
+"ModelNumber": "ASTR000019000066",
+"CompModelNumber": "25565",
+"ModelName": "S Series 11",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000019",
+"ID": 72,
+"ModelNumber": "ASTR000019000072",
+"CompModelNumber": "252254",
+"ModelName": "S Series 9",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000019",
+"ID": 78,
+"ModelNumber": "ASTR000019000078",
+"CompModelNumber": "55665",
+"ModelName": "S Series 7",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000019",
+"ID": 84,
+"ModelNumber": "ASTR000019000084",
+"CompModelNumber": "5455655",
+"ModelName": "S Series 5",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000019",
+"ID": 91,
+"ModelNumber": "ASTR000019000091",
+"CompModelNumber": "48555555",
+"ModelName": "e Series 3",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000019",
+"ID": 97,
+"ModelNumber": "ASTR000019000097",
+"CompModelNumber": "455555",
+"ModelName": "e Series 2",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000019",
+"ID": 101,
+"ModelNumber": "ASTR000019000101",
+"CompModelNumber": "12532522",
+"ModelName": "Destiny 1600",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000019",
+"ID": 109,
+"ModelNumber": "ASTR000019000109",
+"CompModelNumber": "6516313",
+"ModelName": "Destiny 1200",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000019",
+"ID": 118,
+"ModelNumber": "ASTR000019000118",
+"CompModelNumber": "562555",
+"ModelName": "Destiny 800",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000019",
+"ID": 128,
+"ModelNumber": "ASTR000019000128",
+"CompModelNumber": "21565",
+"ModelName": "Destiny 400",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000019",
+"ID": 245,
+"ModelNumber": "ASTR000019000245",
+"CompModelNumber": "",
+"ModelName": "Ignite 30",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000019",
+"ID": 258,
+"ModelNumber": "ASTR000019000258",
+"CompModelNumber": "",
+"ModelName": "X Series 70",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000019",
+"ID": 269,
+"ModelNumber": "ASTR000019000269",
+"CompModelNumber": "",
+"ModelName": "Ignite 20",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000019",
+"ID": 318,
+"ModelNumber": "ASTR000019000318",
+"CompModelNumber": "",
+"ModelName": "3 Series i110",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000019",
+"ID": 321,
+"ModelNumber": "ASTR000019000321",
+"CompModelNumber": "",
+"ModelName": "3 Series70",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000019",
+"ID": 323,
+"ModelNumber": "ASTR000019000323",
+"CompModelNumber": "",
+"ModelName": "3 Series 90",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000019",
+"ID": 335,
+"ModelNumber": "ASTR000019000335",
+"CompModelNumber": "",
+"ModelName": "3 Series 110",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000019",
+"ID": 338,
+"ModelNumber": "ASTR000019000338",
+"CompModelNumber": "",
+"ModelName": "Aeries",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000019",
+"ID": 344,
+"ModelNumber": "ASTR000019000344",
+"CompModelNumber": "",
+"ModelName": "3 Series 30",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000019",
+"ID": 354,
+"ModelNumber": "ASTR000019000354",
+"CompModelNumber": "",
+"ModelName": "3 Series 20",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000019",
+"ID": 365,
+"ModelNumber": "ASTR000019000365",
+"CompModelNumber": "",
+"ModelName": "3 Series i30",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000019",
+"ID": 405,
+"ModelNumber": "ASTR000019000405",
+"CompModelNumber": "Zseriesi30",
+"ModelName": "Z Series i30",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000019",
+"ID": 408,
+"ModelNumber": "ASTR000019000408",
+"CompModelNumber": "",
+"ModelName": "Z Series i90",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000019",
+"ID": 409,
+"ModelNumber": "ASTR000019000409",
+"CompModelNumber": "",
+"ModelName": "Z Series i110",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000019",
+"ID": 423,
+"ModelNumber": "ASTR000019000423",
+"CompModelNumber": "",
+"ModelName": "Muse 1000",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000019",
+"ID": 429,
+"ModelNumber": "ASTR000019000429",
+"CompModelNumber": "",
+"ModelName": "Muse 1200",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000019",
+"ID": 435,
+"ModelNumber": "ASTR000019000435",
+"CompModelNumber": "",
+"ModelName": "Muse 1600",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000019",
+"ID": 441,
+"ModelNumber": "ASTR000019000441",
+"CompModelNumber": "",
+"ModelName": "Muse 2000",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000019",
+"ID": 447,
+"ModelNumber": "ASTR000019000447",
+"CompModelNumber": "",
+"ModelName": "Muse 2400",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000019",
+"ID": 465,
+"ModelNumber": "ASTR000019000465",
+"CompModelNumber": "",
+"ModelName": "Muse i1000",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000019",
+"ID": 466,
+"ModelNumber": "ASTR000019000466",
+"CompModelNumber": "",
+"ModelName": "Muse i1200",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000019",
+"ID": 467,
+"ModelNumber": "ASTR000019000467",
+"CompModelNumber": "",
+"ModelName": "Muse i1600",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000019",
+"ID": 468,
+"ModelNumber": "ASTR000019000468",
+"CompModelNumber": "",
+"ModelName": "Muse i2000",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000019",
+"ID": 469,
+"ModelNumber": "ASTR000019000469",
+"CompModelNumber": "",
+"ModelName": "Muse i2400",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000021",
+"ID": 68,
+"ModelNumber": "ASTR000021000068",
+"CompModelNumber": "S series 11",
+"ModelName": "S Series 11",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000021",
+"ID": 74,
+"ModelNumber": "ASTR000021000074",
+"CompModelNumber": "4555555",
+"ModelName": "S Series 9",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000021",
+"ID": 80,
+"ModelNumber": "ASTR000021000080",
+"CompModelNumber": "555555",
+"ModelName": "S Series 7",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000021",
+"ID": 86,
+"ModelNumber": "ASTR000021000086",
+"CompModelNumber": "45554455",
+"ModelName": "S Series 5",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000021",
+"ID": 93,
+"ModelNumber": "ASTR000021000093",
+"CompModelNumber": "25656665",
+"ModelName": "e Series 3",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000021",
+"ID": 267,
+"ModelNumber": "ASTR000021000267",
+"CompModelNumber": "",
+"ModelName": "Ignite 30",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000021",
+"ID": 308,
+"ModelNumber": "ASTR000021000308",
+"CompModelNumber": "",
+"ModelName": "3 Series 110",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000021",
+"ID": 330,
+"ModelNumber": "ASTR000021000330",
+"CompModelNumber": "",
+"ModelName": "3 Series 30",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000021",
+"ID": 349,
+"ModelNumber": "ASTR000021000349",
+"CompModelNumber": "",
+"ModelName": "Halo",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000021",
+"ID": 351,
+"ModelNumber": "ASTR000021000351",
+"CompModelNumber": "",
+"ModelName": "Ignite 20",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000021",
+"ID": 359,
+"ModelNumber": "ASTR000021000359",
+"CompModelNumber": "",
+"ModelName": "3 Series 20",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000021",
+"ID": 404,
+"ModelNumber": "ASTR000021000404",
+"CompModelNumber": "Zseriesi110",
+"ModelName": "Z Series i110",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000022",
+"ID": 99,
+"ModelNumber": "ASTR000022000099",
+"CompModelNumber": "1522565",
+"ModelName": "e Series 2",
+"ReorderLimit": 6,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000022",
+"ID": 141,
+"ModelNumber": "ASTR000022000141",
+"CompModelNumber": "868655556",
+"ModelName": "Destiny 200",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000022",
+"ID": 163,
+"ModelNumber": "ASTR000022000163",
+"CompModelNumber": "",
+"ModelName": "E series 3",
+"ReorderLimit": 2,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000022",
+"ID": 268,
+"ModelNumber": "ASTR000022000268",
+"CompModelNumber": "",
+"ModelName": "S series 5",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000022",
+"ID": 271,
+"ModelNumber": "ASTR000022000271",
+"CompModelNumber": "",
+"ModelName": "X Series 70",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000022",
+"ID": 278,
+"ModelNumber": "ASTR000022000278",
+"CompModelNumber": "",
+"ModelName": "Ignite 30",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000022",
+"ID": 353,
+"ModelNumber": "ASTR000022000353",
+"CompModelNumber": "",
+"ModelName": "3 Series 30",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000022",
+"ID": 356,
+"ModelNumber": "ASTR000022000356",
+"CompModelNumber": "",
+"ModelName": "3 Series 90 Mini",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000022",
+"ID": 360,
+"ModelNumber": "ASTR000022000360",
+"CompModelNumber": "",
+"ModelName": "3 Series I110",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000022",
+"ID": 361,
+"ModelNumber": "ASTR000022000361",
+"CompModelNumber": "",
+"ModelName": "3 Series 20",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000023",
+"ID": 100,
+"ModelNumber": "ASTR000023000100",
+"CompModelNumber": "4655656",
+"ModelName": "e Series 2",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000023",
+"ID": 140,
+"ModelNumber": "ASTR000023000140",
+"CompModelNumber": "21555565",
+"ModelName": "Destiny 200",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000023",
+"ID": 160,
+"ModelNumber": "ASTR000023000160",
+"CompModelNumber": "",
+"ModelName": "Destiny 800 PP",
+"ReorderLimit": 2,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000023",
+"ID": 164,
+"ModelNumber": "ASTR000023000164",
+"CompModelNumber": "",
+"ModelName": "Davinci PXP",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000023",
+"ID": 233,
+"ModelNumber": "ASTR000023000233",
+"CompModelNumber": "",
+"ModelName": "Ignite 20",
+"ReorderLimit": 2,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000023",
+"ID": 235,
+"ModelNumber": "ASTR000023000235",
+"CompModelNumber": "",
+"ModelName": "Ignite 30",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000023",
+"ID": 252,
+"ModelNumber": "ASTR000023000252",
+"CompModelNumber": "",
+"ModelName": "X Series 110",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000023",
+"ID": 255,
+"ModelNumber": "ASTR000023000255",
+"CompModelNumber": "",
+"ModelName": "X Series 90",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000023",
+"ID": 281,
+"ModelNumber": "ASTR000023000281",
+"CompModelNumber": "",
+"ModelName": "Dp8",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000023",
+"ID": 293,
+"ModelNumber": "ASTR000023000293",
+"CompModelNumber": "",
+"ModelName": "X Series 70",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000023",
+"ID": 341,
+"ModelNumber": "ASTR000023000341",
+"CompModelNumber": "",
+"ModelName": "Aries Pro 675",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000023",
+"ID": 352,
+"ModelNumber": "ASTR000023000352",
+"CompModelNumber": "",
+"ModelName": "3 Series 30",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000023",
+"ID": 355,
+"ModelNumber": "ASTR000023000355",
+"CompModelNumber": "",
+"ModelName": "Aeries 675",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000023",
+"ID": 357,
+"ModelNumber": "ASTR000023000357",
+"CompModelNumber": "",
+"ModelName": "3 Series 110",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000023",
+"ID": 374,
+"ModelNumber": "ASTR000023000374",
+"CompModelNumber": "",
+"ModelName": "3 Series 70",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000023",
+"ID": 375,
+"ModelNumber": "ASTR000023000375",
+"CompModelNumber": "",
+"ModelName": "3 Series 90",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000023",
+"ID": 376,
+"ModelNumber": "ASTR000023000376",
+"CompModelNumber": "",
+"ModelName": "3 Series i70",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000023",
+"ID": 380,
+"ModelNumber": "ASTR000023000380",
+"CompModelNumber": "",
+"ModelName": "3 Series 20",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000023",
+"ID": 397,
+"ModelNumber": "ASTR000023000397",
+"CompModelNumber": "",
+"ModelName": "Destiny 1200",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000023",
+"ID": 398,
+"ModelNumber": "ASTR000023000398",
+"CompModelNumber": "",
+"ModelName": "Aries Pro Plus",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000023",
+"ID": 407,
+"ModelNumber": "ASTR000023000407",
+"CompModelNumber": "Zseriesi110",
+"ModelName": "Z Series i110",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000023",
+"ID": 493,
+"ModelNumber": "ASTR000023000493",
+"CompModelNumber": "",
+"ModelName": "Z Series i70",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000023",
+"ID": 494,
+"ModelNumber": "ASTR000023000494",
+"CompModelNumber": "",
+"ModelName": "Z Series i90",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000023",
+"ID": 501,
+"ModelNumber": "ASTR000023000501",
+"CompModelNumber": "",
+"ModelName": "K2000 SSP",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000024",
+"ID": 67,
+"ModelNumber": "ASTR000024000067",
+"CompModelNumber": "145255",
+"ModelName": "S Series 11",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000024",
+"ID": 73,
+"ModelNumber": "ASTR000024000073",
+"CompModelNumber": "4865545",
+"ModelName": "S Series 9",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000024",
+"ID": 79,
+"ModelNumber": "ASTR000024000079",
+"CompModelNumber": "454555",
+"ModelName": "S Series 7",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000024",
+"ID": 85,
+"ModelNumber": "ASTR000024000085",
+"CompModelNumber": "2153225",
+"ModelName": "S Series 5",
+"ReorderLimit": 4,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000024",
+"ID": 92,
+"ModelNumber": "ASTR000024000092",
+"CompModelNumber": "21522",
+"ModelName": "e Series 3",
+"ReorderLimit": 6,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000024",
+"ID": 203,
+"ModelNumber": "ASTR000024000203",
+"CompModelNumber": "",
+"ModelName": "S Series 11 IQ",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000024",
+"ID": 205,
+"ModelNumber": "ASTR000024000205",
+"CompModelNumber": "",
+"ModelName": "S Series 7 IQ",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000024",
+"ID": 209,
+"ModelNumber": "ASTR000024000209",
+"CompModelNumber": "",
+"ModelName": "S Series 9 IQ",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000024",
+"ID": 236,
+"ModelNumber": "ASTR000024000236",
+"CompModelNumber": "",
+"ModelName": "X series 90",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000024",
+"ID": 240,
+"ModelNumber": "ASTR000024000240",
+"CompModelNumber": "",
+"ModelName": "X Series 90",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000024",
+"ID": 249,
+"ModelNumber": "ASTR000024000249",
+"CompModelNumber": "",
+"ModelName": "X Series 70",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000024",
+"ID": 260,
+"ModelNumber": "ASTR000024000260",
+"CompModelNumber": "",
+"ModelName": "Ignite 30",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000024",
+"ID": 261,
+"ModelNumber": "ASTR000024000261",
+"CompModelNumber": "",
+"ModelName": "Ignite 20",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000024",
+"ID": 286,
+"ModelNumber": "ASTR000024000286",
+"CompModelNumber": "",
+"ModelName": "X Series 110",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000024",
+"ID": 302,
+"ModelNumber": "ASTR000024000302",
+"CompModelNumber": "",
+"ModelName": "3 Series 20",
+"ReorderLimit": 5,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000024",
+"ID": 305,
+"ModelNumber": "ASTR000024000305",
+"CompModelNumber": "",
+"ModelName": "3 Series 30",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000024",
+"ID": 306,
+"ModelNumber": "ASTR000024000306",
+"CompModelNumber": "",
+"ModelName": "3 Series 110",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000024",
+"ID": 316,
+"ModelNumber": "ASTR000024000316",
+"CompModelNumber": "",
+"ModelName": "3 Series i110",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000024",
+"ID": 332,
+"ModelNumber": "ASTR000024000332",
+"CompModelNumber": "",
+"ModelName": "3 Series 70",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000024",
+"ID": 348,
+"ModelNumber": "ASTR000024000348",
+"CompModelNumber": "",
+"ModelName": "Halo",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000024",
+"ID": 373,
+"ModelNumber": "ASTR000024000373",
+"CompModelNumber": "",
+"ModelName": "3 Series 90",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000024",
+"ID": 412,
+"ModelNumber": "ASTR000024000412",
+"CompModelNumber": "",
+"ModelName": "Z Series i110 ",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000024",
+"ID": 417,
+"ModelNumber": "ASTR000024000417",
+"CompModelNumber": "",
+"ModelName": "Z Series i70",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000024",
+"ID": 419,
+"ModelNumber": "ASTR000024000419",
+"CompModelNumber": "",
+"ModelName": "zon.3",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000024",
+"ID": 425,
+"ModelNumber": "ASTR000024000425",
+"CompModelNumber": "",
+"ModelName": "Muse 1000",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000024",
+"ID": 430,
+"ModelNumber": "ASTR000024000430",
+"CompModelNumber": "",
+"ModelName": "Muse 1200",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000024",
+"ID": 436,
+"ModelNumber": "ASTR000024000436",
+"CompModelNumber": "",
+"ModelName": "Muse 1600",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000024",
+"ID": 442,
+"ModelNumber": "ASTR000024000442",
+"CompModelNumber": "",
+"ModelName": "Muse 2000",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000024",
+"ID": 448,
+"ModelNumber": "ASTR000024000448",
+"CompModelNumber": "",
+"ModelName": "Muse 2400",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000024",
+"ID": 470,
+"ModelNumber": "ASTR000024000470",
+"CompModelNumber": "",
+"ModelName": "Muse i1000",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000024",
+"ID": 471,
+"ModelNumber": "ASTR000024000471",
+"CompModelNumber": "",
+"ModelName": "Muse i1200",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000024",
+"ID": 472,
+"ModelNumber": "ASTR000024000472",
+"CompModelNumber": "",
+"ModelName": "Muse i1600",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000024",
+"ID": 473,
+"ModelNumber": "ASTR000024000473",
+"CompModelNumber": "",
+"ModelName": "Muse i2000",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000024",
+"ID": 474,
+"ModelNumber": "ASTR000024000474",
+"CompModelNumber": "",
+"ModelName": "Muse i2400",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000025",
+"ID": 106,
+"ModelNumber": "ASTR000025000106",
+"CompModelNumber": "48625565655",
+"ModelName": "Destiny 1600",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000025",
+"ID": 114,
+"ModelNumber": "ASTR000025000114",
+"CompModelNumber": "245562",
+"ModelName": "Destiny 1200",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000025",
+"ID": 123,
+"ModelNumber": "ASTR000025000123",
+"CompModelNumber": "5453225",
+"ModelName": "Destiny 800",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000025",
+"ID": 132,
+"ModelNumber": "ASTR000025000132",
+"CompModelNumber": "1256322",
+"ModelName": "Destiny 400",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000025",
+"ID": 138,
+"ModelNumber": "ASTR000025000138",
+"CompModelNumber": "4522555",
+"ModelName": "Destiny 200",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000026",
+"ID": 102,
+"ModelNumber": "ASTR000026000102",
+"CompModelNumber": "14565255",
+"ModelName": "Destiny 1600",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000026",
+"ID": 110,
+"ModelNumber": "ASTR000026000110",
+"CompModelNumber": "48625899",
+"ModelName": "Destiny 1200",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000026",
+"ID": 119,
+"ModelNumber": "ASTR000026000119",
+"CompModelNumber": "286256",
+"ModelName": "Destiny 800",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000026",
+"ID": 127,
+"ModelNumber": "ASTR000026000127",
+"CompModelNumber": "54555",
+"ModelName": "Destiny 400",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000026",
+"ID": 172,
+"ModelNumber": "ASTR000026000172",
+"CompModelNumber": "",
+"ModelName": "E Series 3",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000026",
+"ID": 201,
+"ModelNumber": "ASTR000026000201",
+"CompModelNumber": "",
+"ModelName": "S Series 5",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000026",
+"ID": 228,
+"ModelNumber": "ASTR000026000228",
+"CompModelNumber": "",
+"ModelName": "E series 2",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000026",
+"ID": 229,
+"ModelNumber": "ASTR000026000229",
+"CompModelNumber": "",
+"ModelName": "X Series 90",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000026",
+"ID": 232,
+"ModelNumber": "ASTR000026000232",
+"CompModelNumber": "",
+"ModelName": "S Series 9",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000026",
+"ID": 237,
+"ModelNumber": "ASTR000026000237",
+"CompModelNumber": "",
+"ModelName": "IGNITE 20",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000026",
+"ID": 242,
+"ModelNumber": "ASTR000026000242",
+"CompModelNumber": "",
+"ModelName": "Ignite 30",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000026",
+"ID": 275,
+"ModelNumber": "ASTR000026000275",
+"CompModelNumber": "",
+"ModelName": "X Series 70",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000026",
+"ID": 282,
+"ModelNumber": "ASTR000026000282",
+"CompModelNumber": "",
+"ModelName": "X110",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000026",
+"ID": 319,
+"ModelNumber": "ASTR000026000319",
+"CompModelNumber": "",
+"ModelName": "3 Series 70",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000026",
+"ID": 320,
+"ModelNumber": "ASTR000026000320",
+"CompModelNumber": "",
+"ModelName": "3 Series i70",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000026",
+"ID": 324,
+"ModelNumber": "ASTR000026000324",
+"CompModelNumber": "",
+"ModelName": "3Series i70",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000026",
+"ID": 342,
+"ModelNumber": "ASTR000026000342",
+"CompModelNumber": "",
+"ModelName": "3 Series i110",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000026",
+"ID": 358,
+"ModelNumber": "ASTR000026000358",
+"CompModelNumber": "",
+"ModelName": "3 Series 110",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000026",
+"ID": 364,
+"ModelNumber": "ASTR000026000364",
+"CompModelNumber": "",
+"ModelName": "3 Series 30",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000026",
+"ID": 392,
+"ModelNumber": "ASTR000026000392",
+"CompModelNumber": "",
+"ModelName": "3 Series 20",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000026",
+"ID": 393,
+"ModelNumber": "ASTR000026000393",
+"CompModelNumber": "",
+"ModelName": "Aries ",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000026",
+"ID": 399,
+"ModelNumber": "ASTR000026000399",
+"CompModelNumber": "",
+"ModelName": "3 series i90",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000026",
+"ID": 400,
+"ModelNumber": "ASTR000026000400",
+"CompModelNumber": "Zseriesi90",
+"ModelName": "Z series i90",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000026",
+"ID": 411,
+"ModelNumber": "ASTR000026000411",
+"CompModelNumber": "",
+"ModelName": "Z Series i110",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000026",
+"ID": 424,
+"ModelNumber": "ASTR000026000424",
+"CompModelNumber": "",
+"ModelName": "Muse 1000",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000026",
+"ID": 431,
+"ModelNumber": "ASTR000026000431",
+"CompModelNumber": "",
+"ModelName": "Muse 1200",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000026",
+"ID": 437,
+"ModelNumber": "ASTR000026000437",
+"CompModelNumber": "",
+"ModelName": "Muse 1600",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000026",
+"ID": 443,
+"ModelNumber": "ASTR000026000443",
+"CompModelNumber": "",
+"ModelName": "Muse 2000",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000026",
+"ID": 449,
+"ModelNumber": "ASTR000026000449",
+"CompModelNumber": "",
+"ModelName": "Muse 2400",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000026",
+"ID": 475,
+"ModelNumber": "ASTR000026000475",
+"CompModelNumber": "",
+"ModelName": "Muse i1000",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000026",
+"ID": 476,
+"ModelNumber": "ASTR000026000476",
+"CompModelNumber": "",
+"ModelName": "Muse i1200",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000026",
+"ID": 477,
+"ModelNumber": "ASTR000026000477",
+"CompModelNumber": "",
+"ModelName": "Muse i1600",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000026",
+"ID": 478,
+"ModelNumber": "ASTR000026000478",
+"CompModelNumber": "",
+"ModelName": "Muse i2000",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000026",
+"ID": 479,
+"ModelNumber": "ASTR000026000479",
+"CompModelNumber": "",
+"ModelName": "Muse i2400",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000027",
+"ID": 103,
+"ModelNumber": "ASTR000027000103",
+"CompModelNumber": "452055",
+"ModelName": "Destiny 1600",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000027",
+"ID": 111,
+"ModelNumber": "ASTR000027000111",
+"CompModelNumber": "48325556",
+"ModelName": "Destiny 1200",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000027",
+"ID": 120,
+"ModelNumber": "ASTR000027000120",
+"CompModelNumber": "548555665",
+"ModelName": "Destiny 800",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000027",
+"ID": 129,
+"ModelNumber": "ASTR000027000129",
+"CompModelNumber": "5465232",
+"ModelName": "Destiny 400",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000028",
+"ID": 142,
+"ModelNumber": "ASTR000028000142",
+"CompModelNumber": "154525",
+"ModelName": "Da Vin PxP Precision",
+"ReorderLimit": 10,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000029",
+"ID": 297,
+"ModelNumber": "ASTR000029000297",
+"CompModelNumber": "",
+"ModelName": "Hook",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000030",
+"ID": 155,
+"ModelNumber": "ASTR000030000155",
+"CompModelNumber": "",
+"ModelName": "Tango Pro P",
+"ReorderLimit": 2,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000030",
+"ID": 165,
+"ModelNumber": "ASTR000030000165",
+"CompModelNumber": "",
+"ModelName": "Tango Pro SP",
+"ReorderLimit": 2,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000030",
+"ID": 166,
+"ModelNumber": "ASTR000030000166",
+"CompModelNumber": "",
+"ModelName": "Tango 2SP",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000030",
+"ID": 171,
+"ModelNumber": "ASTR000030000171",
+"CompModelNumber": "",
+"ModelName": "2P",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000030",
+"ID": 176,
+"ModelNumber": "ASTR000030000176",
+"CompModelNumber": "",
+"ModelName": "Tango 3sp",
+"ReorderLimit": 1,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000030",
+"ID": 185,
+"ModelNumber": "ASTR000030000185",
+"CompModelNumber": "",
+"ModelName": "Tango 2s",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000031",
+"ID": 156,
+"ModelNumber": "ASTR000031000156",
+"CompModelNumber": "",
+"ModelName": "Size 675",
+"ReorderLimit": 120,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000031",
+"ID": 157,
+"ModelNumber": "ASTR000031000157",
+"CompModelNumber": "",
+"ModelName": "Size 13",
+"ReorderLimit": 240,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000031",
+"ID": 158,
+"ModelNumber": "ASTR000031000158",
+"CompModelNumber": "",
+"ModelName": "Size 312",
+"ReorderLimit": 300,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000031",
+"ID": 159,
+"ModelNumber": "ASTR000031000159",
+"CompModelNumber": "",
+"ModelName": "Size 10",
+"ReorderLimit": 300,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000032",
+"ID": 161,
+"ModelNumber": "ASTR000032000161",
+"CompModelNumber": "",
+"ModelName": "MA2 70",
+"ReorderLimit": 1,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000032",
+"ID": 162,
+"ModelNumber": "ASTR000032000162",
+"CompModelNumber": "",
+"ModelName": "MA2 80",
+"ReorderLimit": 1,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000032",
+"ID": 168,
+"ModelNumber": "ASTR000032000168",
+"CompModelNumber": "",
+"ModelName": "Viking",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000032",
+"ID": 224,
+"ModelNumber": "ASTR000032000224",
+"CompModelNumber": "",
+"ModelName": "Trimflex",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000032",
+"ID": 322,
+"ModelNumber": "ASTR000032000322",
+"CompModelNumber": "",
+"ModelName": "Dot",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000033",
+"ID": 167,
+"ModelNumber": "ASTR000033000167",
+"CompModelNumber": "",
+"ModelName": "Foam cone with thread",
+"ReorderLimit": 100,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000034",
+"ID": 169,
+"ModelNumber": "ASTR000034000169",
+"CompModelNumber": "",
+"ModelName": "S - cord",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 1
+},
+{
+"ProductID": "ASTR000034",
+"ID": 170,
+"ModelNumber": "ASTR000034000170",
+"CompModelNumber": "",
+"ModelName": "V - cord",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 1
+},
+{
+"ProductID": "ASTR000034",
+"ID": 188,
+"ModelNumber": "ASTR000034000188",
+"CompModelNumber": "",
+"ModelName": "PV-PCK",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000034",
+"ID": 253,
+"ModelNumber": "ASTR000034000253",
+"CompModelNumber": "",
+"ModelName": "Clip LPW",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000034",
+"ID": 350,
+"ModelNumber": "ASTR000034000350",
+"CompModelNumber": "",
+"ModelName": "CP3BW-PVI",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000035",
+"ID": 173,
+"ModelNumber": "ASTR000035000173",
+"CompModelNumber": "",
+"ModelName": "Shine",
+"ReorderLimit": 2,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000035",
+"ID": 303,
+"ModelNumber": "ASTR000035000303",
+"CompModelNumber": "",
+"ModelName": "Tandem4",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000035",
+"ID": 317,
+"ModelNumber": "ASTR000035000317",
+"CompModelNumber": "",
+"ModelName": "Tandem 4M Transmitter",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000036",
+"ID": 174,
+"ModelNumber": "ASTR000036000174",
+"CompModelNumber": "6",
+"ModelName": "Shine HP",
+"ReorderLimit": 2,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000036",
+"ID": 193,
+"ModelNumber": "ASTR000036000193",
+"CompModelNumber": "",
+"ModelName": "Shine + HP",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000036",
+"ID": 333,
+"ModelNumber": "ASTR000036000333",
+"CompModelNumber": "",
+"ModelName": "Next 4HP",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000036",
+"ID": 484,
+"ModelNumber": "ASTR000036000484",
+"CompModelNumber": "",
+"ModelName": "MAX 6 SP",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000037",
+"ID": 175,
+"ModelNumber": "ASTR000037000175",
+"CompModelNumber": "",
+"ModelName": "Impression material 700 gm set",
+"ReorderLimit": 1,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000038",
+"ID": 177,
+"ModelNumber": "ASTR000038000177",
+"CompModelNumber": "",
+"ModelName": "Lite 3 VC",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000038",
+"ID": 178,
+"ModelNumber": "ASTR000038000178",
+"CompModelNumber": "",
+"ModelName": "44-WR",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000038",
+"ID": 207,
+"ModelNumber": "ASTR000038000207",
+"CompModelNumber": "",
+"ModelName": "Lite 3 HP VC",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000039",
+"ID": 179,
+"ModelNumber": "ASTR000039000179",
+"CompModelNumber": "",
+"ModelName": "BTE Mic",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000039",
+"ID": 182,
+"ModelNumber": "ASTR000039000182",
+"CompModelNumber": "",
+"ModelName": "CIC Mic",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000040",
+"ID": 180,
+"ModelNumber": "ASTR000040000180",
+"CompModelNumber": "",
+"ModelName": "BTE Receiver",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000040",
+"ID": 183,
+"ModelNumber": "ASTR000040000183",
+"CompModelNumber": "",
+"ModelName": "CIC Receiver",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000040",
+"ID": 208,
+"ModelNumber": "ASTR000040000208",
+"CompModelNumber": "",
+"ModelName": "HP",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000041",
+"ID": 181,
+"ModelNumber": "ASTR000041000181",
+"CompModelNumber": "",
+"ModelName": "BTE Volume Control",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000042",
+"ID": 184,
+"ModelNumber": "ASTR000042000184",
+"CompModelNumber": "",
+"ModelName": "Oto lens",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000042",
+"ID": 204,
+"ModelNumber": "ASTR000042000204",
+"CompModelNumber": "",
+"ModelName": "S Series 9",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000042",
+"ID": 225,
+"ModelNumber": "ASTR000042000225",
+"CompModelNumber": "",
+"ModelName": "S series 7IQ IIC",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000042",
+"ID": 257,
+"ModelNumber": "ASTR000042000257",
+"CompModelNumber": "",
+"ModelName": "X Series 110",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000042",
+"ID": 276,
+"ModelNumber": "ASTR000042000276",
+"CompModelNumber": "",
+"ModelName": "X series 90",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000042",
+"ID": 277,
+"ModelNumber": "ASTR000042000277",
+"CompModelNumber": "",
+"ModelName": "X Series 70",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000042",
+"ID": 311,
+"ModelNumber": "ASTR000042000311",
+"CompModelNumber": "",
+"ModelName": "3 Series 110",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000042",
+"ID": 312,
+"ModelNumber": "ASTR000042000312",
+"CompModelNumber": "",
+"ModelName": "3 Series 90",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000042",
+"ID": 328,
+"ModelNumber": "ASTR000042000328",
+"CompModelNumber": "",
+"ModelName": "3 Series 70",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000042",
+"ID": 339,
+"ModelNumber": "ASTR000042000339",
+"CompModelNumber": "",
+"ModelName": "3 series 90",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000042",
+"ID": 379,
+"ModelNumber": "ASTR000042000379",
+"CompModelNumber": "",
+"ModelName": "S Series 11",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000042",
+"ID": 480,
+"ModelNumber": "ASTR000042000480",
+"CompModelNumber": "",
+"ModelName": "SoundLens Synergy 1600",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000042",
+"ID": 481,
+"ModelNumber": "ASTR000042000481",
+"CompModelNumber": "",
+"ModelName": "SoundLens Synergy 2000",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000042",
+"ID": 482,
+"ModelNumber": "ASTR000042000482",
+"CompModelNumber": "",
+"ModelName": "SoundLens Synergy 2400",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000042",
+"ID": 483,
+"ModelNumber": "ASTR000042000483",
+"CompModelNumber": "",
+"ModelName": "SoundLens Synergy i2400",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 4
+},
+{
+"ProductID": "ASTR000043",
+"ID": 186,
+"ModelNumber": "ASTR000043000186",
+"CompModelNumber": "",
+"ModelName": "Ear plugs",
+"ReorderLimit": 2,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000044",
+"ID": 187,
+"ModelNumber": "ASTR000044000187",
+"CompModelNumber": "",
+"ModelName": "Battery door",
+"ReorderLimit": 5,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000044",
+"ID": 216,
+"ModelNumber": "ASTR000044000216",
+"CompModelNumber": "",
+"ModelName": "Hook",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000045",
+"ID": 189,
+"ModelNumber": "ASTR000045000189",
+"CompModelNumber": "",
+"ModelName": "EDB without timer",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000046",
+"ID": 191,
+"ModelNumber": "ASTR000046000191",
+"CompModelNumber": "",
+"ModelName": "Earphone Dia 20",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000047",
+"ID": 192,
+"ModelNumber": "ASTR000047000192",
+"CompModelNumber": "",
+"ModelName": "Speed port",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000047",
+"ID": 265,
+"ModelNumber": "ASTR000047000265",
+"CompModelNumber": "",
+"ModelName": "HI PRO",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000048",
+"ID": 194,
+"ModelNumber": "ASTR000048000194",
+"CompModelNumber": "",
+"ModelName": "Amico Digit Size 13",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000049",
+"ID": 195,
+"ModelNumber": "ASTR000049000195",
+"CompModelNumber": "",
+"ModelName": "Battery door",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000049",
+"ID": 215,
+"ModelNumber": "ASTR000049000215",
+"CompModelNumber": "",
+"ModelName": "Hook",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000050",
+"ID": 196,
+"ModelNumber": "ASTR000050000196",
+"CompModelNumber": "",
+"ModelName": "Artis II P",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000051",
+"ID": 198,
+"ModelNumber": "ASTR000051000198",
+"CompModelNumber": "",
+"ModelName": "Listening Stethoscope",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000052",
+"ID": 199,
+"ModelNumber": "ASTR000052000199",
+"CompModelNumber": "",
+"ModelName": "Ear Light",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000053",
+"ID": 200,
+"ModelNumber": "ASTR000053000200",
+"CompModelNumber": "",
+"ModelName": "Huggies",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000054",
+"ID": 206,
+"ModelNumber": "ASTR000054000206",
+"CompModelNumber": "",
+"ModelName": "Impression material 400gm set",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000055",
+"ID": 210,
+"ModelNumber": "ASTR000055000210",
+"CompModelNumber": "",
+"ModelName": "Small",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000055",
+"ID": 211,
+"ModelNumber": "ASTR000055000211",
+"CompModelNumber": "",
+"ModelName": "Medium",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000055",
+"ID": 212,
+"ModelNumber": "ASTR000055000212",
+"CompModelNumber": "",
+"ModelName": "Large",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000056",
+"ID": 213,
+"ModelNumber": "ASTR000056000213",
+"CompModelNumber": "",
+"ModelName": "Blue tooth set",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000057",
+"ID": 214,
+"ModelNumber": "ASTR000057000214",
+"CompModelNumber": "",
+"ModelName": "Battery door",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000058",
+"ID": 226,
+"ModelNumber": "ASTR000058000226",
+"CompModelNumber": "",
+"ModelName": "Bte",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000059",
+"ID": 217,
+"ModelNumber": "ASTR000059000217",
+"CompModelNumber": "",
+"ModelName": "Music pro",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000061",
+"ID": 219,
+"ModelNumber": "ASTR000061000219",
+"CompModelNumber": "",
+"ModelName": "Size 675",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000061",
+"ID": 220,
+"ModelNumber": "ASTR000061000220",
+"CompModelNumber": "",
+"ModelName": "Size 13",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000061",
+"ID": 221,
+"ModelNumber": "ASTR000061000221",
+"CompModelNumber": "",
+"ModelName": "Size 312",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000061",
+"ID": 222,
+"ModelNumber": "ASTR000061000222",
+"CompModelNumber": "",
+"ModelName": "Size 10",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000062",
+"ID": 227,
+"ModelNumber": "ASTR000062000227",
+"CompModelNumber": "",
+"ModelName": "CIC",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000063",
+"ID": 230,
+"ModelNumber": "ASTR000063000230",
+"CompModelNumber": "",
+"ModelName": "Xino 110",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000063",
+"ID": 243,
+"ModelNumber": "ASTR000063000243",
+"CompModelNumber": "",
+"ModelName": "Xino 20",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000063",
+"ID": 246,
+"ModelNumber": "ASTR000063000246",
+"CompModelNumber": "",
+"ModelName": "Xino 30",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000063",
+"ID": 247,
+"ModelNumber": "ASTR000063000247",
+"CompModelNumber": "",
+"ModelName": "Xino 70",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000063",
+"ID": 254,
+"ModelNumber": "ASTR000063000254",
+"CompModelNumber": "",
+"ModelName": "X Series 90",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000063",
+"ID": 262,
+"ModelNumber": "ASTR000063000262",
+"CompModelNumber": "",
+"ModelName": "Xino 90",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000063",
+"ID": 299,
+"ModelNumber": "ASTR000063000299",
+"CompModelNumber": "",
+"ModelName": "Xino 20 Tinnitus",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000063",
+"ID": 366,
+"ModelNumber": "ASTR000063000366",
+"CompModelNumber": "",
+"ModelName": "3 Series 20",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000063",
+"ID": 414,
+"ModelNumber": "ASTR000063000414",
+"CompModelNumber": "",
+"ModelName": "Xino 30 Tinnitus",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000064",
+"ID": 238,
+"ModelNumber": "ASTR000064000238",
+"CompModelNumber": "",
+"ModelName": "Audiometer",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000065",
+"ID": 250,
+"ModelNumber": "ASTR000065000250",
+"CompModelNumber": "",
+"ModelName": "Xini 30",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000065",
+"ID": 251,
+"ModelNumber": "ASTR000065000251",
+"CompModelNumber": "",
+"ModelName": "Xino 30",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000066",
+"ID": 263,
+"ModelNumber": "ASTR000066000263",
+"CompModelNumber": "",
+"ModelName": "Tubing",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000067",
+"ID": 264,
+"ModelNumber": "ASTR000067000264",
+"CompModelNumber": "",
+"ModelName": "Naida III UP",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000067",
+"ID": 343,
+"ModelNumber": "ASTR000067000343",
+"CompModelNumber": "",
+"ModelName": "Bolero Q90 M",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000067",
+"ID": 385,
+"ModelNumber": "ASTR000067000385",
+"CompModelNumber": "",
+"ModelName": "Naida Q70 UP",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000067",
+"ID": 416,
+"ModelNumber": "ASTR000067000416",
+"CompModelNumber": "",
+"ModelName": "Naida Q30 UP",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000067",
+"ID": 486,
+"ModelNumber": "ASTR000067000486",
+"CompModelNumber": "",
+"ModelName": "Una SP",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000067",
+"ID": 491,
+"ModelNumber": "ASTR000067000491",
+"CompModelNumber": "",
+"ModelName": "Naida Q90 UP",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000068",
+"ID": 266,
+"ModelNumber": "ASTR000068000266",
+"CompModelNumber": "",
+"ModelName": "AMP",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000069",
+"ID": 272,
+"ModelNumber": "ASTR000069000272",
+"CompModelNumber": "",
+"ModelName": "Swift 70",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000070",
+"ID": 273,
+"ModelNumber": "ASTR000070000273",
+"CompModelNumber": "",
+"ModelName": "Swift 90",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000071",
+"ID": 274,
+"ModelNumber": "ASTR000071000274",
+"CompModelNumber": "",
+"ModelName": "SPRO MEGA",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000072",
+"ID": 279,
+"ModelNumber": "ASTR000072000279",
+"CompModelNumber": "",
+"ModelName": "X Series 110",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000072",
+"ID": 309,
+"ModelNumber": "ASTR000072000309",
+"CompModelNumber": "",
+"ModelName": "X Series 70",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000072",
+"ID": 347,
+"ModelNumber": "ASTR000072000347",
+"CompModelNumber": "",
+"ModelName": "3 Series 70",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000072",
+"ID": 490,
+"ModelNumber": "ASTR000072000490",
+"CompModelNumber": "",
+"ModelName": "Soundlens Synergy i2400",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000072",
+"ID": 496,
+"ModelNumber": "ASTR000072000496",
+"CompModelNumber": "",
+"ModelName": "3 series 90",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000073",
+"ID": 288,
+"ModelNumber": "ASTR000073000288",
+"CompModelNumber": "",
+"ModelName": "Quantum 20",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000074",
+"ID": 289,
+"ModelNumber": "ASTR000074000289",
+"CompModelNumber": "",
+"ModelName": "Stage BTE 273",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000074",
+"ID": 290,
+"ModelNumber": "ASTR000074000290",
+"CompModelNumber": "",
+"ModelName": "Stage BTE 283",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000075",
+"ID": 298,
+"ModelNumber": "ASTR000075000298",
+"CompModelNumber": "",
+"ModelName": "Hook",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000076",
+"ID": 310,
+"ModelNumber": "ASTR000076000310",
+"CompModelNumber": "",
+"ModelName": "Wax guard",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000077",
+"ID": 315,
+"ModelNumber": "ASTR000077000315",
+"CompModelNumber": "",
+"ModelName": "Hook",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000079",
+"ID": 325,
+"ModelNumber": "ASTR000079000325",
+"CompModelNumber": "",
+"ModelName": "Surf link",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000080",
+"ID": 326,
+"ModelNumber": "ASTR000080000326",
+"CompModelNumber": "",
+"ModelName": "DP7",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000081",
+"ID": 327,
+"ModelNumber": "ASTR000081000327",
+"CompModelNumber": "",
+"ModelName": "DP8",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000082",
+"ID": 331,
+"ModelNumber": "ASTR000082000331",
+"CompModelNumber": "",
+"ModelName": "Pocket",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000082",
+"ID": 371,
+"ModelNumber": "ASTR000082000371",
+"CompModelNumber": "",
+"ModelName": "Amiga 178PP",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000083",
+"ID": 369,
+"ModelNumber": "ASTR000083000369",
+"CompModelNumber": "",
+"ModelName": "Hook",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000084",
+"ID": 370,
+"ModelNumber": "ASTR000084000370",
+"CompModelNumber": "",
+"ModelName": "Naida Q 30 RIC",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000085",
+"ID": 377,
+"ModelNumber": "ASTR000085000377",
+"CompModelNumber": "",
+"ModelName": "Earplug",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000085",
+"ID": 415,
+"ModelNumber": "ASTR000085000415",
+"CompModelNumber": "",
+"ModelName": "Swim plug",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000085",
+"ID": 485,
+"ModelNumber": "ASTR000085000485",
+"CompModelNumber": "",
+"ModelName": "Musician Ear plug",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000085",
+"ID": 488,
+"ModelNumber": "ASTR000085000488",
+"CompModelNumber": "",
+"ModelName": "Floatable Swimmer Earplug",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000086",
+"ID": 381,
+"ModelNumber": "ASTR000086000381",
+"CompModelNumber": "",
+"ModelName": "Size 10",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000087",
+"ID": 382,
+"ModelNumber": "ASTR000087000382",
+"CompModelNumber": "",
+"ModelName": "312 Size",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000088",
+"ID": 386,
+"ModelNumber": "ASTR000088000386",
+"CompModelNumber": "",
+"ModelName": "Size 1",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000088",
+"ID": 387,
+"ModelNumber": "ASTR000088000387",
+"CompModelNumber": "",
+"ModelName": "Size 2",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000088",
+"ID": 388,
+"ModelNumber": "ASTR000088000388",
+"CompModelNumber": "",
+"ModelName": "Size 3",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000088",
+"ID": 389,
+"ModelNumber": "ASTR000088000389",
+"CompModelNumber": "",
+"ModelName": "Size 4",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000088",
+"ID": 390,
+"ModelNumber": "ASTR000088000390",
+"CompModelNumber": "",
+"ModelName": "Size 5",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000088",
+"ID": 391,
+"ModelNumber": "ASTR000088000391",
+"CompModelNumber": "",
+"ModelName": "Size 6",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000089",
+"ID": 395,
+"ModelNumber": "ASTR000089000395",
+"CompModelNumber": "",
+"ModelName": "EDB without timer",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000090",
+"ID": 396,
+"ModelNumber": "ASTR000090000396",
+"CompModelNumber": "",
+"ModelName": "Wax Guard",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000091",
+"ID": 401,
+"ModelNumber": "ASTR000091000401",
+"CompModelNumber": "",
+"ModelName": "Size 10",
+"ReorderLimit": 0,
+"WarrantyType": "N",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000092",
+"ID": 413,
+"ModelNumber": "ASTR000092000413",
+"CompModelNumber": "",
+"ModelName": "Virto Q90",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000092",
+"ID": 492,
+"ModelNumber": "ASTR000092000492",
+"CompModelNumber": "",
+"ModelName": "Certena",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000094",
+"ID": 487,
+"ModelNumber": "ASTR000094000487",
+"CompModelNumber": "",
+"ModelName": "Mic cover",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000095",
+"ID": 497,
+"ModelNumber": "ASTR000095000497",
+"CompModelNumber": "",
+"ModelName": "Size 3 ,71 db",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000095",
+"ID": 498,
+"ModelNumber": "ASTR000095000498",
+"CompModelNumber": "",
+"ModelName": "size 3,50 db",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+},
+{
+"ProductID": "ASTR000096",
+"ID": 500,
+"ModelNumber": "ASTR000096000500",
+"CompModelNumber": "",
+"ModelName": "Remote control",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 0
+},
+{
+"ProductID": "ASTR000097",
+"ID": 502,
+"ModelNumber": "ASTR000097000502",
+"CompModelNumber": "",
+"ModelName": "Vechor8",
+"ReorderLimit": 0,
+"WarrantyType": "Y",
+"Warranty": 2
+}
+]
