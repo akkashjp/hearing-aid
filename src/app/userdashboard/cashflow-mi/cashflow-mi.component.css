@@ -1,0 +1,21 @@
+
+.table li{
+    list-style-type: none;
+  }
+  
+  .tableheader{
+    font-weight: bold;
+    border-bottom: #d8cfcf 1px solid;
+    padding-bottom: 12px;
+  }
+  .tablecontent{
+    max-height: 250px;
+    /* overflow-y: scroll; */
+  }
+  
+  .tablerow {
+    border-bottom: #d8cfcf 1px solid;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  

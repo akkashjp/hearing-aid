@@ -23,18 +23,25 @@ li{
     margin-bottom: 5px;
 }
 
-.table-fixed thead {
-    width: 97%;
-  }
-  .table-fixed tbody {
-    height: 230px;
-    overflow-y: auto;
-    width: 100%;
-  }
-  .table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
-    display: block;
-  }
-  .table-fixed tbody td, .table-fixed thead > tr> th {
-    float: left;
-    border-bottom-width: 0;
-  }
+
+.table li{
+    list-style-type: none;
+}
+
+.tableheader{
+    font-weight: bold;
+    border-bottom: #d8cfcf 1px solid;
+    padding-bottom: 12px;
+}
+.tablecontent{
+    max-height: 250px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.tablerow {
+    border-bottom: #d8cfcf 1px solid;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+

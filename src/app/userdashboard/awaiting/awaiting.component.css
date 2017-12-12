@@ -48,3 +48,6 @@ li.title {
 .bottom{
     margin-bottom: 30px;
 }
+.danger{
+    background-color: #d9534f !important;
+}

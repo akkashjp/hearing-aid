@@ -1,3 +1,50 @@
-<p>
-  stock works!
-</p>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <div class="new-mould">
+        <div role="tabpanel">
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="title">Stock</li>
+            <li role="presentation" class="active">
+              <a href="#inventory" aria-controls="received" role="tab" data-toggle="tab">Inventory </a>
+            </li>
+            <li role="presentation">
+              <a href="#standby" aria-controls="mi" role="tab" data-toggle="tab">Standby/Trial </a>
+            </li>
+            <li role="presentation">
+              <a href="#spares" aria-controls="expenses" role="tab" data-toggle="tab">Spares </a>
+            </li>
+            <li role="presentation">
+              <a href="#transferreq" aria-controls="cheques" role="tab" data-toggle="tab">Transfer Req.</a>
+            </li> 
+            <li role="presentation">
+                <a href="#sendtocomp" aria-controls="cheques" role="tab" data-toggle="tab">Send To Comp</a>
+              </li>            
+          </ul>
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <!-- Order Type Billing -->
+            <div role="tabpanel" class="tab-pane active" id="inventory">
+                <app-stock-inventory></app-stock-inventory>
+            
+            </div>                 
+            <div role="tabpanel" class="tab-pane" id="standby">
+                <app-stock-standby></app-stock-standby>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="spares">
+                <app-stock-spares></app-stock-spares>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="transferreq">
+                <app-stock-transferreq></app-stock-transferreq>
+            </div>  
+            <div role="tabpanel" class="tab-pane" id="sendtocomp">
+                <app-stock-sendtocomp></app-stock-sendtocomp>
+            </div>          
+          </div>
+        </div>
+        <!-- Order Items -->
+      </div>
+    </div>
+  </div>
+  

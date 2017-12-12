@@ -7,32 +7,33 @@
           <ul class="nav nav-tabs" role="tablist">
             <li class="title">Awaiting</li>
             <li role="presentation" class="active">
-              <a href="#received" aria-controls="received" role="tab" data-toggle="tab">Repairs</a>
+              <a href="#repairs" aria-controls="received" role="tab" data-toggle="tab">Repairs <span class="badge danger">42</span></a>
             </li>
             <li role="presentation">
-              <a href="#mi" aria-controls="mi" role="tab" data-toggle="tab">Moulds</a>
+              <a href="#moulds" aria-controls="mi" role="tab" data-toggle="tab">Moulds <span class="badge danger">42</span></a>
             </li>
             <li role="presentation">
-              <a href="#expenses" aria-controls="expenses" role="tab" data-toggle="tab">POs</a>
+              <a href="#pos" aria-controls="expenses" role="tab" data-toggle="tab">POs <span class="badge danger">42</span></a>
             </li>
             <li role="presentation">
-              <a href="#cheques" aria-controls="cheques" role="tab" data-toggle="tab">Via App Orders</a>
+              <a href="#viaapporders" aria-controls="cheques" role="tab" data-toggle="tab">Via App Orders <span class="badge danger">42</span></a>
             </li>            
           </ul>
           <!-- Tab panes -->
           <div class="tab-content">
             <!-- Order Type Billing -->
-            <div role="tabpanel" class="tab-pane active" id="received">
+            <div role="tabpanel" class="tab-pane active" id="repairs">
+                <app-awaiting-repairs></app-awaiting-repairs>
             
             </div>                 
-            <div role="tabpanel" class="tab-pane" id="mi">
-            
+            <div role="tabpanel" class="tab-pane" id="moulds">
+                <app-awaiting-moulds></app-awaiting-moulds>
             </div>
-            <div role="tabpanel" class="tab-pane" id="expenses">
-            
+            <div role="tabpanel" class="tab-pane" id="pos">
+                <app-awaiting-pos></app-awaiting-pos>
             </div>
-            <div role="tabpanel" class="tab-pane" id="cheques">
-                
+            <div role="tabpanel" class="tab-pane" id="viaapporders">
+                <app-awaiting-viaapporders></app-awaiting-viaapporders>
             </div>          
           </div>
         </div>

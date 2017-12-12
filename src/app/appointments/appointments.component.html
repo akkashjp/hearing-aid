@@ -1,44 +1,29 @@
-<div class="wrapper">
-    <h3>Appointments</h3>
-    
-    <button type="button" class="btn btn-default btn-blue">New Appoinment</button>
-    
-    <button type="button" class="btn btn-default btn-blue">View Case History</button>
-    <div class="wrappercontent">
-        <table *ngIf="appoinmentsData" class="table table-responsive">
-            <thead>
-              <tr>
-                    <th>#</th>
-                    <th>Data</th>
-                    <th>Type</th>
-                    <th>Audiologist</th>
-                    <th>Status</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr *ngFor="let item of appoinmentsData, index as i">
-                    <td>{{i+1}}</td>
-                    <td>{{item.AppointmentDate}}</td>
-                    <td>{{item.AppointmentType}}</td>
-                    <td>{{item.AudiologistName}}</td>
-                    <td class="greentext">{{item.AppointmentStatus}}</td>
-                    
-              </tr>
-              <!-- <tr>
-                  <td>2</td>
-                  <td>2012-12-24</td>
-                  <td>Hearing Aid Enquiry</td>
-                  <td>Chandana Ongolo</td>
-                  <td>HA ordered</td>
-            </tr> -->
-            </tbody>
-          </table>
-
-    </div>
-    
-   
+<div class="">
+      <div class="wrapper">
+            <h3>Appointments</h3>
+            <button type="button" class="btn btn-default btn-blue">New Appoinment</button>
+            <button type="button" class="btn btn-default btn-blue">View Case History</button>
+            <div class="wrappercontent">
+                  <div class="table" *ngIf="appoinmentsData">
+                        <div class="tableheader col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                              <div class=" row">
+                                    <li class="col-xs-1">#</li>
+                                    <li class="col-xs-3">Date</li>
+                                    <li class="col-xs-3">Type</li>
+                                    <li class="col-xs-3">Audiologist</li>
+                                    <li class="col-xs-2">Status</li>
+                              </div>
+                        </div>
+                        <div class="tablecontent  col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                              <div class="row tablerow" *ngFor="let item of appoinmentsData, index as i">
+                                    <li class="col-xs-1">{{i+1}}</li>
+                                    <li class="col-xs-3">{{item.AppointmentDate}}</li>
+                                    <li class="col-xs-3">{{item.AppointmentType}}</li>
+                                    <li class="col-xs-3">{{item.AudiologistName}}</li>
+                                    <li class="col-xs-2">{{item.AppointmentStatus}}</li>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
 </div>
-
-      
-          
-      

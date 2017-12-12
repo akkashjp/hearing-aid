@@ -1,41 +1,42 @@
-<div class="wrapper">
-    <h3>Warrenties & Repairs</h3>                                            
-    <table class="table table-fixed">
-      <thead>
-        <tr>
-              <th class="col-xs-1">#</th>
-              <th class="col-xs-2">Serial Number</th>
-              <th class="col-xs-1">Ear</th>
-              <th class="col-xs-2">Warranty Start</th>
-              <th class="col-xs-2">Warranty End</th>
-              <th class="col-xs-2">Status</th>
-              <th class="col-xs-2"></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor="let warrant of warrenties , index as i" >
-              <td class="col-xs-1">{{i+1}}</td>
-              <td class="col-xs-2">{{warrant.SerialNumber}}</td>
-              <td class="col-xs-1">{{warrant.Ear}} </td>
-              <td class="col-xs-2">{{warrant.WarrantyStart}}</td>
-              <td class="col-xs-2">{{warrant.WarrantyEnd}}</td>
-              <td class="col-xs-2">{{warrant.W_Status}}</td>
-              <td class="col-xs-2">
-              <li> <button type="button" class="btn  btn-orange">Renew</button></li>
-              
-              <li> <button type="button" class="btn btn-red">Repair</button></li>
-            </td>
-        </tr>
-        <!-- <tr>
-            <td>2</td>
-            <td>2012-12-24</td>
-            <td>Hearing Aid Enquiry</td>
-            <td>Chandana Ongolo</td>
-            <td>HA ordered</td>
-      </tr> -->
-      </tbody>
-    </table>
+<div class="">
+    <div class="wrapper">
+          <h3>Warrenties & Repairs</h3>          
+          <div class="wrappercontent">
+                <div class="table" *ngIf=" warrenties">
+                      <div class="tableheader col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class=" row">
+                                <li class="col-xs-1">#</li>
+                                <li class="col-xs-2">Serial Number</li>
+                                <li class="col-xs-1">Ear</li>
+                                <li class="col-xs-2">Warranty Start</li>
+                                <li class="col-xs-2">Warranty End</li>
+                                <li class="col-xs-2">Status</li>
+                                <li class="col-xs-2"></li>                                  
+                            </div>
+                      </div>
+                      <div class="tablecontent  col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="row tablerow" *ngFor="let warrant of warrenties, index as i">
+                                <li class="col-xs-1">{{i+1}}</li>
+                                <li class="col-xs-2">{{warrant.SerialNumber}}</li>
+                                <li class="col-xs-1">{{warrant.Ear}} </li>
+                                <li class="col-xs-2">{{warrant.WarrantyStart}}</li>
+                                <li class="col-xs-2">{{warrant.WarrantyEnd}}</li>
+                                <li class="col-xs-2">{{warrant.W_Status}}</li>
+                                <ul class="col-xs-2">
+                                  <li> <button type="button" class="btn  btn-orange">Renew</button></li>                                
+                                  <li> <button type="button" class="btn btn-red">Repair</button></li>
+                                </ul>                                                                
+                            </div>
+                      </div>
+                </div>
+          </div>
+    </div>
 </div>
+
+
+
+
+
 
                 
             
