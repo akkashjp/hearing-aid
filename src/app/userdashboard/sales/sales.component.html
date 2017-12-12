@@ -1,3 +1,45 @@
-<p>
-  sales works!
-</p>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <div class="new-mould">
+        <div role="tabpanel">
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="title">Sales</li>
+            <li role="presentation" class="active">
+              <a href="#trials" aria-controls="received" role="tab" data-toggle="tab">Trials<span class="badge danger">42</span></a>
+            </li>
+            <li role="presentation">
+              <a href="#processing" aria-controls="mi" role="tab" data-toggle="tab">Processing<span class="badge danger">42</span></a>
+            </li>
+            <li role="presentation">
+              <a href="#allocated" aria-controls="expenses" role="tab" data-toggle="tab">Allocated<span class="badge danger">42</span></a>
+            </li>
+            <li role="presentation">
+              <a href="#overdues" aria-controls="cheques" role="tab" data-toggle="tab">Overdues<span class="badge danger">42</span></a>
+            </li>            
+          </ul>
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <!-- Order Type Billing -->
+            <div role="tabpanel" class="tab-pane active" id="trials">
+                <app-sales-trials></app-sales-trials>
+            
+            </div>                 
+            <div role="tabpanel" class="tab-pane" id="processing">
+                <app-sales-processing></app-sales-processing>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="allocated">
+                <app-sales-allocated></app-sales-allocated>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="overdues">
+                <app-sales-overdues></app-sales-overdues>
+            </div>          
+          </div>
+        </div>
+        <!-- Order Items -->
+      </div>
+    </div>
+  </div>
+  
+

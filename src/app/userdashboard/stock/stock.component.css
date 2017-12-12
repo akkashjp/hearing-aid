@@ -26,7 +26,6 @@ li.title {
     font-size: 22px;
     padding-right: 10px;
     font-weight: bold;
-    margin-right: 37px;
     color: #565252;
 }
 .billing {
@@ -48,6 +47,5 @@ li.title {
 .bottom{
     margin-bottom: 30px;
 }
-.danger{
-    background-color: #d9534f !important;
-}
+
+

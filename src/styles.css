@@ -37,6 +37,10 @@ body{
   .btn-green{
     background-color: #37aa4d;
   }
+  .btn-purple{
+    background-color: purple;
+    color: white;
+  }
   .supset {
     color: red;
     top: -.1em;

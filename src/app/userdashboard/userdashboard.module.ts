@@ -21,6 +21,10 @@ import { StockStandbyComponent } from './stock-standby/stock-standby.component';
 import { StockSparesComponent } from './stock-spares/stock-spares.component';
 import { StockTransferreqComponent } from './stock-transferreq/stock-transferreq.component';
 import { StockSendtocompComponent } from './stock-sendtocomp/stock-sendtocomp.component';
+import { SalesTrialsComponent } from './sales-trials/sales-trials.component';
+import { SalesProcessingComponent } from './sales-processing/sales-processing.component';
+import { SalesAllocatedComponent } from './sales-allocated/sales-allocated.component';
+import { SalesOverduesComponent } from './sales-overdues/sales-overdues.component';
 
 @NgModule({
   imports: [
@@ -47,7 +51,11 @@ import { StockSendtocompComponent } from './stock-sendtocomp/stock-sendtocomp.co
     StockStandbyComponent,
     StockSparesComponent,
     StockTransferreqComponent,
-    StockSendtocompComponent
+    StockSendtocompComponent,
+    SalesTrialsComponent,
+    SalesProcessingComponent,
+    SalesAllocatedComponent,
+    SalesOverduesComponent
   ],
   bootstrap:[UserdashboardComponent]
 })
