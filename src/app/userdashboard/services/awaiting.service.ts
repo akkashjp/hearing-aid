@@ -24,7 +24,7 @@ export class AwaitingService {
 
   getAwaitingViaAppOrders(){
     console.log('inside getAwaitingViaAppOrders service');
-    return this.http.get(this.config.apiUrlLocal+'/.json').map((response:Response) => response.json());
+    return this.http.get(this.config.apiUrlLocal+'/Apporders(Awaiting).json').map((response:Response) => response.json());
   }
 
 }

@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs/Observable';
+import { AwaitingService } from '../services/awaiting.service';
+
 
 @Component({
   selector: 'app-awaiting-viaapporders',
@@ -7,9 +10,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AwaitingViaappordersComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private awaitingService: AwaitingService) { }
+  awaitingViaApp:any=[];
   ngOnInit() {
+    this.awaitingService.getAwaitingViaAppOrders().subscribe(
+      awaitingViaApp =>{ this.awaitingViaApp = awaitingViaApp;
+        console.log('awaitingViaApp',awaitingViaApp);
+      })
   }
 
 }
