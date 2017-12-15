@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs/Observable';
+import { CashflowService } from '../services/cashflow.service';
 
 @Component({
   selector: 'app-cashflow-mi',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CashflowMiComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private cashflowService: CashflowService) { }
+  getCashflowMi:any={};
   ngOnInit() {
+    this.cashflowService.getCashflowMi().subscribe(
+      getCashflowMi =>{ this.getCashflowMi = getCashflowMi
+        console.log('cashflowmi',getCashflowMi);
+      })
   }
 
 }

@@ -10,6 +10,7 @@ export class CashflowComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log('sdkfhsdhflakhfahsflkj');
   }
 
 }
