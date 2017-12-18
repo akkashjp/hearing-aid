@@ -19,7 +19,7 @@
   }
   .tablecontent{
     max-height: 250px;
-    /* overflow-y: scroll; */
+   overflow-y: scroll; 
   }
   
   .tablerow {

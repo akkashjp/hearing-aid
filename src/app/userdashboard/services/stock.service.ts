@@ -9,7 +9,7 @@ export class StockService {
 
   getStockInventory(){
     console.log('inside getStockInventory service');
-    return this.http.get(this.config.apiUrlLocal+'/.json').map((response:Response) => response.json());
+    return this.http.get(this.config.apiUrlLocal+'/StockInventory.json').map((response:Response) => response.json());
   }
 
   getStockSendToComp(){
@@ -19,16 +19,21 @@ export class StockService {
 
   getStockSpares(){
     console.log('inside getStockSpares service');
-    return this.http.get(this.config.apiUrlLocal+'/.json').map((response:Response) => response.json());
+    return this.http.get(this.config.apiUrlLocal+'/Stockspares.json').map((response:Response) => response.json());
   }
 
   getStockStandby(){
     console.log('inside getStockStandby service');
-    return this.http.get(this.config.apiUrlLocal+'/.json').map((response:Response) => response.json());
+    return this.http.get(this.config.apiUrlLocal+'/StockTrial.json').map((response:Response) => response.json());
   }
 
   getStockTransferreq(){
     console.log('inside getStockTransferreq service');
     return this.http.get(this.config.apiUrlLocal+'/.json').map((response:Response) => response.json());
+  }
+
+  getVendors(){
+    console.log('inside vendorsshipment service');
+    return this.http.get(this.config.apiUrlLocal+'/Vendor.json').map((response:Response) => response.json());
   }
 }

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs/Observable';
+import { AwaitingService } from '../services/awaiting.service';
 
 @Component({
   selector: 'app-awaiting-moulds',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AwaitingMouldsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private awaitingService: AwaitingService) { }
 
+  awaitingmoulds:any=[];
   ngOnInit() {
+    this.awaitingService.getAwaitingMoulds().subscribe(
+      awaitingmoulds =>{ this.awaitingmoulds = awaitingmoulds;
+        console.log('awaitingmoulds',awaitingmoulds)});
   }
+  
 
 }

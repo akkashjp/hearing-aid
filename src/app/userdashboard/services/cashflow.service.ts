@@ -9,7 +9,7 @@ export class CashflowService {
 
   getCashflowCc(){
     console.log('inside getCashflowCc service');
-    return this.http.get(this.config.apiUrlLocal+'/.json').map((response:Response) => response.json());
+    return this.http.get(this.config.apiUrlLocal+'/CashflowCC.json').map((response:Response) => response.json());
   }
 
   getCashflowCheques(){
@@ -29,12 +29,12 @@ export class CashflowService {
 
   getCashflowMi(){
     console.log('inside getCashflowMi service');
-    return this.http.get(this.config.apiUrlLocal+'/.json').map((response:Response) => response.json());
+    return this.http.get(this.config.apiUrlLocal+'/CashflowMI.json').map((response:Response) => response.json());
   }
 
   getCashflowReceived(){
     console.log('inside getCashflowReceived service');
-    return this.http.get(this.config.apiUrlLocal+'/.json').map((response:Response) => response.json());
+    return this.http.get(this.config.apiUrlLocal+'/CashflowReceived.json').map((response:Response) => response.json());
   }
 
 

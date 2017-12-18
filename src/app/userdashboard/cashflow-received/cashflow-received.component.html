@@ -1,4 +1,4 @@
-<div class="wrappercontent">
+<div class="wrappercontent" *ngIf="cashflowReceived">
       <div class="table row" >
             <div class="tableheader col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   <div class=" row">
@@ -13,15 +13,15 @@
                   </div>
             </div>
             <div class="tablecontent  col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                  <div class="row tablerow" >
-                              <li class="col-xs-2">Customer</li>
-                              <li class="col-xs-2">Order</li>
-                              <li class="col-xs-1">Total</li>
-                              <li class="col-xs-1">Paid</li>
-                              <li class="col-xs-2">Previous</li>
-                              <li class="col-xs-2">Balance</li>
-                              <li class="col-xs-1">Method</li>
-                              <li class="col-xs-1">Status</li>                                   
+                  <div class="row tablerow"  *ngFor="let item of cashflowReceived">
+                              <li class="col-xs-2">{{item.InvCustomerName}}</li>
+                              <li class="col-xs-2">{{item.OrderType}}</li>
+                              <li class="col-xs-1">{{item.ChargedAmount}}</li>
+                              <li class="col-xs-1">{{item.PaidAmount}}</li>
+                              <li class="col-xs-2">{{item.Prevpay}}</li>
+                              <li class="col-xs-2">{{item.NetBalance}}</li>
+                              <li class="col-xs-1">{{item.PayType}}</li>
+                              <li class="col-xs-1">{{item.PaymentStatus}}</li>                                   
                   </div>
             </div>
       </div>

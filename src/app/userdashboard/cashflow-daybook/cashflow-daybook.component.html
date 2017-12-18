@@ -10,7 +10,7 @@
       </div>
     </div>
     <div class="tablecontent  col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <div class="row tablerow" *ngFor="let item of cashflowDaybook">
+      <div class="row tablerow" *ngFor="let item of cashflowDaybook, index as i">
         <li class="col-xs-2">{{item.VoucherDate}}</li>
         <li class="col-xs-2">{{item.Debit}}</li>
         <li class="col-xs-2">{{item.Credit}}</li>

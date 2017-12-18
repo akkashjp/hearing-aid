@@ -1,4 +1,4 @@
-<div class="wrappercontent">
+<div class="wrappercontent" *ngIf="stockspares">
     <div class="table row">
       <div class="tableheader col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div class=" row">
@@ -12,14 +12,14 @@
         </div>
       </div>
       <div class="tablecontent  col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="row tablerow">
-            <li class="col-xs-2">Spare Name</li>
+        <div class="row tablerow" *ngFor="let item of stockspares">
+            <li class="col-xs-2">{{item.Spare}}</li>
             <li class="col-xs-2"><button type="button" class="btn  btn-orange">Raise PO</button></li>
-            <li class="col-xs-2">Chennai</li>
-            <li class="col-xs-2">Madurai 1</li>
-            <li class="col-xs-2">Madurai 2</li>
-            <li class="col-xs-1">Nagpur</li>
-            <li class="col-xs-1">KKR</li>         
+            <li class="col-xs-2">{{item.Chennai1}}</li>
+            <li class="col-xs-2">{{item.Madurai1}}</li>
+            <li class="col-xs-2">{{item.Madurai2}}</li>
+            <li class="col-xs-1">{{item.nagpur1}}</li>
+            <li class="col-xs-1">{{item.Kkr1}}</li>         
         </div>
       </div>
     </div>

@@ -25,7 +25,7 @@ export class SalesService {
 
   getSalesTrials(){
     console.log('inside getSalesTrials service');
-    return this.http.get(this.config.apiUrlLocal+'/.json').map((response:Response) => response.json());
+    return this.http.get(this.config.apiUrlLocal+'/Trial(sales).json').map((response:Response) => response.json());
   }
 
 }

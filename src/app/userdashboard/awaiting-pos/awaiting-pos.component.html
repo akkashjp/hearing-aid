@@ -1,5 +1,5 @@
-<div class="wrappercontent">
-    <div class="table row">
+<div class="wrappercontent" *ngIf="awaitingpos">
+    <div class="table row" >
       <div class="tableheader col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div class=" row">
           <li class="col-xs-2">#</li>
@@ -10,11 +10,11 @@
         </div>
       </div>
       <div class="tablecontent  col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="row tablerow">
-          <li class="col-xs-2">#</li>
-          <li class="col-xs-3">HA</li>
-          <li class="col-xs-2">Qty</li>
-          <li class="col-xs-2">Date</li>
+        <div class="row tablerow"  *ngFor="let item of awaitingpos, index as i" >
+          <li class="col-xs-2">{{i+1}}</li>
+          <li class="col-xs-3">{{item.ProductName}}</li>
+          <li class="col-xs-2">{{item.Quantity}}<li>
+          <li class="col-xs-2">{{item.OrderDate}}</li>
           <li class="col-xs-3">Status</li>
         </div>
       </div>

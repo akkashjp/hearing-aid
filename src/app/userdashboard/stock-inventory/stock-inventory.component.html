@@ -1,4 +1,4 @@
-<div class="wrappercontent">
+<div class="wrappercontent" *ngIf="stockInventory">
     <div class="table row">
       <div class="tableheader col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div class=" row">
@@ -12,14 +12,14 @@
         </div>
       </div>
       <div class="tablecontent  col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="row tablerow">
-            <li class="col-xs-2">Hearing Aid</li>
+        <div class="row tablerow" *ngFor="let item of stockInventory">
+            <li class="col-xs-2">{{item.HA}}</li>
             <li class="col-xs-2"><button type="button" class="btn  btn-orange">Raise PO</button></li>
-            <li class="col-xs-2">Chennai</li>
-            <li class="col-xs-2">Madurai 1</li>
-            <li class="col-xs-2">Madurai 2</li>
-            <li class="col-xs-1">Nagpur</li>
-            <li class="col-xs-1">KKR</li>         
+            <li class="col-xs-2">{{item.Chennai}}</li>
+            <li class="col-xs-2">{{item.Madurai}}</li>
+            <li class="col-xs-2">{{item.Madurai2}}</li>
+            <li class="col-xs-1">{{item.Nagpur}}</li>
+            <li class="col-xs-1">{{item.KKR}}</li>         
         </div>
       </div>
     </div>

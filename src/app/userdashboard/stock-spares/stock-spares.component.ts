@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs/Observable';
+import { StockService } from '../services/stock.service';
 
 @Component({
   selector: 'app-stock-spares',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StockSparesComponent implements OnInit {
 
-  constructor() { }
+  constructor(private stockservice:StockService) { }
 
+  stockspares:any={};
   ngOnInit() {
+    this.stockservice.getStockSpares().subscribe(
+      stockspares =>{ this.stockspares = stockspares
+        console.log('stockspares',stockspares);
+      })
   }
+
 
 }

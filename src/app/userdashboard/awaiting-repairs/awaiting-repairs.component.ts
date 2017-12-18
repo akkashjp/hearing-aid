@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs/Observable';
+import { AwaitingService } from '../services/awaiting.service';
+
 
 @Component({
   selector: 'app-awaiting-repairs',
@@ -7,9 +10,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AwaitingRepairsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private awaitingService: AwaitingService) { }
 
+  awaitingrepairs:any=[];
   ngOnInit() {
+    this.awaitingService.getAwaitingRepairs().subscribe(
+      awaitingrepairs =>{ this.awaitingrepairs = awaitingrepairs;
+        console.log('awaitingViaApp',awaitingrepairs);
+      })
   }
 
 }

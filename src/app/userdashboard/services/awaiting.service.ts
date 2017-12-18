@@ -9,17 +9,17 @@ export class AwaitingService {
 
   getAwaitingMoulds(){
     console.log('inside getAwaitingMoulds service');
-    return this.http.get(this.config.apiUrlLocal+'/.json').map((response:Response) => response.json());
+    return this.http.get(this.config.apiUrlLocal+'/Moulds(Awaiting).json').map((response:Response) => response.json());
   }
 
   getAwaitingPos(){
     console.log('inside getAwaitingPos service');
-    return this.http.get(this.config.apiUrlLocal+'/.json').map((response:Response) => response.json());
+    return this.http.get(this.config.apiUrlLocal+'/Pos(Awaiting).json').map((response:Response) => response.json());
   }
 
   getAwaitingRepairs(){
     console.log('inside getAwaitingRepairs service');
-    return this.http.get(this.config.apiUrlLocal+'/.json').map((response:Response) => response.json());
+    return this.http.get(this.config.apiUrlLocal+'/AwaitingRepairs.json').map((response:Response) => response.json());
   }
 
   getAwaitingViaAppOrders(){
