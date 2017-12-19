@@ -17,6 +17,9 @@
             </li>
             <li role="presentation">
               <a href="#overdues" aria-controls="cheques" role="tab" data-toggle="tab">Overdues<span class="badge danger">42</span></a>
+            </li>  
+            <li role="presentation">
+              <a href="#credit" aria-controls="credit" role="tab" data-toggle="tab">Credit Spares<span></span></a>
             </li>            
           </ul>
           <!-- Tab panes -->
@@ -34,7 +37,10 @@
             </div>
             <div role="tabpanel" class="tab-pane" id="overdues">
                 <app-sales-overdues></app-sales-overdues>
-            </div>          
+            </div>  
+            <div role="tabpanel" class="tab-pane" id="credit">
+                <app-sales-creditspares></app-sales-creditspares>
+          </div>         
           </div>
         </div>
         <!-- Order Items -->

@@ -30,6 +30,7 @@ import { CashflowService } from './services/cashflow.service';
 import { AwaitingService } from './services/awaiting.service';
 import { SalesService } from './services/sales.service';
 import { StockService } from './services/stock.service';
+import { SalesCreditsparesComponent } from './sales-creditspares/sales-creditspares.component';
 
 @NgModule({
   imports: [
@@ -60,7 +61,8 @@ import { StockService } from './services/stock.service';
     SalesTrialsComponent,
     SalesProcessingComponent,
     SalesAllocatedComponent,
-    SalesOverduesComponent
+    SalesOverduesComponent,
+    SalesCreditsparesComponent
   ],
   bootstrap:[
     UserdashboardComponent

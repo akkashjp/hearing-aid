@@ -1,0 +1,24 @@
+<div class="wrappercontent" *ngIf="salescredit">
+  <div class="table row">
+    <div class="tableheader col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <div class=" row">
+        <li class="col-xs-1">#</li>
+        <li class="col-xs-2">Customer</li>
+        <li class="col-xs-3">OrderType</li>
+        <li class="col-xs-2">Balance</li>
+        <li class="col-xs-2">Date</li>
+        <li class="col-xs-2">Status</li>
+      </div>
+    </div>
+    <div class="tablecontent  col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <div class="row tablerow" *ngFor="let item of salescredit,index as i ">
+        <li class="col-xs-1">{{i+1}}</li>
+        <li class="col-xs-2">{{item.InvCustomerName}}</li>
+        <li class="col-xs-3">{{item.OrderType}}</li>
+        <li class="col-xs-2">{{item.AmountTotal}}</li>
+        <li class="col-xs-2">{{item.OrderDate}}</li>
+        <li class="col-xs-2"><button type="button" class="btn  btn-lightgreen">Status</button></li>
+      </div>
+    </div>
+  </div>
+</div>
