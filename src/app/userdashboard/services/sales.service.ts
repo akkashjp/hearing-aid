@@ -10,17 +10,17 @@ export class SalesService {
 
   getSalesAllocated(){
     console.log('inside getSalesAllocated service');
-    return this.http.get(this.config.apiUrlLocal+'/.json').map((response:Response) => response.json());
+    return this.http.get(this.config.apiUrlLocal+'/StockAllocated.json').map((response:Response) => response.json());
   }
 
   getSalesOverdues(){
     console.log('inside getSalesOverdues service');
-    return this.http.get(this.config.apiUrlLocal+'/.json').map((response:Response) => response.json());
+    return this.http.get(this.config.apiUrlLocal+'/StockOverDues.json').map((response:Response) => response.json());
   }
 
   getSalesProcessing(){
     console.log('inside getSalesProcessing service');
-    return this.http.get(this.config.apiUrlLocal+'/.json').map((response:Response) => response.json());
+    return this.http.get(this.config.apiUrlLocal+'/StockProcessing.json').map((response:Response) => response.json());
   }
 
   getSalesTrials(){

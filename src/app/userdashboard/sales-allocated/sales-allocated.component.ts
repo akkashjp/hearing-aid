@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { SalesService } from '../services/sales.service'
+import { Observable } from 'rxjs/Observable';
 
 @Component({
   selector: 'app-sales-allocated',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SalesAllocatedComponent implements OnInit {
 
-  constructor() { }
+  constructor(private salesService:SalesService) { }
 
+  salesallocated:any={};
   ngOnInit() {
+    this.salesService.getSalesAllocated().subscribe(
+      salesallocated =>{ this.salesallocated = salesallocated
+        console.log('salesallocated',salesallocated);
+      })
   }
 
 }

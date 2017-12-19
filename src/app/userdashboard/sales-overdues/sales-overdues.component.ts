@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { SalesService } from '../services/sales.service'
+import { Observable } from 'rxjs/Observable';
 
 @Component({
   selector: 'app-sales-overdues',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SalesOverduesComponent implements OnInit {
 
-  constructor() { }
+  constructor(private salesService:SalesService) { }
 
+  salesoverdue:any={};
   ngOnInit() {
+    this.salesService.getSalesOverdues().subscribe(
+      salesoverdue =>{ this.salesoverdue = salesoverdue
+        console.log('salesoverdue',salesoverdue);
+      })
   }
-
 }
