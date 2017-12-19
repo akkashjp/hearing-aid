@@ -9,16 +9,16 @@ export class CustomerDashboardService {
 
   getAppoinments(){
     console.log('inside getAppoinments service');
-    return this.http.get(this.config.apiUrlLocal+'/Appointment.json').map((response:Response) => response.json());
+    return this.http.get(this.config.apiUrlLocal.Appointment).map((response:Response) => response.json());
   }
  
   getWarrenties(){
     console.log('inside getWarrenties service');
-    return this.http.get(this.config.apiUrlLocal+'/Repairs.json').map((response:Response) => response.json());
+    return this.http.get(this.config.apiUrlLocal.Repairs).map((response:Response) => response.json());
   }
 
   getOrders(){
     console.log('inside getOrders service');
-    return this.http.get(this.config.apiUrlLocal+'/Orders.json').map((response:Response) => response.json());
+    return this.http.get(this.config.apiUrlLocal.Order).map((response:Response) => response.json());
   }
 }

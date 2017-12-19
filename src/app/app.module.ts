@@ -6,7 +6,7 @@ import { AudiometrylistModule } from './audiometrylist/audiometrylist.module'
 import { UserdashboardModule } from './userdashboard/userdashboard.module';
 import { AppComponent } from './app.component';
 import { CustomerDashboardComponent } from './customer-dashboard/customer-dashboard.component';
-import { CalendarComponent } from './calendar/calendar.component';
+import { CalendarComponent1 } from './calendar/calendar.component';
 import { CustomerDetailsComponent } from './customer-details/customer-details.component';
 import { UploadComponent } from './upload/upload.component';
 import { AppointmentsComponent } from './appointments/appointments.component';
@@ -41,7 +41,7 @@ import { Appconfig } from './app.config';
   declarations: [
     AppComponent,
     CustomerDashboardComponent,
-    CalendarComponent,
+    CalendarComponent1,
     CustomerDetailsComponent,
     UploadComponent,
     AppointmentsComponent,
@@ -65,6 +65,7 @@ import { Appconfig } from './app.config';
     NewpaymentComponent,
     NewproductComponent,
     NewTrailComponent
+   
     
   ],
   imports: [

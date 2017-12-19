@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './calendar.component.html',
   styleUrls: ['./calendar.component.css']
 })
-export class CalendarComponent implements OnInit {
+export class CalendarComponent1 implements OnInit {
 
   constructor() { }
 

@@ -1,4 +1,4 @@
-<div class="wrappercontent">
+<div class="wrappercontent" *ngIf="stockTransfer">
   <div class="table row">
     <div class="tableheader col-xs-12 col-sm-12 col-md-12 col-lg-12">
       <div class=" row">
@@ -9,13 +9,10 @@
       </div>
     </div>
     <div class="tablecontent  col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <div class="row tablerow">
-        <li class="col-xs-2">1</li>
-        <li class="col-xs-2">kkr kilpauk</li>
-        <li class="col-xs-2">Date</li>
-        <li class="col-xs-2">Model</li> 
-        <li class="col-xs-1">Qty</li>
-        <li class="col-xs-1">Allotted</li>
+      <div class="row tablerow" *ngFor="let item of stockTransfer,index as i">
+        <li class="col-xs-2">{{i+1}}</li>
+        <li class="col-xs-2">{{item.Branch}}</li>        
+        <li class="col-xs-6">{{item.Requestbunch}}</li>
         <li class="col-xs-2"><button type="button" class="btn  btn-orange">Raise PO</button></li>
       </div>
     </div>

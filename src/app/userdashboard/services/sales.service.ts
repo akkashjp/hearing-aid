@@ -10,26 +10,26 @@ export class SalesService {
 
   getSalesAllocated(){
     console.log('inside getSalesAllocated service');
-    return this.http.get(this.config.apiUrlLocal+'/StockAllocated.json').map((response:Response) => response.json());
+    return this.http.get(this.config.apiUrlLocal.SalesAllocated).map((response:Response) => response.json());
   }
 
   getSalesOverdues(){
     console.log('inside getSalesOverdues service');
-    return this.http.get(this.config.apiUrlLocal+'/StockOverDues.json').map((response:Response) => response.json());
+    return this.http.get(this.config.apiUrlLocal.SalesOverDues).map((response:Response) => response.json());
   }
 
   getSalesProcessing(){
     console.log('inside getSalesProcessing service');
-    return this.http.get(this.config.apiUrlLocal+'/StockProcessing.json').map((response:Response) => response.json());
+    return this.http.get(this.config.apiUrlLocal.SalesProcessing).map((response:Response) => response.json());
   }
 
   getSalesTrials(){
     console.log('inside getSalesTrials service');
-    return this.http.get(this.config.apiUrlLocal+'/Trial(sales).json').map((response:Response) => response.json());
+    return this.http.get(this.config.apiUrlLocal.SalesTrial).map((response:Response) => response.json());
   }
   getcredits(){
     console.log('inside getcredits service');
-    return this.http.get(this.config.apiUrlLocal+'/SalesCreditSpares.json').map((response:Response) => response.json());
+    return this.http.get(this.config.apiUrlLocal.SalesCreditSpares).map((response:Response) => response.json());
   }
 
 }
