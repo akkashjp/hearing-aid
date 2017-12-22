@@ -29,6 +29,8 @@ export class Appconfig{
         StockTransferReq:this.ip+'api/StockTransferReq',
         Vendor:this.ip+'api/Vendor.json',    //to be added
 
+
+
     };
     public readonly apiUrlLocal = {
         Appointment:this.path+'Appointment.json',
@@ -51,10 +53,18 @@ export class Appconfig{
         SalesCreditSpares:this.path+'SalesCreditSpares.json',
         StockInventory:this.path+'StockInventory.json',
         Stockspares:this.path+'Stockspares.json',
-        StockSendToComp:this.path+'',     // to be added
+        StockSendToComp:this.path+'StockSendtoComp.json',    
         StockTrial:this.path+'StockTrial.json',
         StockTransferReq:this.path+'StockTransferReq.json',
         Vendor:this.path+'Vendor.json',
+        UserAppoinment:{
+            UpdateAppoinment:this.path+'AppointmentStatus.json',
+            AwaitingRepair:this.path+'Awaitingrepairapproval.json',
+            AwaitingFitting:this.path+'AwaitingFitting.json',
+            UploadEnt:this.path+'Entrefslip.json',
+            CreatingFitting:this.path+'FittingAppointment.json'
+
+        }
 
     };
 }

@@ -37,6 +37,7 @@ import { NewTrailComponent } from './new-trail/new-trail.component';
 import { Appconfig } from './app.config';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,

@@ -1,0 +1,10 @@
+<div [ngClass]="{'wrapper':true,'back-orange':orange,'back-green':green,'back-purple':purple}" [ngSwitch]="compToView" >
+  <span *ngSwitchCase="'Updateappoinment'">Update appoinment status for these customers:</span>
+  <span  *ngSwitchCase="'Awaitingrepair'">Awaiting repair approval from these customers:</span>
+  <span  *ngSwitchCase="'Awaitingfitting'">Awaiting fitting for these customers:</span>
+  <span  *ngSwitchCase="'UploadENT'">Upload ENT Reference Slips for these customers:</span>
+  <span *ngSwitchCase="'Creatingfitting'">Creating fitting appoinment for these customers who completed their full payment:</span>  
+    <span [ngClass]="{'textcolor':true,'textcolor-orange':orange, 'textcolor-green':green,'textcolor-purple':purple}"class="textcolor" *ngFor="let item of customer" >
+        {{item.customerName}}
+    </span>
+</div>

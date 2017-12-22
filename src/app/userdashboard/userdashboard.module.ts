@@ -25,12 +25,16 @@ import { SalesTrialsComponent } from './sales-trials/sales-trials.component';
 import { SalesProcessingComponent } from './sales-processing/sales-processing.component';
 import { SalesAllocatedComponent } from './sales-allocated/sales-allocated.component';
 import { SalesOverduesComponent } from './sales-overdues/sales-overdues.component';
+import { SalesCreditsparesComponent } from './sales-creditspares/sales-creditspares.component';
+import { AppointmentComponent } from './appointment/appointment.component';
 
 import { CashflowService } from './services/cashflow.service';
 import { AwaitingService } from './services/awaiting.service';
 import { SalesService } from './services/sales.service';
 import { StockService } from './services/stock.service';
-import { SalesCreditsparesComponent } from './sales-creditspares/sales-creditspares.component';
+import { AppointmentService } from './services/appointment.service';
+import { KeysPipe } from '../keys.pipe';
+
 
 @NgModule({
   imports: [
@@ -62,7 +66,9 @@ import { SalesCreditsparesComponent } from './sales-creditspares/sales-creditspa
     SalesProcessingComponent,
     SalesAllocatedComponent,
     SalesOverduesComponent,
-    SalesCreditsparesComponent
+    SalesCreditsparesComponent,
+    AppointmentComponent,
+    KeysPipe
   ],
   bootstrap:[
     UserdashboardComponent
@@ -71,7 +77,8 @@ import { SalesCreditsparesComponent } from './sales-creditspares/sales-creditspa
     CashflowService,
     AwaitingService,
     SalesService,
-    StockService
+    StockService,
+    AppointmentService
   ]
   
 })
