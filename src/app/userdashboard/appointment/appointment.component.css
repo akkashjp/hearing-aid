@@ -2,6 +2,9 @@
     padding: 20px;   
     margin: 5px 0px;
 }
+.title{
+    font-weight: bold;
+}
 .back-orange{
     background-color: antiquewhite;
 }

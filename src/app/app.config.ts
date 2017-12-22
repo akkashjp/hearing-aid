@@ -28,6 +28,14 @@ export class Appconfig{
         StockTrial:this.ip+'api/StockTrial',
         StockTransferReq:this.ip+'api/StockTransferReq',
         Vendor:this.ip+'api/Vendor.json',    //to be added
+        UserAppoinment:{
+            UpdateAppoinment:this.ip+'AppointmentStatus.json',
+            AwaitingRepair:this.ip+'Awaitingrepairapproval.json',
+            AwaitingFitting:this.ip+'AwaitingFitting.json',
+            UploadEnt:this.ip+'Entrefslip.json',
+            CreatingFitting:this.ip+'FittingAppointment.json'
+
+        }
 
 
 
