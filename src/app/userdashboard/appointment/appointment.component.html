@@ -4,7 +4,9 @@
   <span class="title" *ngSwitchCase="'Awaitingfitting'">Awaiting fitting for these customers:</span>
   <span class="title" *ngSwitchCase="'UploadENT'">Upload ENT Reference Slips for these customers:</span>
   <span class="title" *ngSwitchCase="'Creatingfitting'">Creating fitting appoinment for these customers who completed their full payment:</span>  
-    <span   [ngClass]="{'textcolor':true,'textcolor-orange':orange, 'textcolor-green':green,'textcolor-purple':purple}"class="textcolor" *ngFor="let item of customer" >
-        {{item.customerName}}
-    </span>
+   <a [routerLink]="['']" target="_blank">
+      <span   [ngClass]="{'textcolor':true,'textcolor-orange':orange, 'textcolor-green':green,'textcolor-purple':purple}"class="textcolor" *ngFor="let item of customer" >
+          {{item.customerName}}
+      </span>
+    </a>
 </div>

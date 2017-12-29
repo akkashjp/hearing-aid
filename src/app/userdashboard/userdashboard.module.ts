@@ -35,10 +35,12 @@ import { StockService } from './services/stock.service';
 import { AppointmentService } from './services/appointment.service';
 import { KeysPipe } from '../keys.pipe';
 
+import { routing } from '../app.routing';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    routing
   ],
   declarations: [
     CashflowComponent, 
