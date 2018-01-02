@@ -1,115 +1,126 @@
-<div class="newcompany">
-    <div class="container">
-      <div class="col-md-10 col-md-offset-1 companycon">
-        <div class="companyhead">
-          <h1>New Company</h1><hr>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 rowform">
-          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">        
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-              <label for="exampleInputName2">Company Name<sup class="supset">*</sup></label>
-            </div>
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-              <input type="text"class="form-control" value="" required="required">
-            </div>
+<div class="newcompany" [formGroup]="newCompany">
+  <div class="container">
+    <div class="col-md-10 col-md-offset-1 companycon">
+      <div class="companyhead">
+        <h1>New Company</h1>
+        <hr>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 rowform">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <label for="exampleInputName2">Company Name
+              <sup class="supset">*</sup>
+            </label>
           </div>
-          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-              <label for="exampleInputName2">Email<sup class="supset">*</sup></label>
-            </div>
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-              <input type="email" class="form-control" value="" required="required">
-            </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <input type="text" class="form-control"  required="required" formControlName="CompanyName">
           </div>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 rowform">
-          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">        
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-              <label for="exampleInputName2">Website</label>
-            </div>
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 radio">
-              <input type="text" class="form-control" value="" required="required">
-            </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <label for="exampleInputName2">Email
+              <sup class="supset">*</sup>
+            </label>
           </div>
-          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-              <label for="exampleInputName2">Address</label>
-            </div>
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-              <input type="text" class="form-control" value="" required="required">
-            </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <input type="email" class="form-control"  required="required" formControlName="email">
           </div>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 rowform">
-          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">        
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-              <label for="exampleInputName2">City</label>
-            </div>
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-              <input type="text"class="form-control" value="" required="required">
-            </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 rowform">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <label for="exampleInputName2">Website</label>
           </div>
-          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-              <label for="exampleInputName2">State</label>
-            </div>
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-              <input type="text"class="form-control" value="" required="required">
-            </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 radio">
+            <input type="text" class="form-control"  required="required" formControlName="website">
           </div>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 rowform">
-          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">        
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-              <label for="exampleInputName2">Country<sup class="supset">*</sup></label>
-            </div>
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-              <input type="email"class="form-control" value="" required="required">
-            </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <label for="exampleInputName2">Address</label>
           </div>
-          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-              <label for="exampleInputName2">Pin<sup class="supset">*</sup></label>
-            </div>
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-              <input type="text"class="form-control" value="" required="required">
-            </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <input type="text" class="form-control"  required="required" formControlName="AddressLine">
           </div>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 rowform">
-          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">        
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-              <label for="exampleInputName2">Phone1<sup class="supset">*</sup></label>
-            </div>
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-              <input type="email"class="form-control" value="" required="required">
-            </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 rowform">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <label for="exampleInputName2">City</label>
           </div>
-          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-              <label for="exampleInputName2">Phone2</label>
-            </div>
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-              <input type="text"class="form-control" value="" required="required">
-            </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <input type="text" class="form-control"  required="required" formControlName="City">
           </div>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 rowform">
-          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">        
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-              <label for="exampleInputName2">Phone3</label>
-            </div>
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-              <input type="email"class="form-control" value="" required="required">
-            </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <label for="exampleInputName2">State</label>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <input type="text" class="form-control" required="required" formControlName="State">
           </div>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn_class">
-          <div class="btnsub">
-            <button type="button" class="btn btn-success">Submit</button>
-            <button type="button" class="btn">Cancel</button>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 rowform">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <label for="exampleInputName2">Country
+              <sup class="supset">*</sup>
+            </label>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <input type="email" class="form-control" required="required" formControlName="Country">
           </div>
         </div>
-      </div>      
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <label for="exampleInputName2">Pin
+              <sup class="supset">*</sup>
+            </label>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <input type="text" class="form-control" required="required" formControlName="ZipCode">
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 rowform">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <label for="exampleInputName2">Phone1
+              <sup class="supset">*</sup>
+            </label>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <input type="email" class="form-control" required="required" formControlName="ContactNumberOffice1">
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <label for="exampleInputName2">Phone2</label>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <input type="text" class="form-control"  required="required" formControlName="ContactNumberOffice2">
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 rowform">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <label for="exampleInputName2">Phone3</label>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <input type="email" class="form-control" required="required" formControlName="ContactNumberMobile">
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn_class">
+        <div class="btnsub">
+          <button type="button" class="btn btn-success" (click)="onSubmit()">Submit</button>
+          <button type="button" class="btn">Cancel</button>
+        </div>
+      </div>
     </div>
   </div>
+</div>

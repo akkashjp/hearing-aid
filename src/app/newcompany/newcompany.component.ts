@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-newcompany',
@@ -7,9 +8,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewcompanyComponent implements OnInit {
 
-  constructor() { }
+  newCompany: FormGroup;
+  constructor(private fb: FormBuilder) {}
 
   ngOnInit() {
+    this.newCompany=this.fb.group({
+      CompanyName:[''],
+      email:[''],
+      website:[''],
+      AddressLine:[''],
+      City:[''],
+      Country:[''],
+      ZipCode:[''],
+      ContactNumberOffice1:[''],
+      ContactNumberOffice2:[''],
+      ContactNumberMobile:[''],
+      State:['']
+    })
+  }
+
+  onSubmit(){
+    console.log(this.newCompany.value);
   }
 
 }

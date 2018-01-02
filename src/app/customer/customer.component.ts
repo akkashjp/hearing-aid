@@ -8,18 +8,31 @@ import { FormControl, FormGroup, FormBuilder, Validators} from '@angular/forms';
 })
 export class CustomerComponent implements OnInit {
 
-  personalDetials: FormGroup;
+  customer: FormGroup;
   constructor(private fb: FormBuilder) { }
   ngOnInit() {
-    this.personalDetials = this.fb.group({
-      firstName: ['', Validators.required ],
-      address:  ['', Validators.required ],
-      state: ['', Validators.required ],
+    this.customer = this.fb.group({
+      FirstName: ['', Validators.required ],
+      LastName:[''],
+      AddressLine:  ['', Validators.required ],
+      City:[''],
+      State: ['', Validators.required ],
+      Country:[''],
+      ZipCode:[''],
+      DateofBirth:[''],
+      Gender:[''],
+      Occupation:[''],
+      ReferenceTypeIndicator:[''],
+      ReferredBy:[''],
+      ContactNumberResidence:[''],
+      ContactNumberOffice:[''],
+      ContactNumberMobile:[''],
+      EmailAddress:[''],      
     });
   }
 
-  getDetials()
+  onSubmit()
   {
-    console.log("login froem data", this.personalDetials.value)
+    console.log("login froem data", this.customer.value)
   }
 }

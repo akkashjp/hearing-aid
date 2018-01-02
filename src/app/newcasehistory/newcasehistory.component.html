@@ -1,178 +1,179 @@
-<div class="newCaseHistory container">
+<div class="newCaseHistory container"  [formGroup]="newCaseHistory">
   <h2>New Case History</h2>
   <hr>
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
     <div class="outerwrapper">
-      
       <div class="row">
-        
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          
           <div class="fieldname form-group col-md-6">
-            <label for="">Case Date <sup class="supset">*</sup></label>
+            <label for="">Case Date
+              <sup class="supset">*</sup>
+            </label>
           </div>
           <div class="fielddisc form-group col-md-6">
-            <input type="text">
-          </div> 
-            
+            <input type="text" formControlName="CaseHistoryDate">
+          </div>
           <div class="fieldname form-group col-md-6">
-            <label for="">Exposed TO Loud Noise ?<sup class="supset">*</sup></label>
+            <label for="">Exposed TO Loud Noise ?
+              <sup class="supset">*</sup>
+            </label>
           </div>
           <div class="radio form-group col-md-6">
-            <label class="refernce"> 
+            <label class="refernce">
+              <input type="radio"  id="CaseLoudNoise" value="1" formControlName="CaseLoudNoise"> yes
+            </label>
+            <label class="refernce">
+              <input type="radio" id="CaseLoudNoise" value="0"  formControlName="CaseLoudNoise"> No
+            </label>
+          </div>
+          <div class="fieldname form-group col-md-6">
+            <label for="">Hearing Problem ?
+              <sup class="supset">*</sup>
+            </label>
+          </div>
+          <div class="radio form-group col-md-6">
+            <label class="refernce">
+              <input type="radio"  id="HearingProblem" value="None" formControlName="HearingProblem"> None
+            </label>
+            <label class="refernce">
+              <input type="radio"  id="HearingProblem" value="Left" formControlName="HearingProblem"> Left
+            </label>
+            <label class="refernce">
+              <input type="radio"  id="HearingProblem" value="Right" formControlName="HearingProblem"> Right
+            </label>
+            <label class="refernce">
+              <input type="radio"  id="HearingProblem" value="Both" formControlName="HearingProblem"> Both
+            </label>
+          </div>
+          <div class="fieldname form-group col-md-6">
+            <label for="">Any Specific Illness ?
+              <sup class="supset">*</sup>
+            </label>
+          </div>
+          <div class="radio form-group col-md-6">
+            <label class="refernce">
+              <input type="radio"  id="SpecificIllness" value="1" formControlName="SpecificIllness"> yes
+            </label>
+            <label class="refernce">
+              <input type="radio"  id="SpecificIllness" value="0" formControlName="SpecificIllness"> No
+            </label>
+          </div>
+          <div class="fieldname form-group col-md-6">
+            <label for="">History Of Ear Discharge ?
+              <sup class="supset">*</sup>
+            </label>
+          </div>
+          <div class="radio form-group col-md-6">
+            <label class="refernce">
+              <input type="radio"  id="EarDischargeStatus" value="1" formControlName="EarDischargeStatus"> yes
+            </label>
+            <label class="refernce">
+              <input type="radio"  id="EarDischargeStatus" value="0" formControlName="EarDischargeStatus"> No
+            </label>
+          </div>
+          <div class="fieldname form-group col-md-6">
+            <label for="">Family History of Deafness ?
+              <sup class="supset">*</sup>
+            </label>
+          </div>
+          <div class="radio form-group col-md-6">
+            <label class="refernce">
+              <input type="radio"  id="FamilyHistoryDetails" value="Y" formControlName="FamilyHistoryDetails"> yes
+            </label>
+            <label class="refernce">
+              <input type="radio"  id="FamilyHistoryDetails" value="N" formControlName="FamilyHistoryDetails"> No
+            </label>
+          </div>
+          <div class="fieldname form-group col-md-6">
+            <label for="">Tinnitus ?
+              <sup class="supset">*</sup>
+            </label>
+          </div>
+          <div class="radio form-group col-md-6">
+            <label class="refernce">
               <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> yes
             </label>
             <label class="refernce">
               <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> No
             </label>
-                  
           </div>
           <div class="fieldname form-group col-md-6">
-              <label for="">Hearin Problem ?<sup class="supset">*</sup></label>
+            <label for="">loud Noise ?
+              <sup class="supset">*</sup>
+            </label>
           </div>
           <div class="radio form-group col-md-6">
-            <label class="refernce"> 
-              <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> None
+            <label class="refernce">
+              <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> yes
             </label>
             <label class="refernce">
-              <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> Left
-            </label>
-            <label class="refernce">
-              <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> Right
-            </label>        
-            <label class="refernce">
-              <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> Both
+              <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> No
             </label>
           </div>
-          <div class="fieldname form-group col-md-6">
-              <label for="">Any Specific Illness ?<sup class="supset">*</sup></label>
-          </div>
-          <div class="radio form-group col-md-6">
-              <label class="refernce"> 
-                <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> yes
-              </label>
-              <label class="refernce">
-                <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> No
-              </label>
-                    
-          </div>
-          <div class="fieldname form-group col-md-6">
-              <label for="">History Of Ear Discharge ?<sup class="supset">*</sup></label>
-          </div>
-          <div class="radio form-group col-md-6">
-            <label class="refernce"> 
-                <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> yes
-            </label>
-            <label class="refernce">
-                <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> No
-            </label>
-                    
-          </div>
-          <div class="fieldname form-group col-md-6">
-              <label for="">Family History of Deafness ?<sup class="supset">*</sup></label>
-          </div>
-          <div class="radio form-group col-md-6">
-            <label class="refernce"> 
-                <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> yes
-            </label>
-            <label class="refernce">
-                <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> No
-            </label>
-                    
-          </div>
-          <div class="fieldname form-group col-md-6">
-              <label for="">Tinnitus ?<sup class="supset">*</sup></label>
-          </div>
-          <div class="radio form-group col-md-6">
-            <label class="refernce"> 
-                <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> yes
-            </label>
-            <label class="refernce">
-                <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> No
-            </label>
-                    
-          </div>
-          
-          <div class="fieldname form-group col-md-6">
-              <label for="">loud Noise ?<sup class="supset">*</sup></label>
-          </div>
-          <div class="radio form-group col-md-6">
-            <label class="refernce"> 
-                <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> yes
-            </label>
-            <label class="refernce">
-                <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> No
-            </label>
-                    
-          </div>
-          
-          
         </div>
-        
       </div>
-      
     </div>
   </div>
- 
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
     <div class="outerwrapper">
-          
       <div class="row">
-            
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              
           <div class="fieldname">
             <label for=""> Problem Science :</label>
           </div>
           <div class="fielddisc form-group">
-            <label for="">Years</label><input type="text" class="inputChange">
-            <label for="">Months</label><input type="text" class="inputChange">
-            <label for="">Days</label><input type="text" class="inputChange">
-          </div> 
-
+            <label for="">Years</label>
+            <input type="text" class="inputChange">
+            <label for="">Months</label>
+            <input type="text" class="inputChange">
+            <label for="">Days</label>
+            <input type="text" class="inputChange">
+          </div>
           <div class="fieldname form-group col-md-6">
-              <label for="">Onset of Problems<sup class="supset">*</sup></label>
+            <label for="">Onset of Problems
+              <sup class="supset">*</sup>
+            </label>
           </div>
           <div class="radio form-group col-md-6">
-            <label class="refernce"> 
-                <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> Gradual
+            <label class="refernce">
+              <input type="radio" id="OnSetOfProblem" value="G" formControlName="OnSetOfProblem"> Gradual
             </label>
             <label class="refernce">
-                <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> Sudden
+              <input type="radio"  id="OnSetOfProblem" value="S" formControlName="OnSetOfProblem"> Sudden
             </label>
-                    
           </div>
-
           <div class="fieldname form-group col-md-6">
-              <label for="">Details </label>
+            <label for="">Details </label>
           </div>
           <div class="fielddisc form-group col-md-6">
-              <input type="text">
+            <input type="text">
           </div>
-          
           <div class="fieldname form-group col-md-6">
-              <label for="">Discharging Ear<sup class="supset">*</sup></label>
+            <label for="">Discharging Ear
+              <sup class="supset">*</sup>
+            </label>
           </div>
           <div class="radio form-group col-md-6">
-            <label class="refernce"> 
-              <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> None
+            <label class="refernce">
+              <input type="radio"  id="EarDischarge" value="None" formControlName="EarDischarge"> None
             </label>
             <label class="refernce">
-              <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> Left
+              <input type="radio"  id="EarDischarge" value="Left" formControlName="EarDischarge"> Left
             </label>
             <label class="refernce">
-              <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> Right
-            </label>        
+              <input type="radio"  id="EarDischarge" value="Right" formControlName="EarDischarge"> Right
+            </label>
             <label class="refernce">
-              <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> Both
+              <input type="radio"  id="EarDischarge" value="Both" formControlName="EarDischarge"> Both
             </label>
           </div>
-
           <div class="fieldname form-group col-md-6">
-              <label for="">Relation<sup class="supset">*</sup></label>
+            <label for="">Relation
+              <sup class="supset">*</sup>
+            </label>
           </div>
           <div class="radio form-group col-md-6">
-            <label class="refernce"> 
+            <label class="refernce">
               <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> None
             </label>
             <label class="refernce">
@@ -180,28 +181,29 @@
             </label>
             <label class="refernce">
               <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> Siblings
-            </label>        
-            
+            </label>
           </div>
-
           <div class="fieldname form-group col-md-6">
-              <label for="">Ear<sup class="supset">*</sup></label>
+            <label for="">Ear
+              <sup class="supset">*</sup>
+            </label>
           </div>
           <div class="radio form-group col-md-6">
-            <label class="refernce"> 
+            <label class="refernce">
               <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> None
             </label>
             <label class="refernce">
               <input type="radio" name="RadioOptions" id="inlineRadio1" value="option1"> Left
             </label>
-           
           </div>
-
         </div>
-      </div>    
+      </div>
     </div>
   </div>
-  
-  
-
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn_class">
+    <div class="btnsub">
+      <button type="button" class="btn btn-success" (click)="onSubmit()">Submit</button>
+      <button type="button" class="btn">Cancel</button>
+    </div>
+  </div>
 </div>

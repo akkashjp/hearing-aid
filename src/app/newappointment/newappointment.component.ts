@@ -25,5 +25,4 @@ export class NewappointmentComponent implements OnInit {
   onSubmit(){
     console.log(this.newAppointment.value);
   }
-
 }

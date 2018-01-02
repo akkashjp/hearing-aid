@@ -10,3 +10,14 @@
     margin-left: 3%;
     margin-right: 3%;
 }
+
+.btnsub
+{
+    text-align: center;
+    background-color: rgb(213, 213, 213);
+    padding: 24px;
+}
+.btn_class
+{
+    padding: 19px;
+}
