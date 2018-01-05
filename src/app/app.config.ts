@@ -72,7 +72,11 @@ export class Appconfig{
             UploadEnt:this.path+'Entrefslip.json',
             CreatingFitting:this.path+'FittingAppointment.json'
 
-        }
+        },
+
+        //post
+
+        Audioligist:this.path+'Audiologist.json',
 
     };
 }

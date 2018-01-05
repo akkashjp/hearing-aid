@@ -21,4 +21,9 @@ export class CustomerDashboardService {
     console.log('inside getOrders service');
     return this.http.get(this.config.apiUrlLocal.Order).map((response:Response) => response.json());
   }
+
+  getAudioligist(){
+    console.log('inside Audioligst service');
+    return this.http.get(this.config.apiUrlLocal.Audioligist).map((response:Response) => response.json());
+  }
 }

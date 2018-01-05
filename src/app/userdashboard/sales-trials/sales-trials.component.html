@@ -13,7 +13,11 @@
         <div class="row tablerow" *ngFor="let item of salestrials,index as i">
           <li class="col-xs-1">{{i+1}}</li>
           <li class="col-xs-3">{{item.CustomerName}}</li>
-          <li class="col-xs-4"> Hearing Aid</li>
+          <li class="col-xs-4"><div>
+            <li>{{item.ProductName}}</li>
+            <hr class="line">
+            <li>{{item.ModelName}}</li>
+          </div></li>
           <li class="col-xs-2"><button type="button" class="btn danger">3days</button></li>
           <li class="col-xs-2">{{item.OrderDate}}</li>          
         </div>

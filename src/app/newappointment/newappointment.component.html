@@ -18,12 +18,9 @@
               <label for="exampleInputName2">Audiologist<sup class="supset">*</sup></label>
             </div>
             <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 radio">
-                <div class="form-group">
+                <div class="form-group" *ngIf="audioligist">
                   <select class="form-control" id="sel1" formControlName="AudiologistID">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
+                    <option  *ngFor="let data of audioligist" [value]="data.Audiologistid">{{data.AudiologistName}}</option>                    
                   </select>
                 </div>
             </div>

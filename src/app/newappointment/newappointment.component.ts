@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { CustomerDashboardService } from '../services/customerdashboard.service';
 
 @Component({
   selector: 'app-newappointment',
@@ -9,8 +10,8 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 export class NewappointmentComponent implements OnInit {
 
   newAppointment: FormGroup;
-  constructor(private fb: FormBuilder) {}
-
+  constructor(private fb: FormBuilder, private customerService:CustomerDashboardService) {}
+  audioligist:any=[];
   ngOnInit() {
     this.newAppointment =this.fb.group({
       AppointmentDate:[''],
@@ -20,6 +21,7 @@ export class NewappointmentComponent implements OnInit {
       AudiologistID:[''],
       Remarks:['']
     })
+    this.customerService.getAudioligist().subscribe(audioligistData=>{this.audioligist=audioligistData})    
   }
 
   onSubmit(){
