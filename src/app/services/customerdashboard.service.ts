@@ -7,23 +7,23 @@ export class CustomerDashboardService {
 
   constructor(private http : Http, private config : Appconfig) { }
 
-  getAppoinments(){
-    console.log('inside getAppoinments service');
+  getAppoinments(){   
     return this.http.get(this.config.apiUrlLocal.Appointment).map((response:Response) => response.json());
   }
  
   getWarrenties(){
-    console.log('inside getWarrenties service');
     return this.http.get(this.config.apiUrlLocal.Repairs).map((response:Response) => response.json());
   }
 
   getOrders(){
-    console.log('inside getOrders service');
     return this.http.get(this.config.apiUrlLocal.Order).map((response:Response) => response.json());
   }
 
   getAudioligist(){
-    console.log('inside Audioligst service');
     return this.http.get(this.config.apiUrlLocal.Audioligist).map((response:Response) => response.json());
+  }
+
+  customerEnt(){   
+    return this.http.get(this.config.apiUrlLocal.customerEnt).map((response:Response) => response.json());
   }
 }

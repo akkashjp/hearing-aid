@@ -1,6 +1,6 @@
 <div class="eodtally">
     <div class="container">
-        <div class="col-md-10 col-md-offset-1 eodcon">
+        <div class="col-md-10 col-md-offset-1 eodcon" [formGroup]="eodTally">
             <div class="eodhead">
                 <h1>EOD Tally</h1><hr>
             </div>
@@ -50,7 +50,7 @@
                         <span class="item">1000x</span>
                     </div>
                     <div class="col-md-6" style="text-align: center;">
-                        <input type="text" name="" class="textrupess">
+                        <input type="number" name="" class="textrupess" formControlName="Thousands">
                         <span class="item equal">=</span>
                         <span class="item">&#8377;0</span>
                     </div>
@@ -60,7 +60,7 @@
                         <span class="item">500x</span>
                     </div>
                     <div class="col-md-6" style="text-align: center;">
-                        <input type="text" name="" class="textrupess">
+                        <input type="number" name="" class="textrupess" formControlName="FiveHundreds">
                         <span class="item equal">=</span>
                         <span class="item">&#8377;0</span>
                     </div>
@@ -70,7 +70,7 @@
                         <span class="item">100x</span>
                     </div>
                     <div class="col-md-6" style="text-align: center;">
-                        <input type="text" name="" class="textrupess">
+                        <input type="number" name="" class="textrupess" formControlName="Hundreds">
                         <span class="item equal">=</span>
                         <span class="item">&#8377;0</span>
                     </div>
@@ -80,9 +80,9 @@
                         <span class="item">50x</span>
                     </div>
                     <div class="col-md-6" style="text-align: center;">
-                        <input type="text" name="" class="textrupess">
+                        <input type="number" name=""  class="textrupess"  formControlName="Fiftys">
                         <span class="item equal">=</span>
-                        <span class="item">&#8377;0</span>
+                        <span class="item">&#8377;{{eodTally.get('Thousands').value * 50}}</span>
                     </div>
                 </div>
                 <div class="col-md-6 col-md-offset-3 dataitem">
@@ -90,7 +90,7 @@
                         <span class="item">10x</span>
                     </div>
                     <div class="col-md-6" style="text-align: center;">
-                        <input type="text" name="" class="textrupess">
+                        <input type="number" name="" class="textrupess" formControlName="Tens">
                         <span class="item equal">=</span>
                         <span class="item">&#8377;0</span>
                     </div>
@@ -100,7 +100,7 @@
                         <span class="item">1x</span>
                     </div>
                     <div class="col-md-6" style="text-align: center;">
-                        <input type="text" name="" class="textrupess">
+                        <input type="number" name="" class="textrupess" formControlName="Ones">
                         <span class="item equal">=</span>
                         <span class="item">&#8377;0</span>
                     </div>
@@ -124,7 +124,7 @@
                 
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn_class">
                     <div class="btnsub">
-                        <button type="button" class="btn btn-success">Submit</button>
+                        <button type="button" class="btn btn-success" (click)="onSubmit()">Submit</button>
                         <button type="button" class="btn">Cancel</button>
                     </div>
                 </div>

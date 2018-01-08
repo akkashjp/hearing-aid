@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, FormBuilder, Validators} from '@angular/forms';
+import { CustomerDashboardService } from '../services/customerdashboard.service';
 
 @Component({
   selector: 'app-customer',
@@ -9,7 +10,8 @@ import { FormControl, FormGroup, FormBuilder, Validators} from '@angular/forms';
 export class CustomerComponent implements OnInit {
 
   customer: FormGroup;
-  constructor(private fb: FormBuilder) { }
+  entReference:any=[];
+  constructor(private fb: FormBuilder,private customerService:CustomerDashboardService) { }
   ngOnInit() {
     this.customer = this.fb.group({
       FirstName: ['', Validators.required ],
@@ -29,6 +31,7 @@ export class CustomerComponent implements OnInit {
       ContactNumberMobile:[''],
       EmailAddress:[''],      
     });
+    this.customerService.customerEnt().subscribe(customerEntData=>{this.entReference=customerEntData})    
   }
 
   onSubmit()

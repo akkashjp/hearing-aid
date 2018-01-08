@@ -77,6 +77,7 @@ export class Appconfig{
         //post
 
         Audioligist:this.path+'Audiologist.json',
+        customerEnt:this.path+'customerENT.json'
 
     };
 }

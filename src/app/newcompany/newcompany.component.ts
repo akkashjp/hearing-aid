@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
+
+
 @Component({
   selector: 'app-newcompany',
   templateUrl: './newcompany.component.html',
@@ -10,7 +12,7 @@ export class NewcompanyComponent implements OnInit {
 
   newCompany: FormGroup;
   constructor(private fb: FormBuilder) {}
-
+ 
   ngOnInit() {
     this.newCompany=this.fb.group({
       CompanyName:[''],
@@ -25,6 +27,7 @@ export class NewcompanyComponent implements OnInit {
       ContactNumberMobile:[''],
       State:['']
     })
+   
   }
 
   onSubmit(){

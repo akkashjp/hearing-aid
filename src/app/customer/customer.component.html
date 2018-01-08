@@ -117,11 +117,9 @@
 
               <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                 <label for="entreference">ENT Reference</label>
-                <div class="dropdown">
+                <div class="dropdown" *ngIf="entReference">
                   <select class="form-control" formControlName="ReferredBy">
-                    <option>test1</option>
-                    <option>test2</option>
-                    <option>test3</option>
+                    <option *ngFor="let data of entReference"  [value]= "data.RefDoctorID" >{{data.FirstName}} {{data.LastName}}</option>                   
                   </select>
                 </div>
               </div>
