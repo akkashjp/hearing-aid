@@ -50,9 +50,9 @@
                         <span class="item">1000x</span>
                     </div>
                     <div class="col-md-6" style="text-align: center;">
-                        <input type="number" name="" class="textrupess" formControlName="Thousands">
+                        <input type="number" name="" class="textrupess" formControlName="Thousands" (keyup)="onKeyup($event)">
                         <span class="item equal">=</span>
-                        <span class="item">&#8377;0</span>
+                        <span class="item">&#8377;{{eodTally.get('Thousands').value * 1000}}</span>
                     </div>
                 </div>
                 <div class="col-md-6 col-md-offset-3 dataitem">
@@ -60,9 +60,9 @@
                         <span class="item">500x</span>
                     </div>
                     <div class="col-md-6" style="text-align: center;">
-                        <input type="number" name="" class="textrupess" formControlName="FiveHundreds">
+                        <input type="number" name="" class="textrupess" formControlName="FiveHundreds" (keyup)="onKeyup($event)">
                         <span class="item equal">=</span>
-                        <span class="item">&#8377;0</span>
+                        <span class="item">&#8377;{{eodTally.get('FiveHundreds').value * 500}}</span>
                     </div>
                 </div>
                 <div class="col-md-6 col-md-offset-3 dataitem">
@@ -70,9 +70,9 @@
                         <span class="item">100x</span>
                     </div>
                     <div class="col-md-6" style="text-align: center;">
-                        <input type="number" name="" class="textrupess" formControlName="Hundreds">
+                        <input type="number" name="" class="textrupess" formControlName="Hundreds" (keyup)="onKeyup($event)">
                         <span class="item equal">=</span>
-                        <span class="item">&#8377;0</span>
+                        <span class="item">&#8377;{{eodTally.get('Hundreds').value * 100}}</span>
                     </div>
                 </div>
                 <div class="col-md-6 col-md-offset-3 dataitem">
@@ -80,9 +80,9 @@
                         <span class="item">50x</span>
                     </div>
                     <div class="col-md-6" style="text-align: center;">
-                        <input type="number" name=""  class="textrupess"  formControlName="Fiftys">
+                        <input type="number" name=""  class="textrupess"  formControlName="Fiftys" (keyup)="onKeyup($event)">
                         <span class="item equal">=</span>
-                        <span class="item">&#8377;{{eodTally.get('Thousands').value * 50}}</span>
+                        <span class="item">&#8377;{{eodTally.get('Fiftys').value * 50}}</span>
                     </div>
                 </div>
                 <div class="col-md-6 col-md-offset-3 dataitem">
@@ -90,9 +90,9 @@
                         <span class="item">10x</span>
                     </div>
                     <div class="col-md-6" style="text-align: center;">
-                        <input type="number" name="" class="textrupess" formControlName="Tens">
+                        <input type="number" name="" class="textrupess" formControlName="Tens" (keyup)="onKeyup($event)">
                         <span class="item equal">=</span>
-                        <span class="item">&#8377;0</span>
+                        <span class="item">&#8377;{{eodTally.get('Tens').value * 10}}</span>
                     </div>
                 </div>
                 <div class="col-md-6 col-md-offset-3 dataitem">
@@ -100,9 +100,9 @@
                         <span class="item">1x</span>
                     </div>
                     <div class="col-md-6" style="text-align: center;">
-                        <input type="number" name="" class="textrupess" formControlName="Ones">
+                        <input type="number" name="" class="textrupess" formControlName="Ones" (keyup)="onKeyup($event)">
                         <span class="item equal">=</span>
-                        <span class="item">&#8377;0</span>
+                        <span class="item">&#8377;{{eodTally.get('Ones').value}}</span>
                     </div>
                 </div>
                 <div class="col-md-6 col-md-offset-3 dataitem">
