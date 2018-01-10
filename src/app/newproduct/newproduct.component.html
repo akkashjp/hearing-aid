@@ -1,6 +1,6 @@
 <div class="newproduct">
     <div class="container">
-      <div class="col-md-10 col-md-offset-1 productcon">
+      <div class="col-md-10 col-md-offset-1 productcon" [formGroup]="newProduct">
         <div class="producthead">
           <h1>New Product</h1><hr>
         </div>
@@ -18,7 +18,7 @@
               <label for="exampleInputName2">Product Name<sup class="supset">*</sup></label>
             </div>
             <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 radio">
-                <input type="text" class="form-control" value="" required="required">
+                <input type="text" class="form-control" value="" required="required" formControlName="ProductName">
             </div>
           </div>
         </div>
@@ -28,8 +28,8 @@
               <label for="exampleInputName2">With Mould<sup class="supset">*</sup></label>
             </div>
             <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 radio">
-              <label><input type="radio" name="">Yes</label>
-              <label><input type="radio" name="">No</label>
+              <label><input type="radio" value="1" formControlName="WithMould">Yes</label>
+              <label><input type="radio" value="0" formControlName="WithMould">No</label>
             </div>
           </div>
           <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
@@ -44,7 +44,7 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn_class">
           <div class="btnsub">
-            <button type="button" class="btn btn-success">Submit</button>
+            <button type="button" class="btn btn-success" (click)="submit()">Submit</button>
             <button type="button" class="btn">Cancel</button>
           </div>
         </div>

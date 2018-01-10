@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { CustomerDashboardService } from '../services/customerdashboard.service';
+import { PostService  } from '../services/post.service';
 
 @Component({
   selector: 'app-newappointment',
@@ -10,7 +11,7 @@ import { CustomerDashboardService } from '../services/customerdashboard.service'
 export class NewappointmentComponent implements OnInit {
 
   newAppointment: FormGroup;
-  constructor(private fb: FormBuilder, private customerService:CustomerDashboardService) {}
+  constructor(private fb: FormBuilder, private customerService:CustomerDashboardService ,private postService:PostService ) {}
   audioligist:any=[];
   ngOnInit() {
     this.newAppointment =this.fb.group({
@@ -26,5 +27,8 @@ export class NewappointmentComponent implements OnInit {
 
   onSubmit(){
     console.log(this.newAppointment.value);
+    this.postService.postAppointment(this.newAppointment.value).subscribe(data => {
+      console.log("successfully inserted");
+    })
   }
 }

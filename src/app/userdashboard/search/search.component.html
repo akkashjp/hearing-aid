@@ -1,0 +1,47 @@
+
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="new-mould">
+      <div role="tabpanel">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active">
+            <a href="#search1" aria-controls="received" role="tab" data-toggle="tab">Search</a>
+          </li>
+          <li role="presentation">
+            <a href="#searchCallendar" aria-controls="mi" role="tab" data-toggle="tab">Callendar</a>
+          </li>
+          <li role="presentation">
+            <a href="#Search2" aria-controls="expenses" role="tab" data-toggle="tab">Search2</a>
+          </li>
+          <li role="presentation">
+            <a href="#DeletedAppointments" aria-controls="cheques" role="tab" data-toggle="tab">Dleted Appointments</a>
+          </li>  
+                    
+        </ul>
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <!-- Order Type Billing -->
+          <div role="tabpanel" class="tab-pane active" id="search1">
+              <app-search1></app-search1>
+          
+          </div>                 
+          <div role="tabpanel" class="tab-pane" id="searchCallendar">
+              <app-search-callendar></app-search-callendar>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="Search2">
+              <app-search2></app-search2>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="DeletedAppointments">
+             <app-search-deleted-appointments></app-search-deleted-appointments>
+          </div>  
+                 
+        </div>
+      </div>
+      <!-- Order Items -->
+    </div>
+  </div>
+</div>
+
+
+

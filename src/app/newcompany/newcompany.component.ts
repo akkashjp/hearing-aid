@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-
+import { PostService  } from '../services/post.service';
 
 
 @Component({
@@ -11,7 +11,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 export class NewcompanyComponent implements OnInit {
 
   newCompany: FormGroup;
-  constructor(private fb: FormBuilder) {}
+  constructor(private fb: FormBuilder, private postService : PostService) {}
  
   ngOnInit() {
     this.newCompany=this.fb.group({
@@ -32,6 +32,9 @@ export class NewcompanyComponent implements OnInit {
 
   onSubmit(){
     console.log(this.newCompany.value);
+    this.postService.postCompany(this.newCompany.value).subscribe(data =>{
+      console.log("successfully inserted");
+    })
   }
 
 }

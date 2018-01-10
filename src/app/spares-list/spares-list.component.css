@@ -1,0 +1,23 @@
+.firstHead{
+    border-bottom: 1px solid black;
+}
+.firstHead h1{
+ font-weight: 500;
+ color: gray
+}
+.chooseBtn{
+    margin-top: 20px;
+}
+.companycolumn{
+    display: -webkit-box;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.companyHead{
+    margin-top: 10px;
+}
+.btn{
+    border-radius: 0px;
+}

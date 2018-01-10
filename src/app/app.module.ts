@@ -14,6 +14,7 @@ import { WarrentiesComponent } from './warrenties/warrenties.component';
 import { OrdersComponent } from './orders/orders.component';
 import { DiagnosticsComponent } from './diagnostics/diagnostics.component';
 import { CustomerDashboardService } from './services/customerdashboard.service';
+import { PostService } from './services/post.service';
 
 import { routing } from './app.routing';
 import { LoginComponent } from './login/login.component';
@@ -35,6 +36,8 @@ import { NewpaymentComponent } from './newpayment/newpayment.component';
 import { NewproductComponent } from './newproduct/newproduct.component';
 import { NewTrailComponent } from './new-trail/new-trail.component';
 import { Appconfig } from './app.config';
+import { ProductManagerComponent } from './product-manager/product-manager.component';
+import { SparesListComponent } from './spares-list/spares-list.component';
 
 
 
@@ -65,7 +68,9 @@ import { Appconfig } from './app.config';
     NewOrderComponent,
     NewpaymentComponent,
     NewproductComponent,
-    NewTrailComponent
+    NewTrailComponent,
+    ProductManagerComponent,
+    SparesListComponent
    
     
   ],
@@ -78,7 +83,7 @@ import { Appconfig } from './app.config';
     AudiometrylistModule,
     UserdashboardModule
   ],
-  providers: [CustomerDashboardService, Appconfig],
+  providers: [CustomerDashboardService,PostService, Appconfig],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

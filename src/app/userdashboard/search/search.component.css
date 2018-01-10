@@ -1,0 +1,9 @@
+li.active{
+    border-top: 2px #e91919 solid;
+}
+.nav-tabs {
+     border-bottom: none;
+}
+.tab-pane{
+    background-color: white;
+}

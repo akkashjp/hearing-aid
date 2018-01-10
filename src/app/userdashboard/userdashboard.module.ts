@@ -36,6 +36,11 @@ import { AppointmentService } from './services/appointment.service';
 import { KeysPipe } from '../keys.pipe';
 
 import { routing } from '../app.routing';
+import { SearchComponent } from './search/search.component';
+import { Search1Component } from './search1/search1.component';
+import { Search2Component } from './search2/search2.component';
+import { SearchCallendarComponent } from './search-callendar/search-callendar.component';
+import { SearchDeletedAppointmentsComponent } from './search-deleted-appointments/search-deleted-appointments.component';
 
 @NgModule({
   imports: [
@@ -70,7 +75,12 @@ import { routing } from '../app.routing';
     SalesOverduesComponent,
     SalesCreditsparesComponent,
     AppointmentComponent,
-    KeysPipe
+    KeysPipe,
+    SearchComponent,
+    Search1Component,
+    Search2Component,
+    SearchCallendarComponent,
+    SearchDeletedAppointmentsComponent
   ],
   bootstrap:[
     UserdashboardComponent

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-
+import { PostService  } from '../services/post.service';
 @Component({
   selector: 'app-newcasehistory',
   templateUrl: './newcasehistory.component.html',
@@ -9,7 +9,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 export class NewcasehistoryComponent implements OnInit {
 
   newCaseHistory: FormGroup;
-  constructor(private fb: FormBuilder) {}
+  constructor(private fb: FormBuilder , private postService : PostService) {}
 
 
   ngOnInit() {
@@ -27,5 +27,8 @@ export class NewcasehistoryComponent implements OnInit {
 
   onSubmit(){
     console.log(this.newCaseHistory.value);
+    this.postService.postCaseHistory(this.newCaseHistory.value).subscribe(data=>{
+      console.log("successfully inserted");
+    })
   }
 }

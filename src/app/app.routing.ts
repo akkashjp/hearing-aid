@@ -34,6 +34,8 @@ import {RinneComponent} from './audiometrylist/rinne/rinne.component';
 import {WeberComponent} from './audiometrylist/weber/weber.component';
 import {UserdashboardComponent} from './userdashboard/userdashboard.component'; 
 import {NewaudiometryComponent} from './audiometrylist/newaudiometry/newaudiometry.component'
+import { ProductManagerComponent } from './product-manager/product-manager.component';
+import { SparesListComponent } from './spares-list/spares-list.component';
 
 
 const appRoutes : Routes = [
@@ -72,7 +74,9 @@ const appRoutes : Routes = [
     {path:'rinne', component:RinneComponent},
     {path:'weber', component:WeberComponent},
     {path:'newaudiometry', component:NewaudiometryComponent},
-    {path:'userdashboard',component:UserdashboardComponent}
+    {path:'userdashboard',component:UserdashboardComponent},
+    {path:'productmanager',component:ProductManagerComponent},
+    {path:'spareslist',component:SparesListComponent}
 
 ];
 

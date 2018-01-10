@@ -1,6 +1,6 @@
 <div class="newpayment">
   <div class="container">
-    <div class="col-md-10 col-md-offset-1 paymentcon">
+    <div class="col-md-10 col-md-offset-1 paymentcon" [formGroup]="newPayment">
       <div class="paymenthead">
         <h1>New Payment</h1><hr>
       </div>
@@ -28,7 +28,7 @@
             <label for="exampleInputName2">Paid Amount<sup class="supset">*</sup></label>
           </div>
           <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 radio">
-            <input type="text" class="form-control" value="" required="required">
+            <input type="text" class="form-control" value="" required="required" formControlName="PaidAmount">
           </div>
         </div>
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
@@ -36,16 +36,16 @@
             <label for="exampleInputName2">Payment Type<sup class="supset">*</sup></label>
           </div>
           <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 radio">
-            <label><input type="radio" name="">Cash</label>
-            <label><input type="radio" name="">Cash (Direct Transfer)</label>
-            <label><input type="radio" name="">Cheque</label>
-            <label><input type="radio" name="">Credit Card</label>
+            <label><input type="radio" name="Paytype" formControlName="Paytype" value="CA">Cash</label>
+            <label><input type="radio" name="Paytype" formControlName="Paytype" value="CAD">Cash (Direct Transfer)</label>
+            <label><input type="radio" name="Paytype" formControlName="Paytype" value="CH">Cheque</label>
+            <label><input type="radio" name="Paytype" formControlName="Paytype" value="CC">Credit Card</label>
           </div>
         </div>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn_class">
         <div class="btnsub">
-          <button type="button" class="btn btn-success">Submit</button>
+          <button type="button" class="btn btn-success" (click)="submit()">Submit</button>
           <button type="button" class="btn">Cancel</button>
         </div>
       </div>

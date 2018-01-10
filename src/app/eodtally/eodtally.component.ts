@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, FormBuilder, Validators} from '@angular/forms';
+import { PostService  } from '../services/post.service';
 
 @Component({
   selector: 'app-eodtally',
@@ -15,7 +16,7 @@ export class EodtallyComponent implements OnInit {
   tens:number;
   fives:number;
   ones:number;
-  constructor(private fb: FormBuilder) { }
+  constructor(private fb: FormBuilder ,private postService : PostService) { }
 
   total:number;
 
@@ -36,6 +37,9 @@ export class EodtallyComponent implements OnInit {
 
   onSubmit(){
     console.log('eodTally',this.eodTally.value);
+    this.postService.postEodTally(this.eodTally.value).subscribe(data=>{
+      console.log("successfully inserted");
+    })
   }
 
   onKeyup(){

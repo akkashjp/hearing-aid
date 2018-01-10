@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, FormBuilder, Validators} from '@angular/forms';
 import { CustomerDashboardService } from '../services/customerdashboard.service';
+import { PostService  } from '../services/post.service';
 
 @Component({
   selector: 'app-customer',
@@ -11,7 +12,7 @@ export class CustomerComponent implements OnInit {
 
   customer: FormGroup;
   entReference:any=[];
-  constructor(private fb: FormBuilder,private customerService:CustomerDashboardService) { }
+  constructor(private fb: FormBuilder,private customerService:CustomerDashboardService,private postService : PostService) { }
   ngOnInit() {
     this.customer = this.fb.group({
       FirstName: ['', Validators.required ],
@@ -36,6 +37,9 @@ export class CustomerComponent implements OnInit {
 
   onSubmit()
   {
-    console.log("login froem data", this.customer.value)
+    console.log("login froem data", this.customer.value);
+    this.postService.postCustomer(this.customer.value).subscribe(data =>{
+      console.log("suceessfully inserted");
+    })
   }
 }

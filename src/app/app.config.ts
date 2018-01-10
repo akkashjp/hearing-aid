@@ -35,7 +35,19 @@ export class Appconfig{
             UploadEnt:this.ip+'Entrefslip.json',
             CreatingFitting:this.ip+'FittingAppointment.json'
 
-        }
+        },
+        Audioligist:this.ip+'Audiologist.json',
+        customerEnt:this.ip+'customerENT.json',
+        //post
+        CashDeposit:this.ip+'api/CashDeposit',
+        Customer:this.ip+'api/Customer',
+        Company:this.ip+'api/Company',
+        Product:this.ip+'api/Product',
+        Model:this.ip+'api/Model',
+        CaseHistory:this.ip+'api/CaseHistory',
+        ENT:this.ip+'api/ENT',
+        EodTally:this.ip+'api/EodTally',
+        Payments:this.ip+'api/Payments'
 
 
 
@@ -77,7 +89,16 @@ export class Appconfig{
         //post
 
         Audioligist:this.path+'Audiologist.json',
-        customerEnt:this.path+'customerENT.json'
+        customerEnt:this.path+'customerENT.json',
+        CashDeposit:this.path+'',
+        Customer:this.path+'',
+        Company:this.path+'',
+        Product:this.path+'',
+        Model:this.path+'',
+        CaseHistory:this.path+'',
+        ENT:this.path+'',
+        EodTally:this.path+'',
+        Payments:this.path+''
 
     };
 }
